@@ -1,3 +1,6 @@
+from databases import Database, Select,Insert, get_tables_columns
+
+
 """create a class thal will receive a database migration project whith project id, destination database, source database, and a list of tables and columns to migrate
 then it will create a new database class with the destination database and a list of tables and columns to migrate"""
 class Migrate(object):

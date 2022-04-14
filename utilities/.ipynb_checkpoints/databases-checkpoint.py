@@ -30,35 +30,35 @@ class Database(object):
 
 """" create a function thal will return all tables of a Database class for a postgres database sqlalchemy"""
 def get_tables_postgres(db):
-    conn = sqlalchemy.create_engine(db.url)
+    conn = sqlalchemy.create_engine(f'{db.context}://{db.usr}:{db.pwd}@{db.host}:{db.port}/{db.db}')
     tables = pd.read_sql_query("SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES", conn)
     return tables
 
 """" create a function thal will return all columns of a Database class for a postgres database sqlalchemy"""
 def get_columns_postgres(db):
-    conn = sqlalchemy.create_engine(db.url)
+    conn = sqlalchemy.create_engine(f'{db.context}://{db.usr}:{db.pwd}@{db.host}:{db.port}/{db.db}')
     columns = pd.read_sql_query("SELECT TABLE_NAME, COLUMN_NAME FROM INFORMATION_SCHEMA.COLUMNS", conn)
     return columns
     
 """create a function that will return all tables of a Database class for a mssql database"""
 def get_tables_mssql(db):
-    conn = sqlalchemy.create_engine(db.url)
+    conn = sqlalchemy.create_engine(f'{db.context}://{db.usr}:{db.pwd}@{db.host}:{db.port}/{db.db}')
     tables = pd.read_sql_query("SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES", conn)
     return tables
 """create a function that will return all columns of a Database class for a mssql database"""
 def get_columns_mssql(db):
-    conn = sqlalchemy.create_engine(db.url)
+    conn = sqlalchemy.create_engine(f'{db.context}://{db.usr}:{db.pwd}@{db.host}:{db.port}/{db.db}')
     columns = pd.read_sql_query("SELECT TABLE_NAME, COLUMN_NAME FROM INFORMATION_SCHEMA.COLUMNS", conn)
     return columns
 
 """create a function that will return all tables of a Database class for a mysql database"""
 def get_tables_mysql(db):
-    conn = sqlalchemy.create_engine(db.url)
+    conn = sqlalchemy.create_engine(f'{db.context}://{db.usr}:{db.pwd}@{db.host}:{db.port}/{db.db}')
     tables = pd.read_sql_query("SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES", conn)
     return tables
 """create a function that will return all columns of a Database class for a mysql database"""
 def get_columns_mysql(db):
-    conn = sqlalchemy.create_engine(db.url)
+    conn = sqlalchemy.create_engine(f'{db.context}://{db.usr}:{db.pwd}@{db.host}:{db.port}/{db.db}')
     columns = pd.read_sql_query("SELECT TABLE_NAME, COLUMN_NAME FROM INFORMATION_SCHEMA.COLUMNS", conn)
     return columns
     
