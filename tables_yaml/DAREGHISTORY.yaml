@@ -1,0 +1,240 @@
+checks: null
+coerce: true
+columns:
+  DARH$ANNQTY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DARH$AUDIT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DARH$AVGDAILYLOAD:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DARH$COLUMN:
+    checks:
+      greater_than_or_equal_to: 2.0
+      less_than_or_equal_to: 5.0
+    coerce: false
+    dtype: int64
+    max: '5'
+    min: '2'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DARH$CONTROLLOAD:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DARH$DEMAND1:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DARH$DEMAND2:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DARH$EFFDATE:
+    checks:
+      greater_than_or_equal_to: '2011-08-15 00:00:00'
+      less_than_or_equal_to: '2012-12-17 00:00:00'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-04-21 00:00:00'
+    min: '1970-09-21 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DARH$EFFTIME:
+    checks:
+      greater_than_or_equal_to: '9000-01-01 00:00:00'
+      less_than_or_equal_to: '9000-01-01 13:48:09'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '9000-01-01 18:32:22'
+    min: '9000-01-01 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DARH$FMFILEHDR:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DARH$ID:
+    checks:
+      greater_than_or_equal_to: 11000001.0
+      less_than_or_equal_to: 11001000.0
+    coerce: false
+    dtype: int64
+    max: '11028610'
+    min: '11000001'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DARH$METERCONTACT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: VEOW
+    min: VEOW
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DARH$NETTARIFFCODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DARH$NETTARIFFINFO:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DARH$REG:
+    checks:
+      greater_than_or_equal_to: 6100000219.0
+      less_than_or_equal_to: 6110000838.0
+    coerce: false
+    dtype: int64
+    max: '6110017316'
+    min: '6100000030'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DARH$REGISTERSTATUS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '99'
+    min: '-1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DARH$SPARE10:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DARH$SPARE11:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DARH$STATUS:
+    checks:
+      greater_than_or_equal_to: 0.0
+      less_than_or_equal_to: 91.0
+    coerce: false
+    dtype: int64
+    max: '91'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DARH$SYSTIME:
+    checks:
+      greater_than_or_equal_to: '2012-03-12 21:39:15'
+      less_than_or_equal_to: '2013-01-20 17:30:10'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-04-22 15:53:17'
+    min: '2012-03-12 21:39:15'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DARH$SYSUSER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: PAM.UPTON
+    min: ASHLEY.CULLEN
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

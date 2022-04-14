@@ -1,0 +1,218 @@
+checks: null
+coerce: true
+columns:
+  PROP_COPY_OUTPUT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PROP_DELIM:
+    checks: null
+    coerce: false
+    dtype: object
+    max: TAB
+    min: ','
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PROP_DIR_NAME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: TEMPDIR
+    min: _HOLD_
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PROP_EMAIL_NOTIFY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: SCORNELIUS
+    min: GARY.STEPHENSON
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PROP_EMAIL_OUTPUT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: SCORNELIUS
+    min: GARY.STEPHENSON
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PROP_FILE_FORMAT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: TAR9100.rpt
+    min: ARG1901.rpt
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PROP_ITEM:
+    checks: null
+    coerce: false
+    dtype: object
+    max: ZZTEST
+    min: AUDITREPORT-2016YR
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PROP_ITEM_DATE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: DT
+    min: D
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PROP_ITEM_PREFIX:
+    checks: null
+    coerce: false
+    dtype: object
+    max: ZZTEST
+    min: ACC_REP_
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PROP_ITEM_SUFFIX:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WRTON
+    min: .CSV
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PROP_NOHEAD:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Y
+    min: N
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PROP_OUT_FORMAT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: PAGE
+    min: FILE
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PROP_PAGE_ASSIGN:
+    checks: null
+    coerce: false
+    dtype: object
+    max: PG1
+    min: PG1
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PROP_PAGE_JOB:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '2'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PROP_PAGE_LINES:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '80'
+    min: '20'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PROP_PAGE_TITLE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Work Request Report
+    min: Arrangement and Dispute Report
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PROP_PROCESS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: VW-POSTTRANS-DET-CREDATE
+    min: ARG1901
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PROP_SIZELINES:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PROP_SUMMARY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  VMC:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 5.0
+    coerce: false
+    dtype: int64
+    max: '5'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 326.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

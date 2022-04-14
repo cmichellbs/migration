@@ -1,0 +1,80 @@
+checks: null
+coerce: true
+columns:
+  CODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WW01
+    min: WW01
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DEFAULT_DECIMALS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DEFAULT_DIGITS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '7'
+    min: '7'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DEFAULT_REG:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 1.0
+    coerce: false
+    dtype: int64
+    max: '1'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DEFAULT_UOM:
+    checks: null
+    coerce: false
+    dtype: object
+    max: KL
+    min: KL
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  VMC:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 1.0
+    coerce: false
+    dtype: int64
+    max: '1'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 0.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

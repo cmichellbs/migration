@@ -1,0 +1,90 @@
+checks: null
+coerce: true
+columns:
+  METH_BILLSTP:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  METH_DAYUOM:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  METH_DESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Quarterly
+    min: Monthly
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  METH_KEY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: QUARTERLY
+    min: MONTHLY
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  METH_MASK:
+    checks:
+      greater_than_or_equal_to: 2.0
+      less_than_or_equal_to: 2.0
+    coerce: false
+    dtype: int64
+    max: '2'
+    min: '2'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  METH_RATECHG:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '1'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  METH_YEARLY:
+    checks:
+      greater_than_or_equal_to: 4.0
+      less_than_or_equal_to: 12.0
+    coerce: false
+    dtype: int64
+    max: '12'
+    min: '4'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 1.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

@@ -1,0 +1,49 @@
+checks: null
+coerce: true
+columns:
+  GL$DESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: When measuring high volume electrical loads, a current transformer allows
+      indirect metering of a set ratio of the load. The ratio of the load current
+      to meter current is the multiplier.
+    min: A back flow preventer is installed to make sure that water only flows into
+      a site, and never flows back into the wastewater system.
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GL$ID:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WASTE_WATER
+    min: ACCOUNT
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GL$NAME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: UOM
+    min: EIEP
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 125.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

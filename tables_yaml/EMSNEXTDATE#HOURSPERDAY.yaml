@@ -1,0 +1,72 @@
+checks: null
+coerce: true
+columns:
+  NXD_ID:
+    checks: null
+    coerce: false
+    dtype: object
+    max: MINS.BUS.5
+    min: HOURS.1
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  NXT_HOURDAYS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '7'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  NXT_HOUREND:
+    checks:
+      greater_than_or_equal_to: '9000-01-01 17:00:00'
+      less_than_or_equal_to: '9000-01-01 23:59:59'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '9000-01-01 23:59:59'
+    min: '9000-01-01 17:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  NXT_HOURSTART:
+    checks:
+      greater_than_or_equal_to: '9000-01-01 00:00:00'
+      less_than_or_equal_to: '9000-01-01 09:00:00'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '9000-01-01 09:00:00'
+    min: '9000-01-01 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  VMC:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 7.0
+    coerce: false
+    dtype: int64
+    max: '7'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 167.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

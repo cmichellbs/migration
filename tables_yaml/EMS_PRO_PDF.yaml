@@ -1,0 +1,50 @@
+checks: null
+coerce: true
+columns:
+  ID:
+    checks:
+      greater_than_or_equal_to: 1100001.0
+      less_than_or_equal_to: 1108009.0
+    coerce: false
+    dtype: int64
+    max: '1451255'
+    min: '1100001'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PDF_RUNTIME:
+    checks:
+      greater_than_or_equal_to: '2012-03-03 10:26:43'
+      less_than_or_equal_to: '2012-07-11 09:55:26'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-04-22 15:06:17'
+    min: '2012-03-03 10:26:43'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PDF_USER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: YOOSTHUIZEN
+    min: ADRIANA.JANSSEN
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

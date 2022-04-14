@@ -1,0 +1,186 @@
+checks: null
+coerce: true
+columns:
+  LOGATTR:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LOGDATE:
+    checks:
+      greater_than_or_equal_to: '2012-03-04 00:00:00'
+      less_than_or_equal_to: '2013-06-06 00:00:00'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-04-21 00:00:00'
+    min: '2012-03-04 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LOGERRMSG:
+    checks: null
+    coerce: false
+    dtype: object
+    max: 'Word: ERR/^A53^ACould not load file or assembly ''Microsoft.Office.Interop.Word,
+      Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c'' or one
+      of its dependencies. The system cannot find the file specified.^ADONE/^A'
+    min: Access to "ACCOUNT.AGREEMENT.SCR" is denied.
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LOGERRNUM:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '9002'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LOGFIELD:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LOGFILE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LOGID:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LOGINVAL:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LOGMFIDS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LOGOSUSER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: YOOSTHUIZEN
+    min: '9999'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LOGPID:
+    checks:
+      greater_than_or_equal_to: 264.0
+      less_than_or_equal_to: 6000.0
+    coerce: false
+    dtype: int64
+    max: '13100'
+    min: '12'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LOGPROG:
+    checks: null
+    coerce: false
+    dtype: object
+    max: "1|WU.BP/WUSEARCHACTIVITIES|105\uF7FD2|WU.BP/GLOBAL.DIRECTOR|30"
+    min: ???
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LOGREFNO:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LOGSTATUS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '9'
+    min: '9'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LOGTIME:
+    checks:
+      greater_than_or_equal_to: '9000-01-01 00:06:34'
+      less_than_or_equal_to: '9000-01-01 23:46:29'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '9000-01-01 23:57:46'
+    min: '9000-01-01 00:06:34'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SEQNO:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 1003.0
+    coerce: false
+    dtype: int64
+    max: '7755'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

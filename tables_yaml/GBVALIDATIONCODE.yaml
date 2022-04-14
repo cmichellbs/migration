@@ -1,0 +1,135 @@
+checks: null
+coerce: true
+columns:
+  GBVC_ACTIONPARAM:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBVC_ACTIVITY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WIZ:MSATS.LNSP.SORD.CAN
+    min: WIZ:MSATS.LNSP.MTRD.VERIFY
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBVC_CODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: TU1MV90.4
+    min: CONIMPORT.1
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBVC_CONSFLAG:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '1'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBVC_GROUP:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 270.0
+    coerce: false
+    dtype: int64
+    max: '270'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBVC_NAME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Zero consumption.
+    min: ' '
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBVC_PRINTFLAG:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '1'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBVC_QUEUEPARAM:
+    checks: null
+    coerce: false
+    dtype: object
+    max: B1VAL.TOU2
+    min: B1VAL.CONIMPORTERROR
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBVC_RESOLUTION:
+    checks: null
+    coerce: false
+    dtype: object
+    max: "Where installations are associated for invoicing an invoice request is required\
+      \ for all installations in the group before invoicing can proceed.\uF7FD\uF7FD\
+      This validation arises when an owner/tenant pair of installations is billed\
+      \ with only one of the pair having an invoice request. Use the Invoice Request\
+      \ screen to add any necessary invoice requests.\uF7FD\uF7FD%1 = Installation\
+      \ number."
+    min: '-'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBVC_SHORTNAME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Zeros
+    min: '%1s'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBVC_STATUS:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 9.0
+    coerce: false
+    dtype: int64
+    max: '9'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 675.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

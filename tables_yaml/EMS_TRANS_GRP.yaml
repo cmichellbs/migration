@@ -1,0 +1,96 @@
+checks: null
+coerce: true
+columns:
+  TGRP_DESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: OLD CONSUMERS
+    min: NEW CONSUMER
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TGRP_ID:
+    checks: null
+    coerce: false
+    dtype: object
+    max: OLDC
+    min: NEWC
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TGRP_STP_CONFIRMATION:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TGRP_STP_INPUT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: TRNGRPINPUTNEWC
+    min: TRNGRPDISPLAY
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TGRP_STP_INVPRINT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TGRP_TYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: NAPP
+    min: BND
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TGRP_TYPE_AMT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '2560'
+    min: '10000'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TGRP_TYPE_DESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Security Deposit
+    min: New Customer Connection Fee
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 1.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

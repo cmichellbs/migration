@@ -1,0 +1,48 @@
+checks: null
+coerce: true
+columns:
+  CLKEY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: 29W
+    min: '100'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CLPVDESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Width of drain ?
+    min: ' AGREEMENT OR LICENCE NO ???'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  VMC:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 6.0
+    coerce: false
+    dtype: int64
+    max: '6'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 133.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

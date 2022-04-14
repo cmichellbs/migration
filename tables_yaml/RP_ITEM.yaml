@@ -1,0 +1,56 @@
+checks: null
+coerce: true
+columns:
+  ACTIVEVERSION:
+    checks: null
+    coerce: false
+    dtype: object
+    max: S6
+    min: 0.9.12
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BESTVERSION:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ITEMNAME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: XMLTAG.GET.TREEVIEW
+    min: ACCESS.ACTIVITY.COPY
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ITEMTYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WIZRUN
+    min: CDPROP
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

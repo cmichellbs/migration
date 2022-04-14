@@ -1,0 +1,46 @@
+checks: null
+coerce: true
+columns:
+  RCODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WC
+    min: CG
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  RDESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Watercare
+    min: Conifer Grove
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  RSTATE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: DEMO1
+    min: DEMO1
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 6.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

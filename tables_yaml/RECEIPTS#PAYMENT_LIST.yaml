@@ -1,0 +1,140 @@
+checks: null
+coerce: true
+columns:
+  RECEIPT_NO:
+    checks:
+      greater_than_or_equal_to: 2.0
+      less_than_or_equal_to: 944.0
+    coerce: false
+    dtype: int64
+    max: '137121'
+    min: '2'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  REC_DESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  REC_DISC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  REC_GLNO:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  REC_GST:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  REC_GSTGLNO:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  REC_LEDGER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '843202601'
+    min: '+650009648'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  REC_MISCODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  REC_MREF:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  REC_NAME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: ZULFIKAR ALI PILATHOTTATHIL
+    min: (PREV:CHOICE DISCOUNT)
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  REC_PAY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '99999'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  VMC:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 17.0
+    coerce: false
+    dtype: int64
+    max: '69'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

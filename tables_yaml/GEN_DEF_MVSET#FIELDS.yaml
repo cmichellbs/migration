@@ -1,0 +1,68 @@
+checks: null
+coerce: true
+columns:
+  FIELDNAME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: XMLTAGPARAMS
+    min: AA$IMAGE
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FIELDUNIQUE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '1'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FILENAME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: XMLTAG
+    min: ACCOUNT_AGREEMENT
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  MVSETNAME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: XMLTAGPARAMS
+    min: ACCESS
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  VMC:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 33.0
+    coerce: false
+    dtype: int64
+    max: '33'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

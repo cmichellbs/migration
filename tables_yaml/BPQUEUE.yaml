@@ -1,0 +1,250 @@
+checks: null
+coerce: true
+columns:
+  BPQ_BPMGROUP:
+    checks: null
+    coerce: false
+    dtype: object
+    max: LEDGER
+    min: BASE.INVALID.RECEIPT
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPQ_COMMENTS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: "GENTRACK1_REASSIGN_09/07/2014_ \uF7FDGENTRACK1_REASSIGN_09/07/2014_ "
+    min: 'GENTRACK1_REASSIGN_09/07/2014_ '
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPQ_COMTIMEDATE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPQ_DESCRIPTION:
+    checks: null
+    coerce: false
+    dtype: object
+    max: "IFMMETERREAD.1\uF7FC"
+    min: 10 Errors on transaction
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPQ_DUEMONITOR:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPQ_DUETIMEDATE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPQ_HLDTIMEDATE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPQ_ITEMID:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '8537'
+    min: '100000016'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPQ_NOTE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPQ_QUETIMEDATE:
+    checks:
+      greater_than_or_equal_to: '2012-03-12 14:36:44'
+      less_than_or_equal_to: '2014-04-24 09:28:20'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-04-22 07:48:06'
+    min: '2012-03-12 14:36:44'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPQ_QUEUETYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: B1VAL.IMPORTERROR
+    min: B1ACQ|A$ERROR
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPQ_REQTIMEDATE:
+    checks:
+      greater_than_or_equal_to: '1970-01-01 12:00:00'
+      less_than_or_equal_to: '1970-01-01 12:00:00'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '1970-01-01 12:00:00'
+    min: '1970-01-01 12:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPQ_REQTIMEFLAG:
+    checks:
+      greater_than_or_equal_to: 9.0
+      less_than_or_equal_to: 9.0
+    coerce: false
+    dtype: int64
+    max: '9'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPQ_REQUSER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: GENTRACK1
+    min: GENTRACK1
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPQ_SECONDFILE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: GBVALIDATION
+    min: BPACTION
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPQ_SECONDITEMID:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '89851'
+    min: '100990'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPQ_SEQNO:
+    checks:
+      greater_than_or_equal_to: 411001304.0
+      less_than_or_equal_to: 411047347.0
+    coerce: false
+    dtype: int64
+    max: '411227088'
+    min: '411001304'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPQ_STATUS:
+    checks:
+      greater_than_or_equal_to: 0.0
+      less_than_or_equal_to: 0.0
+    coerce: false
+    dtype: int64
+    max: '0'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPQ_USRATTEMPT:
+    checks:
+      greater_than_or_equal_to: 0.0
+      less_than_or_equal_to: 3.0
+    coerce: false
+    dtype: int64
+    max: '3'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPQ_USRTIMEDATE:
+    checks:
+      greater_than_or_equal_to: '2012-03-12 14:36:44'
+      less_than_or_equal_to: '2014-07-09 16:11:14'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-04-22 07:48:06'
+    min: '2012-03-12 14:36:44'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPQ_WORKTYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: B1VAL.IFM_ERRORS
+    min: B1ACQ|A_ACQUISITION
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LASTUPDATESUB:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

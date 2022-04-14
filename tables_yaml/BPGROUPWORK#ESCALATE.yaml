@@ -1,0 +1,78 @@
+checks: null
+coerce: true
+columns:
+  BPGW_ESCALATE_PARAMGROUP:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPGW_ESCALATE_PERIOD:
+    checks: null
+    coerce: false
+    dtype: object
+    max: FMTRANSIN
+    min: FMTRANSIN
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPGW_ESCALATE_PRIORITY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPGW_ESCALATE_PRIORITYTO:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPGW_WORKTYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: B1VAL.IFM_ERRORS
+    min: B1VAL.IFM_ERRORS
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  VMC:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 1.0
+    coerce: false
+    dtype: int64
+    max: '1'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 0.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

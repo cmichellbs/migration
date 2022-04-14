@@ -1,0 +1,193 @@
+checks: null
+coerce: true
+columns:
+  GBSSTATEMENT:
+    checks:
+      greater_than_or_equal_to: 7100000001.0
+      less_than_or_equal_to: 7100000807.0
+    coerce: false
+    dtype: int64
+    max: '7110698331'
+    min: '7100000001'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBSTRAN_AMOUNT:
+    checks:
+      greater_than_or_equal_to: -1241790.0
+      less_than_or_equal_to: 495410.0
+    coerce: false
+    dtype: int64
+    max: '65307220400'
+    min: '-65307220400'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBSTRAN_BAL:
+    checks:
+      greater_than_or_equal_to: -1241790.0
+      less_than_or_equal_to: 495410.0
+    coerce: false
+    dtype: int64
+    max: '65307220400'
+    min: '-65307220400'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBSTRAN_CONSUMER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '1101056210'
+    min: '1101056210'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBSTRAN_DATE:
+    checks:
+      greater_than_or_equal_to: '2009-03-04 00:00:00'
+      less_than_or_equal_to: '2009-12-29 00:00:00'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-04-21 00:00:00'
+    min: '2006-04-28 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBSTRAN_DESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: ZOE MARY ANDERSON
+    min: '"min charge" Invoice generated for 1 day (0 kl) so old mtr could be removed
+      & new mtr updated'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBSTRAN_FILEID:
+    checks: null
+    coerce: false
+    dtype: object
+    max: REVERSEDEBT:11131418004
+    min: REVERSEDEBT:11103670406
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBSTRAN_PPD:
+    checks:
+      greater_than_or_equal_to: 0.0
+      less_than_or_equal_to: 0.0
+    coerce: false
+    dtype: int64
+    max: '0'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBSTRAN_RAWTAX:
+    checks:
+      greater_than_or_equal_to: -69947.0
+      less_than_or_equal_to: 32492.0
+    coerce: false
+    dtype: int64
+    max: '122384'
+    min: '-4057358'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBSTRAN_SSP1:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBSTRAN_SSP2:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBSTRAN_SSP3:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBSTRAN_TAX:
+    checks:
+      greater_than_or_equal_to: 0.0
+      less_than_or_equal_to: 0.0
+    coerce: false
+    dtype: int64
+    max: '0'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBSTRAN_TRN_TYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WSUPP
+    min: ACSH
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBSTRAN_TYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '3'
+    min: '3'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  VMC:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 14.0
+    coerce: false
+    dtype: int64
+    max: '89'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

@@ -1,0 +1,70 @@
+checks: null
+coerce: true
+columns:
+  ARG_ARRAMOUNT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '495633'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ARG_ARRDESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: 9 of 54
+    min: 1 of 12
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ARG_ARRDUEDATE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '2022-03-04 00:00:00'
+    min: '2012-03-15 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ARG_QARGNO:
+    checks:
+      greater_than_or_equal_to: 110000001.0
+      less_than_or_equal_to: 110000031.0
+    coerce: false
+    dtype: int64
+    max: '110000502'
+    min: '110000001'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  VMC:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 54.0
+    coerce: false
+    dtype: int64
+    max: '54'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

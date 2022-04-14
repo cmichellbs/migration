@@ -1,0 +1,183 @@
+checks: null
+coerce: true
+columns:
+  LT$ACT$CLASS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: VWS:TOTAL.WAT.CONDET
+    min: AXB:POSITIVE.INTEGER
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LT$ACT$CODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: MNGR
+    min: ADMIN
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LT$ACT$DEFAULT:
+    checks:
+      greater_than_or_equal_to: 0.0
+      less_than_or_equal_to: 1.0
+    coerce: false
+    dtype: int64
+    max: '1'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LT$ACT$DESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: "\uF7FC"
+    min: Add a new activity configuration for the target wizard, screen or folder
+      of activities.
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LT$ACT$ENABLE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: PRIVATE_SCHEME
+    min: APPROVABLE_VALIDATION
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LT$ACT$FOLDER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WATER
+    min: ACCOUNT.AGREEMENT.IMAGE
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LT$ACT$ICON:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WIZARD
+    min: ACCOUNT
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LT$ACT$ICONSIZE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '8'
+    min: '16'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LT$ACT$PARAMNAME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: XMLTAGS
+    min: AUTOMATIC
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LT$ACT$PARAMVALUE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WIZ:TRANSACTION.HOLD.APPROVE,WIZ:TRANSACTION.HOLD.REJECT
+    min: ..
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LT$ACT$SCREEN:
+    checks: null
+    coerce: false
+    dtype: object
+    max: VALIDATION.DETAIL.SCR
+    min: ACCOUNT.AGREEMENT.SCR
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LT$ACT$SEARCH:
+    checks: null
+    coerce: false
+    dtype: object
+    max: XMLTAG Tree View
+    min: Account Address Details
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LT$ACT$SORT:
+    checks:
+      greater_than_or_equal_to: -1.0
+      less_than_or_equal_to: 999.0
+    coerce: false
+    dtype: int64
+    max: '1031'
+    min: '-1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LT$ACT$TITLE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: XMLTAG Tree View
+    min: Account Address Details
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LT$ID:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WIZ:XMLTAG.GET.TREEVIEW
+    min: ACCOUNT.AGREEMENT.IMAGE.MENU
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  VMC:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 18.0
+    coerce: false
+    dtype: int64
+    max: '18'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

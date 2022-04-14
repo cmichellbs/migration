@@ -1,0 +1,178 @@
+checks: null
+coerce: true
+columns:
+  BPA_ACTIONCODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: B1ACQ|A$VALID
+    min: B1ACQ|A$CHKINST
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPA_COMTIMEDATE:
+    checks:
+      greater_than_or_equal_to: '2012-03-08 10:35:57'
+      less_than_or_equal_to: '2012-05-07 15:25:20'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-04-22 15:52:09'
+    min: '2012-03-08 10:35:57'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPA_DUEDONETIMEDATE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPA_DUETIMEDATE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPA_HLDTIMEDATE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '2021-02-24 13:15:30'
+    min: '2012-07-25 12:50:32'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPA_INITIMEDATE:
+    checks:
+      greater_than_or_equal_to: '2012-03-08 10:35:06'
+      less_than_or_equal_to: '2012-05-07 15:25:17'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-04-22 15:51:27'
+    min: '2012-03-08 10:35:06'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPA_NOTE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPA_OUTTIMEDATE:
+    checks:
+      greater_than_or_equal_to: '2012-03-08 10:35:57'
+      less_than_or_equal_to: '2012-05-07 15:25:20'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-04-22 15:52:09'
+    min: '2012-03-08 10:35:57'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPA_PARENT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPA_PROCESSCODE:
+    checks:
+      greater_than_or_equal_to: 811000002.0
+      less_than_or_equal_to: 811000201.0
+    coerce: false
+    dtype: int64
+    max: '811007829'
+    min: '811000002'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPA_QUEUE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '411221958'
+    min: '411011296'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPA_RESTIMEDATE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPA_SEQNO:
+    checks:
+      greater_than_or_equal_to: 2.0
+      less_than_or_equal_to: 1001.0
+    coerce: false
+    dtype: int64
+    max: '39126'
+    min: '2'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPA_STATUS:
+    checks:
+      greater_than_or_equal_to: 10.0
+      less_than_or_equal_to: 10.0
+    coerce: false
+    dtype: int64
+    max: '10'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LASTUPDATESUB:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

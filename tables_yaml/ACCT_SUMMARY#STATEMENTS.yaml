@@ -1,0 +1,98 @@
+checks: null
+coerce: true
+columns:
+  ACSKEY:
+    checks:
+      greater_than_or_equal_to: 1100002.0
+      less_than_or_equal_to: 1100012.0
+    coerce: false
+    dtype: int64
+    max: '1100448'
+    min: '1100002'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACSSTMTDISC_DOLLAR:
+    checks:
+      greater_than_or_equal_to: 0.0
+      less_than_or_equal_to: 0.0
+    coerce: false
+    dtype: int64
+    max: '0'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACSSTMTIDS:
+    checks:
+      greater_than_or_equal_to: 7110000115.0
+      less_than_or_equal_to: 7110015448.0
+    coerce: false
+    dtype: int64
+    max: '7110696667'
+    min: '7110000115'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACSSTMTINSTADDR:
+    checks: null
+    coerce: false
+    dtype: object
+    max: LOT268 DIGNITY ST, PAPAKURA, 2110
+    min: (1 HAPAI LANE), 32B PRESIDENT AVE, PAPAKURA, 2110
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACSSTMTLEDGER:
+    checks:
+      greater_than_or_equal_to: 400102102.0
+      less_than_or_equal_to: 843100305.0
+    coerce: false
+    dtype: int64
+    max: '843100305'
+    min: '100000006'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACSSTMTTOT_DOLLAR:
+    checks:
+      greater_than_or_equal_to: -16970.0
+      less_than_or_equal_to: 3368020.0
+    coerce: false
+    dtype: int64
+    max: '3453590'
+    min: '-4874206'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  VMC:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 305.0
+    coerce: false
+    dtype: int64
+    max: '758'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

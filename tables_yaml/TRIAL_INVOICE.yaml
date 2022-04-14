@@ -1,0 +1,920 @@
+checks: null
+coerce: true
+columns:
+  GBIADJ_INVOICENO:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBIALTITUDE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBIALTUOM:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBIAVGE_DOLLAR:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '3604327.000000'
+    min: '-50248713.000000'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBIBCITAXNO:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBIBILLFLAG:
+    checks:
+      greater_than_or_equal_to: 3.0
+      less_than_or_equal_to: 3.0
+    coerce: false
+    dtype: int64
+    max: '3'
+    min: '2'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBICONSUMER:
+    checks:
+      greater_than_or_equal_to: 1100004910.0
+      less_than_or_equal_to: 1101553610.0
+    coerce: false
+    dtype: int64
+    max: '1110580610'
+    min: '1100000110'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBICUR_NO_DAYS:
+    checks:
+      greater_than_or_equal_to: 0.0
+      less_than_or_equal_to: 120.0
+    coerce: false
+    dtype: int64
+    max: '3758'
+    min: '-3537'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBICUSTREFN:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBIDATE:
+    checks:
+      greater_than_or_equal_to: '2012-03-05 00:00:00'
+      less_than_or_equal_to: '2012-03-30 00:00:00'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-04-22 00:00:00'
+    min: '2012-03-05 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBIDISCOUNTALLOC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: "2:ZEROZERO:11105806\uF7FC1:ZEROZERO:11105806\uF7FD0\uF7FC0"
+    min: "1:ZEROZERO:11000010\uF7FD0"
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBIDISCOUNTCODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: ZERO
+    min: ZERO
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBIDISCOUNTRATE:
+    checks:
+      greater_than_or_equal_to: 0.0
+      less_than_or_equal_to: 0.0
+    coerce: false
+    dtype: int64
+    max: '0'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBIDISCOUNTTOT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBIDISTRICT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '8'
+    min: '10'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBIDUE_DATE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBIENDUSE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: D281
+    min: '0000'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBIENTRY:
+    checks:
+      greater_than_or_equal_to: '1996-12-01 00:00:00'
+      less_than_or_equal_to: '2011-09-28 00:00:00'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-02-26 00:00:00'
+    min: '1996-01-23 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBIEXTERNAL:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBIFROM_DATE:
+    checks:
+      greater_than_or_equal_to: '2011-11-12 00:00:00'
+      less_than_or_equal_to: '2012-03-02 00:00:00'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-12-17 00:00:00'
+    min: '2010-08-03 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBIGRAPH_DATA_TYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBIGRAPH_MONTH:
+    checks: null
+    coerce: false
+    dtype: object
+    max: "31/12/2020\uF7FD31/10/2020\uF7FD09/12/2020\uF7FD30/10/2020\uF7FD10/09/2020\uF7FD\
+      12/06/2020\uF7FD19/03/2020"
+    min: 01/01/2013
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBIGRAPH_VALUE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: "-9\uF7FD1\uF7FD0.69\uF7FD0"
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBIHOLDFLAG:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBIICP:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '850120106'
+    min: '00006152'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBIINSTALL:
+    checks:
+      greater_than_or_equal_to: 11000049.0
+      less_than_or_equal_to: 11015536.0
+    coerce: false
+    dtype: int64
+    max: '11105806'
+    min: '11000001'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBIINVOICE:
+    checks:
+      greater_than_or_equal_to: 811000000001.0
+      less_than_or_equal_to: 811000001009.0
+    coerce: false
+    dtype: int64
+    max: '811000768969'
+    min: '811000000001'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBIITYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: RESSM
+    min: EDU
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBILASTREAD:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBILASTTYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBILEDGER:
+    checks:
+      greater_than_or_equal_to: 400104315.0
+      less_than_or_equal_to: 653089292.0
+    coerce: false
+    dtype: int64
+    max: '850120106'
+    min: '100000003'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBILINECO:
+    checks: null
+    coerce: false
+    dtype: object
+    max: VEOW
+    min: VEOW
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBILINEFACTOR:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBILOCN_ADDR:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WWPS, HARBOURSIDE DR, KARAKA
+    min: ( 1 SPARTAN RD), 1/72 (Bypass) GREAT SOUTH RD, TAKANINI
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBIMNETWORK:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBIMSPARE1:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBIMSPARE2:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBIMSPARE3:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBINETDATA:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBINETWCONN:
+    checks: null
+    coerce: false
+    dtype: object
+    max: TA
+    min: AR
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBINEXT_BILL_DATE:
+    checks:
+      greater_than_or_equal_to: '2012-04-01 00:00:00'
+      less_than_or_equal_to: '2012-06-01 00:00:00'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2022-02-01 00:00:00'
+    min: '2012-04-01 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBINEXT_READ_DATE:
+    checks:
+      greater_than_or_equal_to: '2012-04-01 00:00:00'
+      less_than_or_equal_to: '2012-06-01 00:00:00'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2022-02-01 00:00:00'
+    min: '2012-04-01 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBIPMESG:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBIPPD_DOLLAR:
+    checks:
+      greater_than_or_equal_to: 0.0
+      less_than_or_equal_to: 0.0
+    coerce: false
+    dtype: int64
+    max: '0'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBIPRINTED:
+    checks:
+      greater_than_or_equal_to: -1.0
+      less_than_or_equal_to: -1.0
+    coerce: false
+    dtype: int64
+    max: '-1'
+    min: '-1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBIPRINT_FORMAT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBIPROFILE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBIREAD_FRDATE:
+    checks:
+      greater_than_or_equal_to: '2011-11-04 00:00:00'
+      less_than_or_equal_to: '2012-02-29 00:00:00'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-12-17 00:00:00'
+    min: '2010-08-03 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBIREAD_TODATE:
+    checks:
+      greater_than_or_equal_to: '2012-02-29 00:00:00'
+      less_than_or_equal_to: '2012-03-30 00:00:00'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2030-09-02 00:00:00'
+    min: '2011-02-27 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBIREPORT_CODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBIREPORT_PRINT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBIREPORT_REV:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBIRETAILER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: VEOW
+    min: VEOW
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBIREV_INFO:
+    checks: null
+    coerce: false
+    dtype: object
+    max: "::\uF7FD19471:19498:1630\uF7FD19469:19469:S:FREQUENCY|MONTHS.3.FIRST:19469\uF7FD\
+      30\uF7FD1418:"
+    min: "::\uF7FD::0\uF7FD:::FREQUENCY|MONTHS.3.FIRST:\uF7FD30\uF7FD:"
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBIREV_MORE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBIREV_REASON:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBIREV_REASON2:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBIREV_SYSTIME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBIREV_TYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBIREV_WHO:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBIREV_YYYYMM:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBIRND_DOLLAR:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '10'
+    min: '-13'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBIRUNNO:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBISTATEMENT_NO:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBISYSTIME:
+    checks:
+      greater_than_or_equal_to: '2012-03-05 15:43:57'
+      less_than_or_equal_to: '2012-03-30 14:11:55'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-04-22 14:50:11'
+    min: '2012-03-05 15:43:57'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBITAXINCL:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '1'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBITAX_DOLLAR:
+    checks:
+      greater_than_or_equal_to: -4722.0
+      less_than_or_equal_to: 18302.0
+    coerce: false
+    dtype: int64
+    max: '45132442'
+    min: '-642309639'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBITMESG:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBITOT_DOLLAR:
+    checks:
+      greater_than_or_equal_to: -36210.0
+      less_than_or_equal_to: 140320.0
+    coerce: false
+    dtype: int64
+    max: '346015387'
+    min: '-4924373900'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBITOU:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBITO_DATE:
+    checks:
+      greater_than_or_equal_to: '2012-02-29 00:00:00'
+      less_than_or_equal_to: '2012-03-30 00:00:00'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2030-09-02 00:00:00'
+    min: '2011-02-27 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBITYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: SR
+    min: F
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBIUSER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBIUTILITY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: W
+    min: W
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBIVALUE_INVOICENO:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBIYYYYMM:
+    checks:
+      greater_than_or_equal_to: 201203.0
+      less_than_or_equal_to: 201203.0
+    coerce: false
+    dtype: int64
+    max: '202103'
+    min: '201203'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SSP1:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SSP10:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SSP2:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SSP3:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SSP4:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SSP5:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SSP6:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SSP7:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SSP8:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SSP9:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

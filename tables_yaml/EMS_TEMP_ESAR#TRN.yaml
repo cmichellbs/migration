@@ -1,0 +1,142 @@
+checks: null
+coerce: true
+columns:
+  TRN_AMT:
+    checks:
+      greater_than_or_equal_to: -474860.0
+      less_than_or_equal_to: 257045.0
+    coerce: false
+    dtype: int64
+    max: '65307220400'
+    min: '-65307220400'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_ANCODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WVOL
+    min: ACASH
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_CTRLGL:
+    checks: null
+    coerce: false
+    dtype: object
+    max: DEBTOR
+    min: BANK
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_GL:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WVOL
+    min: ALLOW
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_SEQNO:
+    checks:
+      greater_than_or_equal_to: 510000001.0
+      less_than_or_equal_to: 510000576.0
+    coerce: false
+    dtype: int64
+    max: '517021007'
+    min: '510000001'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_SPLITUNITS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '599992.000000'
+    min: '-599992.000000'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_TARIFF:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WVOL0
+    min: IC
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_TAX:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '32970865'
+    min: '-32970865'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_TAXSET:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '1'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_UNITS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '599992.000000'
+    min: '-599992.000000'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_UOM:
+    checks: null
+    coerce: false
+    dtype: object
+    max: PERIOD
+    min: CNT
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  VMC:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 2.0
+    coerce: false
+    dtype: int64
+    max: '2'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

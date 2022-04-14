@@ -1,0 +1,173 @@
+checks: null
+coerce: true
+columns:
+  EMS_TRANS_GEN:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '11134388076'
+    min: '11100000055'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRAUDDESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: ZOE MARY ANDERSON
+    min: '"min charge" Invoice generated for 1 day (0 kl) so old mtr could be removed
+      & new mtr update'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRCONS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRCONSNO:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRDATE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '2021-04-22 00:00:00'
+    min: '2012-03-03 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRDUEDATE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '2021-04-22 00:00:00'
+    min: '2017-04-04 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRGRP:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRLEDGER:
+    checks:
+      greater_than_or_equal_to: 100000001.0
+      less_than_or_equal_to: 840910520.0
+    coerce: false
+    dtype: int64
+    max: '850100003'
+    min: '100000000'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRMTH:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRTAXFLAG:
+    checks: null
+    coerce: false
+    dtype: object
+    max: I
+    min: E
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRTYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WCART
+    min: ACSH
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRUPDATED:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRUPD_DATE:
+    checks:
+      greater_than_or_equal_to: '2012-03-03 00:00:00'
+      less_than_or_equal_to: '2012-03-29 00:00:00'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-04-22 00:00:00'
+    min: '2012-03-03 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRUPD_TIME:
+    checks:
+      greater_than_or_equal_to: '9000-01-01 08:38:55'
+      less_than_or_equal_to: '9000-01-01 16:47:00'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '9000-01-01 23:52:48'
+    min: '9000-01-01 00:00:27'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRUSERID:
+    checks: null
+    coerce: false
+    dtype: object
+    max: VSHADBOLT
+    min: ADRIANA.JANSSEN
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

@@ -1,0 +1,54 @@
+checks: null
+coerce: true
+columns:
+  DOMAINPARAMS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: uw_view_prod/uw_view_prod/uw_view_prod@VWNZ-PAP-DB
+    min: CONNECT uw_prod/uw_prod/uw_prod@VWNZ-PAP-DB
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DRIVER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: V
+    min: DIR
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ID:
+    checks: null
+    coerce: false
+    dtype: object
+    max: YESNO.YN.CLASS
+    min: _HOLD_
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  REST:
+    checks: null
+    coerce: false
+    dtype: object
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

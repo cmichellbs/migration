@@ -1,0 +1,650 @@
+checks: null
+coerce: true
+columns:
+  GBB$ACTREGCONTENT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WANYSZ
+    min: WANYSZ
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBB$ADJUSTTYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: S
+    min: S
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBB$CHECKSTREAM:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBB$CONTRLOAD:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBB$DECIMALS:
+    checks:
+      greater_than_or_equal_to: 0.0
+      less_than_or_equal_to: 0.0
+    coerce: false
+    dtype: int64
+    max: '0'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBB$DEMAND1:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBB$DEMAND2:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBB$DEVICE:
+    checks:
+      greater_than_or_equal_to: 910000025.0
+      less_than_or_equal_to: 910001357.0
+    coerce: false
+    dtype: int64
+    max: '911011398'
+    min: '910000025'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBB$DIGITS:
+    checks:
+      greater_than_or_equal_to: 7.0
+      less_than_or_equal_to: 7.0
+    coerce: false
+    dtype: int64
+    max: '7'
+    min: '7'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBB$DISCONNECTED:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '2020-04-28 12:00:00'
+    min: '2012-03-11 11:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBB$EFFDATE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBB$EFLOW:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBB$ESTORIDE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBB$ESTOTYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBB$GBVCONTROL:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBB$INITFLAG:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '0'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBB$INSTALL:
+    checks:
+      greater_than_or_equal_to: 11000001.0
+      less_than_or_equal_to: 11001000.0
+    coerce: false
+    dtype: int64
+    max: '11106031'
+    min: '11000001'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBB$INSTALLDATE:
+    checks:
+      greater_than_or_equal_to: '2004-06-26 00:00:00'
+      less_than_or_equal_to: '2007-07-11 00:00:00'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-04-20 12:00:00'
+    min: '1970-09-20 12:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBB$INSTALLREAD:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '2816184'
+    min: '0000000'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBB$INTERVAL:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBB$INTVLFLAG:
+    checks:
+      greater_than_or_equal_to: 0.0
+      less_than_or_equal_to: 0.0
+    coerce: false
+    dtype: int64
+    max: '0'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBB$INVOICE:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 1.0
+    coerce: false
+    dtype: int64
+    max: '1'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBB$LINEFACTOR:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBB$LOGREF:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBB$MARKETDATE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '2021-04-11 12:00:00'
+    min: '1970-09-20 12:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBB$METERCAT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBB$METERCONTACT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: VEOW
+    min: VEOW
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBB$METERPOINT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '11106031:1'
+    min: '11000004:1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBB$METERSERIAL:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Z202
+    min: '#32470'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBB$MODIFIER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBB$MULTFACTOR:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 1.0
+    coerce: false
+    dtype: float64
+    max: '1.0'
+    min: '1.0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBB$MULTIPLIER:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 1.0
+    coerce: false
+    dtype: float64
+    max: '1.000000'
+    min: '1.000000'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBB$NETADDINFO:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBB$NETTARIFFCODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBB$PREVDATE:
+    checks:
+      greater_than_or_equal_to: '2011-12-08 23:00:00'
+      less_than_or_equal_to: '2021-04-22 00:00:00'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-05-01 00:00:00'
+    min: '2010-12-30 23:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBB$PREVREAD:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '2257090'
+    min: '0000000'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBB$PREVTYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: RM
+    min: CR
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBB$PROFILE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBB$REGCONTENT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WANYSZ
+    min: SANYSZ
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBB$REGISTER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '2'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBB$REGKEY:
+    checks:
+      greater_than_or_equal_to: 6100000025.0
+      less_than_or_equal_to: 6100001357.0
+    coerce: false
+    dtype: int64
+    max: '6110017316'
+    min: '6100000025'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBB$RMVDATE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '2021-04-21 00:00:00'
+    min: '2011-09-20 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBB$RMVNEWKEY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '6110017308'
+    min: '6110000250'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBB$RMVREAD:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '2288590'
+    min: '0000000'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBB$RMVREASON:
+    checks: null
+    coerce: false
+    dtype: object
+    max: UNREAD
+    min: BACKW
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBB$SHAPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBB$SORT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBB$SOURCE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBB$SPARE23:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBB$SSP1:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBB$SSP2:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBB$SSP3:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBB$SSP4:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBB$STATUS:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 10.0
+    coerce: false
+    dtype: int64
+    max: '99'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBB$STREAM:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBB$SUBMIT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBB$SUFFIX:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBB$TIMEOFDAY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBB$TIMEPATTERN:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBB$UOM:
+    checks: null
+    coerce: false
+    dtype: object
+    max: KL
+    min: GALLON
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LASTUPDATESUB:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

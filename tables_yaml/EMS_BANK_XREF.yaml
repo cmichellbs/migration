@@ -1,0 +1,108 @@
+checks: null
+coerce: true
+columns:
+  EMFILETYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  EMOTHERPARTY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: ZYNAL SAHIB ENTERPRI
+    min: '& D DIANA PIRIE'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  EMREF1:
+    checks: null
+    coerce: false
+    dtype: object
+    max: ZZINTERNATIO
+    min: '-'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  EMREF2:
+    checks: null
+    coerce: false
+    dtype: object
+    max: ZYNAL SAHIB
+    min: '-'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  EMREF3:
+    checks: null
+    coerce: false
+    dtype: object
+    max: ZZHANGYYU
+    min: '-'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  EMREFFLAG:
+    checks: null
+    coerce: false
+    dtype: object
+    max: S
+    min: I
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  EMREFKEY:
+    checks:
+      greater_than_or_equal_to: 110000001.0
+      less_than_or_equal_to: 110001005.0
+    coerce: false
+    dtype: int64
+    max: '110104024'
+    min: '110000001'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  EMREFLEDGER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '1000000072'
+    min: '100000003'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE3:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

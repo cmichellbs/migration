@@ -1,0 +1,710 @@
+checks: null
+coerce: true
+columns:
+  ACABNNO:
+    checks: null
+    coerce: false
+    dtype: object
+    max: 98-174-915
+    min: 102-586-387
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACALTACCT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '1000000048'
+    min: '1000000048'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACALTPOSTAL_EXPIRY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACALTPOSTAL_REASON:
+    checks: null
+    coerce: false
+    dtype: object
+    max: O
+    min: O
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACALTPOSTAL_TYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACBILL_PROG:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACBRAND:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACCHILD:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '1573'
+    min: '1573'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACCLASS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: G
+    min: G
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACCOMMENTS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACCONTACT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACCONTACTPHONE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACCREF_DISC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '100'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACCREF_DISH:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '100'
+    min: '5'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACCREF_REM:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '100'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACCTNO:
+    checks:
+      greater_than_or_equal_to: 100000000.0
+      less_than_or_equal_to: 100001285.0
+    coerce: false
+    dtype: int64
+    max: '850120106'
+    min: '100000000'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACDATE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACDUEDATE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: DUEDATE|NEXT.MONTH.20TH.DAY
+    min: DUEDATE|NEXT.MONTH.20TH.DAY
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACEMAIL:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACEMPLOYEENUM:
+    checks: null
+    coerce: false
+    dtype: object
+    max: NITYA NAND
+    min: '1145'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACEXTNALREF:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACGSTNO:
+    checks: null
+    coerce: false
+    dtype: object
+    max: LM 157472 (NZ)
+    min: 013-870-691
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACHOWBILLED:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACMARKETING:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACMARKETING_MAILOUT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACMSG:
+    checks: null
+    coerce: false
+    dtype: object
+    max: "\uF7FD\uF7FD\uF7FD\uF7FD\uF7FD\uF7FD\uF7FD\uF7FD\uF7FD\uF7FD\uF7FD\uF7FD\
+      \uF7FD\uF7FD\uF7FD\uF7FD\uF7FD\uF7FD\uF7FD\uF7FD\uF7FD\uF7FD\uF7FD\uF7FD\uF7FD"
+    min: '"Bike jump" on top of meter, unable to read. Please note account has been
+      estimated for this billing period.'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACMSG_DATE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '2021-04-22 00:00:00'
+    min: '2009-08-05 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACNAME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: ZXY PROPERTY INVESTMENT LTD
+    min: (SUPERETTE CNR BEACH+GT STH RD)
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACOFFICER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACORCREF:
+    checks: null
+    coerce: false
+    dtype: object
+    max: BBB
+    min: BBB
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACPARENT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '100000000'
+    min: '100000000'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACPASSWORD_DATA:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACPASSWORD_TYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACPAYMENTFLAG:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACPAYMETHOD:
+    checks: null
+    coerce: false
+    dtype: object
+    max: POST
+    min: AP
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACPOSTALREP:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACPREFLANG:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACSPARE11:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACSPARE12:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACSPARE13:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACSPARE14:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACSPARE15:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACSPARE17:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACSPARE20:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACSPARE21:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACSPARE22:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACSPARE24:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACSPARE34:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACSPARE35:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACSPARE36:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACSPARE37:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACSPARE38:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACSPARE43:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACSPARE48:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACSPARE49:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACSPARE52:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACSPARE53:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACSPARE58:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACSPARE59:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACSPARE6:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACSPARE60:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACSPARE61:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACSPARE7:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACSPOUSE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACSTATEMENT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACSUSPEND_DATE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACSUSPEND_REASON:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACTRADINGNAME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: JOYNT'E HAIR SALON
+    min: C/- HINGAIA PENINSULA SCHOOL
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LASTUPDATESUB:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

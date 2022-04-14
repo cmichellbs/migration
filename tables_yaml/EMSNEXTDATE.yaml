@@ -1,0 +1,128 @@
+checks: null
+coerce: true
+columns:
+  NXD_ID:
+    checks: null
+    coerce: false
+    dtype: object
+    max: PRE.MONTH.LAST.DAY
+    min: B1FAULT|OVERDUE
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  NXT_DESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Minus 1 day (Internal use only)
+    min: 0 Days
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  NXT_ENDDAYS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: 1234567PL
+    min: '12345'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  NXT_ENDDIR:
+    checks: null
+    coerce: false
+    dtype: object
+    max: F
+    min: F
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  NXT_FOLLOW:
+    checks: null
+    coerce: false
+    dtype: object
+    max: MINUS.ONE.DAY.BUS
+    min: 20TH.DAY.CUR.MONTH
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  NXT_GROUP:
+    checks: null
+    coerce: false
+    dtype: object
+    max: FREQUENCY
+    min: ALL
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  NXT_INCLDAYS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: 1234567PL
+    min: '12345'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  NXT_NUMERIC:
+    checks:
+      greater_than_or_equal_to: -3.0
+      less_than_or_equal_to: 2700.0
+    coerce: false
+    dtype: int64
+    max: '2700'
+    min: '-3'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  NXT_STP:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  NXT_STPDATA:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  NXT_TYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: S
+    min: D
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 113.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

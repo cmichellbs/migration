@@ -1,0 +1,88 @@
+checks: null
+coerce: true
+columns:
+  MRINR$DESCRIPTION:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Validation Substitution
+    min: Access Blocked
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  MRINR$ESTIMATE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: CT
+    min: CT
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  MRINR$NOACCESS:
+    checks:
+      greater_than_or_equal_to: 0.0
+      less_than_or_equal_to: 1.0
+    coerce: false
+    dtype: int64
+    max: '1'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  MRINR$REGREASON:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  NO$READ$CODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '99'
+    min: '01'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE4:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '2'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE8:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 16.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

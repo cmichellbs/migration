@@ -1,0 +1,58 @@
+checks: null
+coerce: true
+columns:
+  HOOK$NAME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WEBPDFINVOICE
+    min: ACCOUNT_ACCESS
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  HOOK$OUT$DESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Zoom Parameters when called from driver
+    min: A list of errors built in the stp
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  HOOK$OUT$NAME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: ZOOMPARAM
+    min: A1
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  VMC:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 11.0
+    coerce: false
+    dtype: int64
+    max: '11'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 255.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

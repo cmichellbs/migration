@@ -1,0 +1,68 @@
+checks: null
+coerce: true
+columns:
+  LS_ACTIVE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Y
+    min: N
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LS_CHANGESTP:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LS_DESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Current
+    min: Cancelled
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LS_ID:
+    checks: null
+    coerce: false
+    dtype: object
+    max: CUR
+    min: CAN
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LS_ORDER:
+    checks:
+      greater_than_or_equal_to: -9.0
+      less_than_or_equal_to: 0.0
+    coerce: false
+    dtype: int64
+    max: '0'
+    min: '-9'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 2.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

@@ -1,0 +1,46 @@
+checks: null
+coerce: true
+columns:
+  CODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WOFF
+    min: SACM
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DESCRIPTION:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Written Off
+    min: Account Managed
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  STATUS_CURRENT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '1'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 18.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

@@ -1,0 +1,56 @@
+checks: null
+coerce: true
+columns:
+  CALP$ATRIGGER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: GBVINVOICEDATEOPT2
+    min: GBVINVOICEDATEOPT1
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CALP$CODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: QUARTER
+    min: MONTHLY
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CALP$DESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Quarterly Invoice, 5d Read Tolerance
+    min: Actual Reads Only
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CALP$QUAL:
+    checks: null
+    coerce: false
+    dtype: object
+    max: M003;FREQUENCY|MONTHS.3;5
+    min: M001;FREQUENCY|MONTHS.1;5
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 2.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

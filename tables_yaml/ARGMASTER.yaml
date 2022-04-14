@@ -1,0 +1,342 @@
+checks: null
+coerce: true
+columns:
+  ARG_AGREEAMT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ARG_AGREEDATE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ARG_ANNAMOUNT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ARG_ANNCALCULATION:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ARG_ANNFLAGS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ARG_ANNLATEST:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ARG_ANNUNITS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ARG_CATEGORY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: SHORT
+    min: DIS
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ARG_CLASS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ARG_FIRSTPAYDATE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '2021-04-16 00:00:00'
+    min: '2012-03-15 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ARG_FREQUENCY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: W2
+    min: M1
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ARG_LASTEQDATE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '2017-12-15 00:00:00'
+    min: '2017-12-15 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ARG_LASTPAYDATE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '2022-03-04 00:00:00'
+    min: '2012-05-30 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ARG_LEDGER:
+    checks:
+      greater_than_or_equal_to: 100000006.0
+      less_than_or_equal_to: 841040006.0
+    coerce: false
+    dtype: int64
+    max: '841040006'
+    min: '100000006'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ARG_MONTHDAY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '9'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ARG_NEXTEQDATE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '2022-03-04 00:00:00'
+    min: '2013-02-18 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ARG_NUMPAYMENTS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '54'
+    min: '2'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ARG_ORIGDATE:
+    checks:
+      greater_than_or_equal_to: '2012-03-12 00:00:00'
+      less_than_or_equal_to: '2021-04-15 00:00:00'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-04-15 00:00:00'
+    min: '2012-03-12 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ARG_QARGNO:
+    checks:
+      greater_than_or_equal_to: 110000001.0
+      less_than_or_equal_to: 110000502.0
+    coerce: false
+    dtype: int64
+    max: '110000502'
+    min: '110000001'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ARG_REFNO:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ARG_REVAMOUNT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ARG_REVEFFDATE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ARG_REVNEXTDATE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ARG_REVSTATUS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ARG_STATUS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '5'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ARG_TOTALADVANCE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '3668929'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ARG_TOTALAMT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '5503392'
+    min: '8190'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ARG_TOTALDISPUTE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '27814'
+    min: '27814'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ARG_TYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '5'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ARG_WEEKDAY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '5'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LASTUPDATESUB:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE30:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 500.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

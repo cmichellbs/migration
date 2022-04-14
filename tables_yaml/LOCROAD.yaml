@@ -1,0 +1,204 @@
+checks: null
+coerce: true
+columns:
+  LRD_BUILDING:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LRD_DATETIME:
+    checks:
+      greater_than_or_equal_to: '2012-03-28 11:25:25'
+      less_than_or_equal_to: '2019-05-22 11:45:23'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2019-05-22 11:45:23'
+    min: '2012-03-28 11:25:25'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LRD_DIRECTION:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LRD_INSTALLADDR:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 1.0
+    coerce: false
+    dtype: int64
+    max: '1'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LRD_INS_AREA:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LRD_NZSHE1:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LRD_NZSHE2:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LRD_NZSHE3:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LRD_POBOX:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LRD_POSTALADDR:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 1.0
+    coerce: false
+    dtype: int64
+    max: '1'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LRD_POSTCODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '2584'
+    min: '2105'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LRD_ROAD:
+    checks: null
+    coerce: false
+    dtype: object
+    max: ZENITH PLACE
+    min: ADIOS PLACE
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LRD_SEQNO:
+    checks:
+      greater_than_or_equal_to: 11000001.0
+      less_than_or_equal_to: 11000415.0
+    coerce: false
+    dtype: int64
+    max: '11000415'
+    min: '11000001'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LRD_STATE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: PAPAKURA
+    min: ARDMORE
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LRD_STATUS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LRD_STRTYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LRD_SUBDIVISION:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LRD_SUBURB:
+    checks: null
+    coerce: false
+    dtype: object
+    max: TAKANINI
+    min: ALFRISTON
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 414.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

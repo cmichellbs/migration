@@ -1,0 +1,670 @@
+checks: null
+coerce: true
+columns:
+  DAMH$ACK:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAMH$ADDINFO:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '652058371'
+    min: '100000983'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAMH$ASSETTEST:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAMH$AUDIT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAMH$CALIB$TABLE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAMH$COLUMN:
+    checks:
+      greater_than_or_equal_to: 12.0
+      less_than_or_equal_to: 43.0
+    coerce: false
+    dtype: int64
+    max: '43'
+    min: '11'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAMH$COMM$EQUIPTYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAMH$COMM$PROTOCOL:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAMH$CONSTANT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAMH$CORRECTOR:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAMH$CUST$FUNDED:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAMH$DAREADSEQHISTORY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '11019722'
+    min: '11000009'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAMH$DAREGHISTORY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '11028610'
+    min: '11000001'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAMH$DATA$CONV:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAMH$DATA$VALID:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAMH$DISPLAY$TYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAMH$EFFDATE:
+    checks:
+      greater_than_or_equal_to: '2011-03-01 00:00:00'
+      less_than_or_equal_to: '2012-08-16 00:00:00'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2074-10-02 00:00:00'
+    min: '1970-09-21 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAMH$EFFTIME:
+    checks:
+      greater_than_or_equal_to: '9000-01-01 00:00:00'
+      less_than_or_equal_to: '9000-01-01 23:26:11'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '9000-01-01 23:57:28'
+    min: '9000-01-01 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAMH$EST$INSTRUCT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAMH$FMFILEHDR:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAMH$FMTRANSHDR:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAMH$HAZARD:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAMH$INSTALL:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '11106031'
+    min: '11000001'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAMH$INSTALL$CODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAMH$KEY:
+    checks:
+      greater_than_or_equal_to: 11000001.0
+      less_than_or_equal_to: 11001000.0
+    coerce: false
+    dtype: int64
+    max: '11070125'
+    min: '11000001'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAMH$KEYCODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAMH$LOCATION:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAMH$LOGGER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAMH$MANUFACT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAMH$MEASURE$TYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAMH$METER:
+    checks:
+      greater_than_or_equal_to: 910000473.0
+      less_than_or_equal_to: 911000211.0
+    coerce: false
+    dtype: int64
+    max: '911011398'
+    min: '910000025'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAMH$METPROGRAM:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAMH$MGMT$PLAN:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAMH$MODEL:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WW01
+    min: WW01
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAMH$NEXTRDATE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAMH$PASSWRD:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAMH$PHONE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAMH$POINT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '1'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAMH$PRICE$CAT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAMH$READ$METHOD:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAMH$READ$TYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAMH$READINST:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAMH$ROUTE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAMH$SERIAL:
+    checks: null
+    coerce: false
+    dtype: object
+    max: OOA028872
+    min: '*000014'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAMH$SOURCE$DEVICE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAMH$SPARE14:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAMH$STARTDATE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAMH$STATUS:
+    checks:
+      greater_than_or_equal_to: 0.0
+      less_than_or_equal_to: 91.0
+    coerce: false
+    dtype: int64
+    max: '91'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAMH$SYSTIME:
+    checks:
+      greater_than_or_equal_to: '2012-03-12 21:39:15'
+      less_than_or_equal_to: '2012-08-27 00:33:21'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-04-22 15:53:17'
+    min: '2012-03-12 21:39:15'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAMH$SYSUSER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: STEPHANIE.BELL
+    min: ANGELA.EARLY
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAMH$TELEMETRY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAMH$TEST$ACCURACY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAMH$TEST$BY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAMH$TEST$LASTDATE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAMH$TEST$NEXTDATE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAMH$TEST$NOTES:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAMH$TEST$PROG:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAMH$TRANS$LOC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAMH$TRANS$RATIO:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAMH$TRANS$TYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAMH$TRANSFERREQ:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAMH$USE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WM
+    min: 100MM
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAMH$USERACCESS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LASTUPDATESUB:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

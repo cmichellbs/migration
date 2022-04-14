@@ -1,0 +1,208 @@
+checks: null
+coerce: true
+columns:
+  DARSH$AUDIT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DARSH$COLUMN:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 2.0
+    coerce: false
+    dtype: int64
+    max: '2'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DARSH$EFFDATE:
+    checks:
+      greater_than_or_equal_to: '2012-02-26 00:00:00'
+      less_than_or_equal_to: '2013-03-04 00:00:00'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2074-02-20 00:00:00'
+    min: '2011-01-27 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DARSH$EFFTIME:
+    checks:
+      greater_than_or_equal_to: '9000-01-01 00:00:00'
+      less_than_or_equal_to: '9000-01-01 23:57:10'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '9000-01-01 23:57:10'
+    min: '9000-01-01 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DARSH$FMFILEHDR:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DARSH$HAZARDS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DARSH$ID:
+    checks:
+      greater_than_or_equal_to: 11000001.0
+      less_than_or_equal_to: 11001000.0
+    coerce: false
+    dtype: int64
+    max: '11020050'
+    min: '11000001'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DARSH$LOCATION:
+    checks: null
+    coerce: false
+    dtype: object
+    max: RPOUT
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DARSH$METERPOINT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '11106031:1'
+    min: '11000001:1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DARSH$READSEQ:
+    checks: null
+    coerce: false
+    dtype: object
+    max: HOLD
+    min: '002001'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DARSH$SPARE10:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DARSH$SPARE11:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DARSH$STATUS:
+    checks:
+      greater_than_or_equal_to: 0.0
+      less_than_or_equal_to: 90.0
+    coerce: false
+    dtype: int64
+    max: '90'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DARSH$SYSTIME:
+    checks:
+      greater_than_or_equal_to: '2012-05-14 13:07:27'
+      less_than_or_equal_to: '2013-03-06 13:19:52'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-04-22 15:52:38'
+    min: '2012-05-14 13:07:27'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DARSH$SYSUSER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: PAM.OTTERSON
+    min: ANGELA.EARLY
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DARSH$TRANS$LOC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DARSH$TRANS$RATIO:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DARSH$TRANS$TYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

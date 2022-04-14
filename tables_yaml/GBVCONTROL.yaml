@@ -1,0 +1,150 @@
+checks: null
+coerce: true
+columns:
+  GBVC_CODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: MONTHLY
+    min: DEFAULT
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBVC_DESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Monthly
+    min: Default
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBVC_ESTMETHOD:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBVC_MAXDAYS:
+    checks:
+      greater_than_or_equal_to: 35.0
+      less_than_or_equal_to: 105.0
+    coerce: false
+    dtype: int64
+    max: '105'
+    min: '35'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBVC_MINDAYS:
+    checks:
+      greater_than_or_equal_to: 20.0
+      less_than_or_equal_to: 80.0
+    coerce: false
+    dtype: int64
+    max: '80'
+    min: '20'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBVC_TCZERO:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 1.0
+    coerce: false
+    dtype: int64
+    max: '1'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBVC_TIESTMISSING:
+    checks:
+      greater_than_or_equal_to: 0.0
+      less_than_or_equal_to: 0.0
+    coerce: false
+    dtype: int64
+    max: '0'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBVC_TIMISSING:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBVC_TIREPORTMISSING:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 1.0
+    coerce: false
+    dtype: int64
+    max: '1'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBVC_TLOWPF:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBVC_TREPLACE:
+    checks:
+      greater_than_or_equal_to: 0.0
+      less_than_or_equal_to: 0.0
+    coerce: false
+    dtype: int64
+    max: '0'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBVC_TZERO:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 1.0
+    coerce: false
+    dtype: int64
+    max: '1'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 1.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

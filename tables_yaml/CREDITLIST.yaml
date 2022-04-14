@@ -1,0 +1,234 @@
+checks: null
+coerce: true
+columns:
+  CREDAMTFLAG:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CREDARREARS:
+    checks:
+      greater_than_or_equal_to: 1630.0
+      less_than_or_equal_to: 1358546.0
+    coerce: false
+    dtype: int64
+    max: '14805124'
+    min: '1630'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CREDCHGSTATUS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CREDCREATED:
+    checks:
+      greater_than_or_equal_to: '2012-05-01 13:08:16'
+      less_than_or_equal_to: '2021-04-09 22:01:13'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-04-16 22:03:15'
+    min: '2012-05-01 13:08:16'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CREDDATE:
+    checks:
+      greater_than_or_equal_to: '2018-02-08 00:00:00'
+      less_than_or_equal_to: '2021-04-23 00:00:00'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-04-30 00:00:00'
+    min: '2018-02-08 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CREDDUEDATE:
+    checks:
+      greater_than_or_equal_to: '1968-01-01 00:00:00'
+      less_than_or_equal_to: '2021-04-09 00:00:00'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-04-16 00:00:00'
+    min: '1968-01-01 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CREDINSTALL:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CREDLEDGER:
+    checks:
+      greater_than_or_equal_to: 100000016.0
+      less_than_or_equal_to: 842600002.0
+    coerce: false
+    dtype: int64
+    max: '842600002'
+    min: '100000016'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CREDQUEUE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '411225909'
+    min: '411009811'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CREDREASON:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CREDSEQNO:
+    checks:
+      greater_than_or_equal_to: 2.0
+      less_than_or_equal_to: 137794.0
+    coerce: false
+    dtype: int64
+    max: '138412'
+    min: '2'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CREDSSPEC1:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CREDSSPEC2:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CREDSSPEC3:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CREDSSPEC4:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CREDSSPEC5:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CREDSTAGE:
+    checks:
+      greater_than_or_equal_to: 2.0
+      less_than_or_equal_to: 6.0
+    coerce: false
+    dtype: int64
+    max: '6'
+    min: '2'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CREDSTAMP:
+    checks:
+      greater_than_or_equal_to: '2018-02-08 22:00:44'
+      less_than_or_equal_to: '2021-04-16 22:03:26'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-04-16 22:03:44'
+    min: '2018-02-08 22:00:44'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CREDSTARTDATE:
+    checks:
+      greater_than_or_equal_to: '2012-04-17 00:00:00'
+      less_than_or_equal_to: '2021-04-09 00:00:00'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-04-16 00:00:00'
+    min: '2012-04-17 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CREDTYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: UNDER100HABITUAL
+    min: CFINA
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

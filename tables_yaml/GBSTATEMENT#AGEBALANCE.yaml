@@ -1,0 +1,62 @@
+checks: null
+coerce: true
+columns:
+  GBSAGEBALANCE:
+    checks:
+      greater_than_or_equal_to: -599410.0
+      less_than_or_equal_to: 8062800.0
+    coerce: false
+    dtype: int64
+    max: '346015387'
+    min: '-18878195'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBSAGEDUEDATE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '2021-05-20 00:00:00'
+    min: '2004-07-01 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBSSTATEMENT:
+    checks:
+      greater_than_or_equal_to: 7110000001.0
+      less_than_or_equal_to: 7110000426.0
+    coerce: false
+    dtype: int64
+    max: '7110698333'
+    min: '7110000001'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  VMC:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 9.0
+    coerce: false
+    dtype: int64
+    max: '62'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

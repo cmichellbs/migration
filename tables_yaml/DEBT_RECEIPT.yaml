@@ -1,0 +1,88 @@
+checks: null
+coerce: true
+columns:
+  DRCPTAMT:
+    checks:
+      greater_than_or_equal_to: -119940.0
+      less_than_or_equal_to: 119940.0
+    coerce: false
+    dtype: int64
+    max: '65307211040'
+    min: '-65307211040'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DRCPTDATE:
+    checks:
+      greater_than_or_equal_to: '2004-07-01 00:00:00'
+      less_than_or_equal_to: '2009-09-24 00:00:00'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-04-22 00:00:00'
+    min: '2000-02-02 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DRCPTDATEALLOC:
+    checks:
+      greater_than_or_equal_to: '2012-03-02 23:44:41'
+      less_than_or_equal_to: '2012-03-02 23:47:39'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-04-22 15:43:04'
+    min: '2012-03-02 23:44:41'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DRCPTDKEY:
+    checks:
+      greater_than_or_equal_to: 11000001123.0
+      less_than_or_equal_to: 11000153353.0
+    coerce: false
+    dtype: int64
+    max: '11134388133'
+    min: '11000000001'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DRCPTREF:
+    checks:
+      greater_than_or_equal_to: 11000001123.0
+      less_than_or_equal_to: 11000153353.0
+    coerce: false
+    dtype: int64
+    max: '11134388133'
+    min: '11000000001'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DRCPTSEQ:
+    checks:
+      greater_than_or_equal_to: 31000000780.0
+      less_than_or_equal_to: 31000067812.0
+    coerce: false
+    dtype: int64
+    max: '31110282008'
+    min: '31000000780'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

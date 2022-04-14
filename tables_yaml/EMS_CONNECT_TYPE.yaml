@@ -1,0 +1,36 @@
+checks: null
+coerce: true
+columns:
+  CTYPE_DESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Zone Supply Point
+    min: Bulk Supply Point
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ID:
+    checks: null
+    coerce: false
+    dtype: object
+    max: ZO
+    min: BU
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 7.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

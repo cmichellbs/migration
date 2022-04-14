@@ -1,0 +1,1190 @@
+checks: null
+coerce: true
+columns:
+  IALTENERGYCO:
+    checks: null
+    coerce: false
+    dtype: object
+    max: VEOW
+    min: VEOW
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  IALTENERGYCONS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  IALTENERGYDATE:
+    checks:
+      greater_than_or_equal_to: '1970-01-01 00:00:00'
+      less_than_or_equal_to: '1970-01-01 00:00:00'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2019-06-29 00:00:00'
+    min: '1970-01-01 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  IALTENERGYDEBTOR:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  IALTITUDE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  IALTLINECO:
+    checks: null
+    coerce: false
+    dtype: object
+    max: VEOW
+    min: UWI
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  IALTLINEDATE:
+    checks:
+      greater_than_or_equal_to: '1970-01-01 00:00:00'
+      less_than_or_equal_to: '1970-01-01 00:00:00'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '1970-01-01 00:00:00'
+    min: '1970-01-01 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  IBILLINSTALL:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  IBILLSEQ:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '023004'
+    min: '000000'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ICATEGORY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ICHGCLASS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '301'
+    min: '000'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ICONNECT_DATE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ICONNECT_SITE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '11015933'
+    min: '11015928'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ICONNTYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ICONSUMER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '1110603110'
+    min: '1100000110'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ICONTROL_KVA:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ICP_IDENT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: TA1
+    min: '00006152'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ICTNUMBER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  IDAIRY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  IDISTRICT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: DEMO1
+    min: '10'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  IEST_SUPPRESS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  IFIRE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  IGBVCONTROL:
+    checks: null
+    coerce: false
+    dtype: object
+    max: MONTHLY
+    min: MONTHLY
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  IHV_FLAG:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  IINST_CROWNLOT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: NA57B/700
+    min: 1/2 share in LOT 24 DP 206186
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  IINST_GXPLINELOSS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  IINST_LINELOSS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  IINST_LOT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: UNITS B & D
+    min: (LOT 2)
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  IINST_MAPNO:
+    checks: null
+    coerce: false
+    dtype: object
+    max: LOT 9
+    min: '108'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  IINST_MAPX:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  IINST_MAPY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  IINST_PLAN:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Village of DRURY
+    min: '117193'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  IINST_PLANREF:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  IINST_SECTION:
+    checks: null
+    coerce: false
+    dtype: object
+    max: NA9B/921
+    min: 1/2 SH LOT 3 DP 514102
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  IINST_SSP1:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  IINST_SSP10:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  IINST_SSP2:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  IINST_SSP3:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  IINST_SSP4:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  IINST_SSP5:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  IINST_SSP6:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  IINST_SSP7:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  IINST_SSP8:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  IINST_SSP9:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  IINST_STATUS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: DZ
+    min: CO
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  IINST_STATUSDATE:
+    checks:
+      greater_than_or_equal_to: '1970-01-01 00:00:00'
+      less_than_or_equal_to: '2020-11-27 00:00:00'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-04-22 00:00:00'
+    min: '1970-01-01 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  IKVA_RATING:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ILASTUPDATESUB:
+    checks:
+      greater_than_or_equal_to: '2012-03-02 06:39:39'
+      less_than_or_equal_to: '2012-03-02 07:01:56'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2012-03-02 07:07:01'
+    min: '2012-03-02 06:39:39'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ILBILLTYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Y
+    min: S
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ILINEFACTOR:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ILOCATION:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ILREADDATE:
+    checks:
+      greater_than_or_equal_to: '2011-12-30 00:00:00'
+      less_than_or_equal_to: '2021-04-21 00:00:00'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-12-17 00:00:00'
+    min: '2010-12-31 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  IMAS_INSTALL:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  IMESHBLOCK:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  IMETNETWORK:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  INETIMRFLAG:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  INETWCONN:
+    checks: null
+    coerce: false
+    dtype: object
+    max: TA
+    min: AR
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  INOMINATED_KVA:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  INSTALL:
+    checks:
+      greater_than_or_equal_to: 11000001.0
+      less_than_or_equal_to: 11001000.0
+    coerce: false
+    dtype: int64
+    max: '11106031'
+    min: '11000001'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  INSTTYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: RESSM
+    min: EDU
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  INZEDCODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: D281
+    min: '0000'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  IOWNACCT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  IPARENTTOPLAN:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  IPREV_NO_DAYS:
+    checks:
+      greater_than_or_equal_to: -25.0
+      less_than_or_equal_to: 359.0
+    coerce: false
+    dtype: int64
+    max: '441'
+    min: '-298'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  IPROPNO:
+    checks: null
+    coerce: false
+    dtype: object
+    max: 43 CAPRIANA DR KARAKA
+    min: 43 CAPRIANA DR KARAKA
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  IREADSEQ$MAX:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ISHUTDOWN:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ISPARE102:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ISPARE103:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ISPARE104:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ISPARE105:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ISPARE106:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ISPARE14:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ISPARE15:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ISPARE18:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ISPARE28:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ISPARE42:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ISPARE43:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ISPARE44:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ISPARE48:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ISPARE55:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ISPARE57:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ISPARE58:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ISPARE59:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ISPARE61:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ISPARE63:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ISPARE64:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ISPARE65:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ISPARE66:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ISPARE74:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ITOUFLAG:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  IUTILITYTYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WA
+    min: W
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE1:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE10:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE11:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE12:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE16:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE17:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE2:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE21:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE24:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE25:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE27:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE3:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE32:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE33:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE34:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE35:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE36:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE37:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE41:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE46:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE47:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE75:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE77:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE9:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

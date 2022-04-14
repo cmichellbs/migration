@@ -1,0 +1,106 @@
+checks: null
+coerce: true
+columns:
+  OPT$CLASS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: AZA:NEXT.DATE.FREQUENCY
+    min: AXA:LENGTH500
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  OPT$DESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: User running process
+    min: Account Number
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  OPT$DICT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: CONSUMER#QCDENTRY
+    min: CONSUMER#QCDENTRY
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  OPT$HELP:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Meter Details
+    min: 2 DIGIT YEAR
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  OPT$ID:
+    checks: null
+    coerce: false
+    dtype: object
+    max: USER
+    min: AMT
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  OPT$INPUT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Y
+    min: N
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  OPT$MAND:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '0'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  OPT$REUSE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: N
+    min: N
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  OPT$STP:
+    checks: null
+    coerce: false
+    dtype: object
+    max: LETFWORDNUM
+    min: LETFACCTNO
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 42.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

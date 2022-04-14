@@ -1,0 +1,196 @@
+checks: null
+coerce: true
+columns:
+  LPT$AMOUNT:
+    checks:
+      greater_than_or_equal_to: 504.0
+      less_than_or_equal_to: 752470.0
+    coerce: false
+    dtype: int64
+    max: '752470'
+    min: '504'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LPT$BANKACCT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: 38-9022-0859642-00
+    min: 01-0071-0456777-00
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LPT$CANTYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '1'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LPT$CREDITCARD:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LPT$CREDITENCRYPT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LPT$CREDITEXPIRY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LPT$CUSTREF:
+    checks: null
+    coerce: false
+    dtype: object
+    max: R L & M F COCKBURN
+    min: B & F PAPERS
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LPT$DUEDATE:
+    checks:
+      greater_than_or_equal_to: '2021-04-22 00:00:00'
+      less_than_or_equal_to: '2021-05-20 00:00:00'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-05-20 00:00:00'
+    min: '2021-04-22 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LPT$EREF:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LPT$ID:
+    checks:
+      greater_than_or_equal_to: 110000048481.0
+      less_than_or_equal_to: 110000049058.0
+    coerce: false
+    dtype: int64
+    max: '110000049058'
+    min: '110000048481'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LPT$LEDGER:
+    checks:
+      greater_than_or_equal_to: 100000522.0
+      less_than_or_equal_to: 850100003.0
+    coerce: false
+    dtype: int64
+    max: '850100003'
+    min: '100000522'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LPT$NAME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Z B MAHOMED
+    min: A & I SARMIENTO
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LPT$PAYREF:
+    checks:
+      greater_than_or_equal_to: 7110692563.0
+      less_than_or_equal_to: 7110698324.0
+    coerce: false
+    dtype: int64
+    max: '7110698324'
+    min: '7110692563'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LPT$PAYTYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: S
+    min: S
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LPT$REJECT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LPT$SENDDATE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LPT$TYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '99'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 497.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

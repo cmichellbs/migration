@@ -1,0 +1,37 @@
+checks: null
+coerce: true
+columns:
+  SECUREDESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: The effective date of a contract should be in the future of any invoiced
+      periods. This secure field enables you to break this rule
+    min: Access control Authority for managed accounts
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SECUREID:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WIZ.B1SWZ.L.CANCEL|ACQ.CANCELLATION
+    min: BANK.FILE.CREATE|SET.FUTURE.DATE
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 11.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

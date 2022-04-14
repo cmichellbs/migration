@@ -1,0 +1,166 @@
+checks: null
+coerce: true
+columns:
+  HPSETDESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Private Schemes
+    min: Hire Purchase
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  HPSETFINAL:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '1'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  HPSETGLCTRL:
+    checks: null
+    coerce: false
+    dtype: object
+    max: SUSPENSE
+    min: GL_HIRE
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  HPSETGLFIN:
+    checks: null
+    coerce: false
+    dtype: object
+    max: SUSPENSE
+    min: SUSPENSE
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  HPSETGLINS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: SUSPENSE
+    min: SUSPENSE
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  HPSETGLSALE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: SUSPENSE
+    min: GL_HP_COS
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  HPSETGLTRADEIN:
+    checks: null
+    coerce: false
+    dtype: object
+    max: SUSPENSE
+    min: SUSPENSE
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  HPSETMEMTYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  HPSETOCYCLE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '1'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  HPSETPERIODTYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '0'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  HPSETPRINT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  HPSETRATE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '0'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  HPSETTAX:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '0'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  HPSETTERMTYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: M
+    min: M
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  HPSETUPCODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: HPU
+    min: CON
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 1.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

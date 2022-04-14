@@ -1,0 +1,58 @@
+checks: null
+coerce: true
+columns:
+  DESCRIPTION:
+    checks: null
+    coerce: false
+    dtype: object
+    max: "\uF7FD"
+    min: Actions for a Process
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FILENAME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WAT_CERT_INFO
+    min: ACCOUNT_AGREEMENT
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  INDEXNAME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WRKPHONE
+    min: ACCOUNT
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TYPE:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 1.0
+    coerce: false
+    dtype: int64
+    max: '1'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 376.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

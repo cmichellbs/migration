@@ -1,0 +1,66 @@
+checks: null
+coerce: true
+columns:
+  SABBREV:
+    checks: null
+    coerce: false
+    dtype: object
+    max: DMO
+    min: AKL
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SCODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: DEMO1
+    min: AKL
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SCOUNTRY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: NZL
+    min: NZL
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SDESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Demo - State
+    min: Auckland
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SDST:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 1.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

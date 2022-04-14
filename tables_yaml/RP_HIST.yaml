@@ -1,0 +1,80 @@
+checks: null
+coerce: true
+columns:
+  ID:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 1000.0
+    coerce: false
+    dtype: int64
+    max: '21105'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ITEMNAME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: XMLTAG.GET.TREEVIEW
+    min: ACCESS.ACTIVITY.COPY
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ITEMTYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WIZRUN
+    min: CDPROP
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TIME:
+    checks:
+      greater_than_or_equal_to: '2011-09-16 14:40:11'
+      less_than_or_equal_to: '2011-09-16 14:48:49'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-01-25 16:55:52'
+    min: '2011-09-16 14:40:11'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  USER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: dbo
+    min: dbo
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  VERSIONAPPLIED:
+    checks: null
+    coerce: false
+    dtype: object
+    max: S7
+    min: 0.9.12
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

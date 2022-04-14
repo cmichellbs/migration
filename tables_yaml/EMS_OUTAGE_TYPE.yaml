@@ -1,0 +1,56 @@
+checks: null
+coerce: true
+columns:
+  OT_CODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: UPINT
+    min: PLINT
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  OT_DESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Unplanned Outage
+    min: Planned Outage
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  OT_LETTER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: PLOUT
+    min: PLOUT
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  OT_PRO_PARAM:
+    checks: null
+    coerce: false
+    dtype: object
+    max: B1BASE.OUTAGE
+    min: B1BASE.OUTAGE
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 1.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

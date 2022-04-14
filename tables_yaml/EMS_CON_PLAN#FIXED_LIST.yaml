@@ -1,0 +1,102 @@
+checks: null
+coerce: true
+columns:
+  ECPLAN_FCHGCODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: SFIXWW
+    min: IC
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ECPLAN_FCHGDESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ECPLAN_FCHGENDATE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ECPLAN_FCHGHIDDEN:
+    checks:
+      greater_than_or_equal_to: 0.0
+      less_than_or_equal_to: 0.0
+    coerce: false
+    dtype: int64
+    max: '0'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ECPLAN_FCHGMULT:
+    checks:
+      greater_than_or_equal_to: 100.0
+      less_than_or_equal_to: 208.0
+    coerce: false
+    dtype: int64
+    max: '208'
+    min: '100'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ECPLAN_FCHGSTDATE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ECPLAN_KEY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: TWMOD95-S2
+    min: DUMPSTATION1
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  VMC:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 3.0
+    coerce: false
+    dtype: int64
+    max: '3'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 148.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

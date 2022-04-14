@@ -1,0 +1,60 @@
+checks: null
+coerce: true
+columns:
+  ACT_ID:
+    checks:
+      greater_than_or_equal_to: 18414.0
+      less_than_or_equal_to: 27171.0
+    coerce: false
+    dtype: int64
+    max: '29028'
+    min: '18414'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACT_PARAM_NAME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: XMLTAGS
+    min: AUTOMATIC
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACT_PARAM_VALUE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: XML.TAG.TYPE
+    min: ..
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  VMC:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 4.0
+    coerce: false
+    dtype: int64
+    max: '4'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

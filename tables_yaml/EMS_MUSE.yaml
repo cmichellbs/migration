@@ -1,0 +1,60 @@
+checks: null
+coerce: true
+columns:
+  MUDESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Water Meter
+    min: Bulk Meter
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  MUKEY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WM
+    min: 100MM
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  MUNUMERIC:
+    checks:
+      greater_than_or_equal_to: 0.0
+      less_than_or_equal_to: 150000000.0
+    coerce: false
+    dtype: int64
+    max: '150000000'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  MUUTILITY:
+    checks:
+      greater_than_or_equal_to: 3.0
+      less_than_or_equal_to: 3.0
+    coerce: false
+    dtype: int64
+    max: '3'
+    min: '3'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 16.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

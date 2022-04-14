@@ -1,0 +1,118 @@
+checks: null
+coerce: true
+columns:
+  BR_BDATE:
+    checks:
+      greater_than_or_equal_to: '2011-07-14 00:00:00'
+      less_than_or_equal_to: '2012-09-17 00:00:00'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-04-22 00:00:00'
+    min: '2010-09-30 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BR_BTOT:
+    checks:
+      greater_than_or_equal_to: -3762192.0
+      less_than_or_equal_to: 6873750.0
+    coerce: false
+    dtype: int64
+    max: '47818518'
+    min: '-12822023'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BR_CONSUMER:
+    checks:
+      greater_than_or_equal_to: 1100000410.0
+      less_than_or_equal_to: 1110003010.0
+    coerce: false
+    dtype: int64
+    max: '1110562310'
+    min: '1100000110'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BR_DATE:
+    checks:
+      greater_than_or_equal_to: '2012-03-05 00:00:00'
+      less_than_or_equal_to: '2012-09-17 00:00:00'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-04-22 00:00:00'
+    min: '2012-03-05 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BR_EXTDESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: OTH
+    min: BD
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BR_KEY:
+    checks:
+      greater_than_or_equal_to: 1100001.0
+      less_than_or_equal_to: 1101009.0
+    coerce: false
+    dtype: int64
+    max: '1117565'
+    min: '1100001'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BR_SIC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: D281
+    min: '0000'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BR_TIME:
+    checks:
+      greater_than_or_equal_to: '9000-01-01 00:00:54'
+      less_than_or_equal_to: '9000-01-01 23:57:54'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '9000-01-01 23:58:26'
+    min: '9000-01-01 00:00:29'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BR_USER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: VSHADBOLT
+    min: ANDREA.CANNON
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

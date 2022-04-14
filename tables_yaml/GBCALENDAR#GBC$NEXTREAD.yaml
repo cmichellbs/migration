@@ -1,0 +1,52 @@
+checks: null
+coerce: true
+columns:
+  GBC$INSTALL:
+    checks:
+      greater_than_or_equal_to: 11000008.0
+      less_than_or_equal_to: 11001077.0
+    coerce: false
+    dtype: int64
+    max: '11105977'
+    min: '11000008'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBC$NEXTREAD:
+    checks:
+      greater_than_or_equal_to: '2021-05-01 00:00:00'
+      less_than_or_equal_to: '2021-07-01 00:00:00'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-08-01 00:00:00'
+    min: '2021-05-01 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  VMC:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 1.0
+    coerce: false
+    dtype: int64
+    max: '1'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

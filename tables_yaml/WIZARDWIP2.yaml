@@ -1,0 +1,118 @@
+checks: null
+coerce: true
+columns:
+  DERIVEDFROM:
+    checks: null
+    coerce: false
+    dtype: object
+    max: M2+S1
+    min: M1
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DESC:
+    checks: null
+    coerce: false
+    dtype: object
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ID:
+    checks:
+      greater_than_or_equal_to: 2.0
+      less_than_or_equal_to: 13.0
+    coerce: false
+    dtype: int64
+    max: '13'
+    min: '2'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  NAME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Test
+    min: INVALID.RECEIPT.IDENTIFY
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  OPENTIME:
+    checks:
+      greater_than_or_equal_to: '2011-11-18 00:10:53'
+      less_than_or_equal_to: '2017-03-16 14:16:37'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2017-03-16 14:16:37'
+    min: '2011-11-18 00:10:53'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  OPENUSER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: STEVEN.RUMBLE
+    min: GENTRACK1
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  REST:
+    checks: null
+    coerce: false
+    dtype: object
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SUMMARY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Search Free Text
+    min: Search Free Text
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TITLE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Synchronise Repository
+    min: Create Prospect
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  VERSION:
+    checks:
+      greater_than_or_equal_to: 3.0
+      less_than_or_equal_to: 3.0
+    coerce: false
+    dtype: int64
+    max: '3'
+    min: '3'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 6.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

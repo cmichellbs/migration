@@ -1,0 +1,78 @@
+checks: null
+coerce: true
+columns:
+  EMS_HOLIDAYS:
+    checks:
+      greater_than_or_equal_to: '2009-12-25 00:00:00'
+      less_than_or_equal_to: '2021-12-28 00:00:00'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-12-28 00:00:00'
+    min: '2009-12-25 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  HOLIDAYS_FIXED:
+    checks: null
+    coerce: false
+    dtype: object
+    max: V
+    min: F
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  HOLIDAYS_LAST_YEAR:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '2020-06-06 00:00:00'
+    min: '2008-12-25 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  HOLIDAYS_NEXT_YEAR:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '2021-04-26 00:00:00'
+    min: '2013-01-01 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  HOLIDAYS_OCCASION:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Waitangi Day
+    min: '1/1/2018: NEW YEARS DAY'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  HOLIDAYS_PUBLIC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Y
+    min: Y
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 53.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

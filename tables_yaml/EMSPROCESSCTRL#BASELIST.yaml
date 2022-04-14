@@ -1,0 +1,58 @@
+checks: null
+coerce: true
+columns:
+  ID:
+    checks: null
+    coerce: false
+    dtype: object
+    max: VW-POSTTRANS-DET-CREDATE
+    min: ARG1901MAIN
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PROC_BASETASKLIST:
+    checks: null
+    coerce: false
+    dtype: object
+    max: YUNITS
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PROC_BASETASKTYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: QA$EMSPROCESSCTRL IFMMTRDNOTI
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  VMC:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 39.0
+    coerce: false
+    dtype: int64
+    max: '39'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

@@ -1,0 +1,122 @@
+checks: null
+coerce: true
+columns:
+  AUD_DATE:
+    checks:
+      greater_than_or_equal_to: '2012-03-03 00:00:00'
+      less_than_or_equal_to: '2012-03-06 00:00:00'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-04-22 00:00:00'
+    min: '2012-03-03 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  AUD_FILE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: TARTEMPLATE
+    min: ACCOUNTS
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  AUD_ID:
+    checks:
+      greater_than_or_equal_to: 111000000001.0
+      less_than_or_equal_to: 111000001350.0
+    coerce: false
+    dtype: int64
+    max: '111000629826'
+    min: '111000000001'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  AUD_ITEM_ID:
+    checks: null
+    coerce: false
+    dtype: object
+    max: YOOSTHUIZEN
+    min: '+415904950'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  AUD_MEMO:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '211001156864'
+    min: '211000000001'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  AUD_PORT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: VSHADBOLT
+    min: '9999'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  AUD_PROG:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  AUD_TIME:
+    checks:
+      greater_than_or_equal_to: '9000-01-01 07:38:03'
+      less_than_or_equal_to: '9000-01-01 17:01:12'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '9000-01-01 23:59:59'
+    min: '9000-01-01 00:00:08'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  AUD_TYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: NEW
+    min: ADD
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  AUD_USER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Vicky O'Sullivan
+    min: Adriana Janssen
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

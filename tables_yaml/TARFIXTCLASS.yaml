@@ -1,0 +1,86 @@
+checks: null
+coerce: true
+columns:
+  FIXTC_BILLGROUP:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FIXTC_CODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: SSERV
+    min: SSERV
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FIXTC_DESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Sewer Service
+    min: Sewer Service
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FIXTC_DET_REQ:
+    checks: null
+    coerce: false
+    dtype: object
+    max: I
+    min: I
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FIXTC_LOAD:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FIXTC_SPROG:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FIXTC_UOM:
+    checks: null
+    coerce: false
+    dtype: object
+    max: KL
+    min: KL
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 0.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

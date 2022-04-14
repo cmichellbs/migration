@@ -1,0 +1,91 @@
+checks: null
+coerce: true
+columns:
+  ID:
+    checks: null
+    coerce: false
+    dtype: object
+    max: VW-POSTTRANS-DET-CREDATE
+    min: ARG1902
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PROC_GRP_DESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: When processing out of cycles you can specify which types of out of cycles
+      will be processed.
+    min: '!READDATES##RDD$READSEQ'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PROC_GRP_IDENTIFIER:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 7.0
+    coerce: false
+    dtype: int64
+    max: '7'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PROC_GRP_NAME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Validation Period
+    min: Account Manager
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PROC_GRP_PARENT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PROC_GRP_REPEAT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '1'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  VMC:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 7.0
+    coerce: false
+    dtype: int64
+    max: '7'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 234.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

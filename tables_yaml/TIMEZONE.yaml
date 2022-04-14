@@ -1,0 +1,76 @@
+checks: null
+coerce: true
+columns:
+  TIMEZONE$CODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: SA
+    min: AUNSW
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TIMEZONE$DESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Western Australia (Perth), China, Malaysia
+    min: Australia Central (Darwin, Adelaide)
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TIMEZONE$DTCODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WDT
+    min: CDT
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TIMEZONE$GMT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Etc/GMT-9:30
+    min: Etc/GMT+2
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TIMEZONE$NAME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Pacific/Norfolk
+    min: Africa/Johannesburg
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TIMEZONE$STCODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WST
+    min: CST
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 16.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

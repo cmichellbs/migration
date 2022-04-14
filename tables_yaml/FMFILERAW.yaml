@@ -1,0 +1,38 @@
+checks: null
+coerce: true
+columns:
+  FMFHX$REC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '0'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FMFHX$SEQNO:
+    checks:
+      greater_than_or_equal_to: 4110000001.0
+      less_than_or_equal_to: 4110001000.0
+    coerce: false
+    dtype: int64
+    max: '4110009910'
+    min: '4110000001'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

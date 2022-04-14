@@ -1,0 +1,48 @@
+checks: null
+coerce: true
+columns:
+  UOM_CODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: ABC
+    min: ABC
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  UOM_PREFIX:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '99'
+    min: '12'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  VMC:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 2.0
+    coerce: false
+    dtype: int64
+    max: '2'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 1.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

@@ -1,0 +1,120 @@
+checks: null
+coerce: true
+columns:
+  LPBK$AMOUNT:
+    checks:
+      greater_than_or_equal_to: 10.0
+      less_than_or_equal_to: 8548800.0
+    coerce: false
+    dtype: int64
+    max: '21386400'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LPBK$DEBTID:
+    checks:
+      greater_than_or_equal_to: 11100160297.0
+      less_than_or_equal_to: 11101847161.0
+    coerce: false
+    dtype: int64
+    max: '11134380455'
+    min: '11100160297'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LPBK$DUEDATE:
+    checks:
+      greater_than_or_equal_to: '2012-03-06 00:00:00'
+      less_than_or_equal_to: '2012-07-18 00:00:00'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-04-21 00:00:00'
+    min: '2012-03-06 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LPBK$ID:
+    checks:
+      greater_than_or_equal_to: 100041.0
+      less_than_or_equal_to: 102557.0
+    coerce: false
+    dtype: int64
+    max: '159694'
+    min: '100041'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LPBK$LEDGER:
+    checks:
+      greater_than_or_equal_to: 319198900.0
+      less_than_or_equal_to: 850120106.0
+    coerce: false
+    dtype: int64
+    max: '850120106'
+    min: '100000059'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LPBK$PAYID:
+    checks:
+      greater_than_or_equal_to: 110000000001.0
+      less_than_or_equal_to: 110000001272.0
+    coerce: false
+    dtype: int64
+    max: '110000048480'
+    min: '110000000001'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LPBK$PAYTYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '3'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LPBK$REJECT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  VMC:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 7.0
+    coerce: false
+    dtype: int64
+    max: '10'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

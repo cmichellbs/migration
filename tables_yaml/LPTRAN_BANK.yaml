@@ -1,0 +1,100 @@
+checks: null
+coerce: true
+columns:
+  LPBK$BANKACCT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: 38-9022-0835368-00
+    min: 01-0071-0043876-00
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LPBK$CREDITCARD:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LPBK$CREDITENCRYPT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LPBK$CREDITEXPIRY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LPBK$CUSTREF:
+    checks: null
+    coerce: false
+    dtype: object
+    max: R L & M F COCKBURN
+    min: 1/48 TIRONUI RD PAPAKURA
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LPBK$ID:
+    checks:
+      greater_than_or_equal_to: 100041.0
+      less_than_or_equal_to: 102673.0
+    coerce: false
+    dtype: int64
+    max: '159694'
+    min: '100041'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LPBK$NAME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: ZOE THOMPSON AND JOSHUA BALIN KUMAR
+    min: 1 RED LTD
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LPBK$SENDDATE:
+    checks:
+      greater_than_or_equal_to: '2012-03-06 00:00:00'
+      less_than_or_equal_to: '2012-07-25 00:00:00'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-04-21 00:00:00'
+    min: '2012-03-06 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

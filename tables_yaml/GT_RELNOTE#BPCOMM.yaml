@@ -1,0 +1,110 @@
+checks: null
+coerce: true
+columns:
+  PROGKEY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: UWI2691
+    min: UWI2690
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  RELSTATHISTCOMD:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '2012-01-19 00:00:00'
+    min: '2012-01-19 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  RELSTATHISTDATE:
+    checks:
+      greater_than_or_equal_to: '2011-09-22 10:01:36'
+      less_than_or_equal_to: '2012-01-18 14:54:10'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2012-01-18 14:54:10'
+    min: '2011-09-22 10:01:36'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  RELSTATHISTDESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Release Created
+    min: From CUR to CAN
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  RELSTATHISTSTAT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: CUR
+    min: CAN
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  RELSTATHISTTYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Status
+    min: Creation
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  RELSTATHISTUSER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: GENTRACK2
+    min: GENTRACK1
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  RELSTATHISTWHO:
+    checks: null
+    coerce: false
+    dtype: object
+    max: GENTRACK2
+    min: GENTRACK1
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  VMC:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 2.0
+    coerce: false
+    dtype: int64
+    max: '2'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 2.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

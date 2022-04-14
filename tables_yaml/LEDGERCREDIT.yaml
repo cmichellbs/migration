@@ -1,0 +1,158 @@
+checks: null
+coerce: true
+columns:
+  LASTUPDATESUB:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LC$DISCNUM1:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '26'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LC$DISCNUM2:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LC$DISCNUM3:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LC$DISHNUM1:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '48'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LC$DISHNUM2:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LC$DISHNUM3:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LC$REM$SUPP$CODES:
+    checks: null
+    coerce: false
+    dtype: object
+    max: SAL
+    min: DEF
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LC$REM$SUPP$DATE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '2019-03-19 00:00:00'
+    min: '2015-11-20 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LC$REM$SUPP$TYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: ALL
+    min: ALL
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LC$REMNUM1:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '58'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LC$REMNUM2:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LC$REMNUM3:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LEDGERID:
+    checks:
+      greater_than_or_equal_to: 100000003.0
+      less_than_or_equal_to: 100001676.0
+    coerce: false
+    dtype: int64
+    max: '1000000030'
+    min: '100000003'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

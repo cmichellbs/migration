@@ -1,0 +1,176 @@
+checks: null
+coerce: true
+columns:
+  GBVAPPCODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBVAPPNOTES:
+    checks: null
+    coerce: false
+    dtype: object
+    max: FILE ERROR
+    min: Approved
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBVAPPUSER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: VSHADBOLT
+    min: ANDREA.CANNON
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBVCLOTIMEDATE:
+    checks:
+      greater_than_or_equal_to: '2012-03-05 15:44:13'
+      less_than_or_equal_to: '2012-08-15 15:46:58'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-04-22 14:57:34'
+    min: '2012-03-05 15:44:13'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBVCODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: NEM130014
+    min: GBI0010
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBVCRETIMEDATE:
+    checks:
+      greater_than_or_equal_to: '2012-03-05 15:43:56'
+      less_than_or_equal_to: '2012-03-13 10:32:18'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-04-22 14:57:23'
+    min: '2012-03-05 15:43:56'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBVDETMETER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Z202
+    min: '#32470'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBVDETOTHER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: "S\uF7FD19419"
+    min: 01/07/2014
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBVDETREGISTER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '6110017309'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBVITEMID:
+    checks:
+      greater_than_or_equal_to: 6110000004.0
+      less_than_or_equal_to: 811000002516.0
+    coerce: false
+    dtype: int64
+    max: '811000768970'
+    min: '6110000004'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBVITEMTYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: GBHEADER
+    min: FMTRANS
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBVNOTES:
+    checks: null
+    coerce: false
+    dtype: object
+    max: "\uF7FD"
+    min: 01/07/2014
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBVSEQNO:
+    checks:
+      greater_than_or_equal_to: 11000001.0
+      less_than_or_equal_to: 11001000.0
+    coerce: false
+    dtype: int64
+    max: '12347766'
+    min: '11000001'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBVSTAGE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '2'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBVSTATUS:
+    checks:
+      greater_than_or_equal_to: 90.0
+      less_than_or_equal_to: 99.0
+    coerce: false
+    dtype: int64
+    max: '99'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

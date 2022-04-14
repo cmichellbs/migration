@@ -1,0 +1,36 @@
+checks: null
+coerce: true
+columns:
+  PDESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: STANDARD - Not Normally Maintained. eg Memo Types
+    min: CRITICAL1 - Buisness to ensure Market and Utility Codes are Configured
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PKEY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: STANDARD
+    min: CRITICAL_1
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 7.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

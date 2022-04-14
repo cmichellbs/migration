@@ -1,0 +1,74 @@
+checks: null
+coerce: true
+columns:
+  CLDUPLICATE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Y
+    min: N
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CLKEY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: NEW
+    min: '0004'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CLOWNER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: M
+    min: B
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CLSECTION:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '2'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CLTEXT:
+    checks: null
+    coerce: false
+    dtype: object
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CLTRANSFER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Y
+    min: Y
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 236.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

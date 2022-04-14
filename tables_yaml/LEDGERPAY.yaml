@@ -1,0 +1,242 @@
+checks: null
+coerce: true
+columns:
+  LP$AGREEDATE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '2012-03-02 00:00:00'
+    min: '2012-03-02 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LP$AGREENO:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '850120106'
+    min: '319198900'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LP$BANK:
+    checks: null
+    coerce: false
+    dtype: object
+    max: 38-9022-0859642-00
+    min: 01-0071-0043876-00
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LP$CANCELDATE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '2020-08-06 00:00:00'
+    min: '2012-05-29 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LP$CANCELREASON:
+    checks: null
+    coerce: false
+    dtype: object
+    max: CUSP
+    min: CUSP
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LP$CREDITCARD:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '5432500022654970'
+    min: '5432500022654970'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LP$CREDITENCRYPT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '5432500022654970'
+    min: '5432500022654970'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LP$CREDITEXPIRY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '0416'
+    min: '0416'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LP$CUSTREF:
+    checks: null
+    coerce: false
+    dtype: object
+    max: R L & M F COCKBURN
+    min: 1/48 TIRONUI RD PAPAKURA
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LP$DEBITMAX:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '26000000'
+    min: '150000'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LP$EFFDATE:
+    checks:
+      greater_than_or_equal_to: '2012-03-02 00:00:00'
+      less_than_or_equal_to: '2014-03-28 00:00:00'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-04-22 00:00:00'
+    min: '2012-03-02 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LP$FIRSTPAYSENT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LP$INSTRUCTION$CAN:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '1'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LP$INSTRUCTION$NEW:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '1'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LP$INSTRUCTION$REF:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LP$KEY:
+    checks:
+      greater_than_or_equal_to: 910000135.0
+      less_than_or_equal_to: 911000336.0
+    coerce: false
+    dtype: int64
+    max: '911003040'
+    min: '910000135'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LP$LASTPAYSENT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '2021-04-21 00:00:00'
+    min: '2012-03-21 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LP$LASTUPDATESUB:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '2012-03-02 06:50:25'
+    min: '2012-03-02 06:39:37'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LP$LEDGER:
+    checks:
+      greater_than_or_equal_to: 100000099.0
+      less_than_or_equal_to: 850120106.0
+    coerce: false
+    dtype: int64
+    max: '850120106'
+    min: '100000049'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LP$NAME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: ZOE THOMPSON AND JOSHUA BALIN KUMAR
+    min: 1 RED LTD
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LP$SPARE4:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LP$STATUS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '50'
+    min: '10'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

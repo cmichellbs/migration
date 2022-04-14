@@ -1,0 +1,329 @@
+checks: null
+coerce: true
+columns:
+  ID:
+    checks: null
+    coerce: false
+    dtype: object
+    max: VW-POSTTRANS-DET-CREDATE
+    min: ARG1901MAIN
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PROC_CLASS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: VWS:TOTAL.WAT.CONSUM
+    min: AXB:SYSTEM.COMMAND
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PROC_CONCURRENT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '5'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PROC_DESCRIPTION:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Work Request Analysis
+    min: Account Integrity Report
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PROC_DOCUMENTATION:
+    checks: null
+    coerce: false
+    dtype: object
+    max: "Veolia Water : Posted Transactions by Analysis Code\uF7FD(and Transaction\
+      \ Date)\uF7FD~\uF7FDSpecify a Transaction Date range to run report for\uF7FD\
+      ~\uF7FDOutputs to CSV file:\uF7FD\uF7FD* Count of invoices\uF7FD* Analysis Code\uF7FD\
+      * Analysis Description\uF7FD* GST Exclusive Total\uF7FD\uF7FDNote that all GST\
+      \ is apportioned to ANCODE_TAX (Tax Charges)\uF7FD"
+    min: "[.]Performs validation checks on Time of Use data\uF7FD[..]KWH consumption\
+      \ is validated against each of the water marks: above wide high water mark,\
+      \ between narrow and wide high water marks, between narrow and wide low water\
+      \ marks or below wide low water mark\uF7FD[..] Peak difference - The percentage\
+      \ difference between the highest and lowest of the 3 highest consumption values\
+      \ for the validation period is compared against the Peak Percentage Difference\
+      \ parameter.\uF7FD[..] 7-day period - The difference between the consumption\
+      \ over 7 days at a time and the same period 28 days earlier is compared to the\
+      \ Low Variance and Significant Variance parameter. If the difference is significant\
+      \ the percentage difference is compared to the Low Percentage and High Percentage\
+      \ validation parameter.\uF7FD[..] Missing interval consumption - When a consumption\
+      \ value is missing for a particular interval during the validation period.\uF7FD\
+      [..] Low quality read - When an interval consumption reading quality level is\
+      \ less than the Missing Read Level parameter. This validation only applies to\
+      \ past, not future, intervals.\uF7FD[.]Performs estimations to generate consumption\
+      \ data for consumption that is missing or flagged for estimation.\uF7FD[.]Can\
+      \ be run at any time during the billing period and will only validate data within\
+      \ date ranges that have not yet been validated.\uF7FD[.]When Gentrack receives\
+      \ new consumption data the date range is flagged and will be validated on the\
+      \ next validation run.\uF7FD[note]Validation parameters are set in [link]VALIDATION.CONTROL.PARAM[/link].[/note]"
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PROC_INSTANCES:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '20'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PROC_PARAM_OUTPUTS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '5'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PROC_PRESTREAM:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PROC_REPORT_GROUP:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Transaction
+    min: Asset
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PROC_RUNMAINSTP:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WUBULKUPDATE
+    min: ARG1901MAIN
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PROC_RUNPOSTSTP:
+    checks: null
+    coerce: false
+    dtype: object
+    max: UWICSVSUMMARY
+    min: EIEP4BUILD
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PROC_RUNPRESTP:
+    checks: null
+    coerce: false
+    dtype: object
+    max: TU14200START
+    min: EIEP4EXPORTSTART
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PROC_RUN_WIZARD:
+    checks: null
+    coerce: false
+    dtype: object
+    max: MTSAMPGENERATE
+    min: MTPOPEXPORT
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PROC_SECURITY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PROC_SPARE10:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PROC_SPARE15:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PROC_SPARE16:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PROC_SPARE17:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PROC_SPARE18:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PROC_SPARE19:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PROC_SPARE23:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PROC_SPARE24:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PROC_SPARE25:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PROC_SPARE33:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PROC_SPARE8:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PROC_SPARE9:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PROC_SSPMAX:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '50000'
+    min: '10'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PROC_SSPMIN:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '10000'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PROC_STOPTYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '0'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 242.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

@@ -1,0 +1,46 @@
+checks: null
+coerce: true
+columns:
+  CUST_CLASS_DESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Silver
+    min: Bronze
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CUST_CLASS_ICON:
+    checks: null
+    coerce: false
+    dtype: object
+    max: ICON$SILVERMEDAL
+    min: ICON$BRONZEMEDAL
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CUST_CLASS_ID:
+    checks: null
+    coerce: false
+    dtype: object
+    max: S
+    min: B
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 2.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

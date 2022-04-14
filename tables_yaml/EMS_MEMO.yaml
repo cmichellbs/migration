@@ -1,0 +1,262 @@
+checks: null
+coerce: true
+columns:
+  LASTUPDATESUB:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  MEMO_ACCOUNT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '850651503'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  MEMO_CHGDATE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '2021-04-22 00:00:00'
+    min: '2012-03-13 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  MEMO_CONSUMER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '1110603110'
+    min: '1100000410'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  MEMO_CUSTOMER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '1110008786'
+    min: '1100000002'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  MEMO_DATE:
+    checks:
+      greater_than_or_equal_to: '2012-03-02 00:00:00'
+      less_than_or_equal_to: '2012-03-02 00:00:00'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-04-22 00:00:00'
+    min: '2004-07-01 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  MEMO_INSTALL:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '11106031'
+    min: '11000001'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  MEMO_INSTALLMASTER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  MEMO_LABELITEM:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  MEMO_LABELTAG:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  MEMO_LEDGER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '850120106'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  MEMO_LEGAL:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  MEMO_MESSAGE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '0'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  MEMO_METER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '911008324'
+    min: '910000157'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  MEMO_OLDSOURCE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  MEMO_RELAY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  MEMO_REVIEW:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  MEMO_REVIEWUSER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  MEMO_SEQNO:
+    checks:
+      greater_than_or_equal_to: 210000000001.0
+      less_than_or_equal_to: 210000001000.0
+    coerce: false
+    dtype: int64
+    max: '211001156864'
+    min: '210000000001'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  MEMO_SERVREQ:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '811007829'
+    min: '811000001'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  MEMO_SPARE21:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '842620307'
+    min: '301404600'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  MEMO_TIME:
+    checks:
+      greater_than_or_equal_to: '9000-01-01 12:00:00'
+      less_than_or_equal_to: '9000-01-01 19:39:47'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '9000-01-01 23:59:59'
+    min: '9000-01-01 06:10:03'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  MEMO_TYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: 079
+    min: '000'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  MEMO_USER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: VSHADBOLT
+    min: '9999'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

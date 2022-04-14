@@ -1,0 +1,86 @@
+checks: null
+coerce: true
+columns:
+  MEMT_ALLFLDSTP:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  MEMT_AMNDSTP:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  MEMT_AMNDSTPPAR:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  MEMT_CODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: 083
+    min: '000'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  MEMT_DESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Transfer/Refund Credit Balance
+    min: Add Meters
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  MEMT_STP:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  MEMT_STPPARAM:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 83.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

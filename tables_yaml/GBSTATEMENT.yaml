@@ -1,0 +1,537 @@
+checks: null
+coerce: true
+columns:
+  GBSACCOUNT:
+    checks:
+      greater_than_or_equal_to: 301300104.0
+      less_than_or_equal_to: 401227801.0
+    coerce: false
+    dtype: int64
+    max: '850120106'
+    min: '100000003'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBSCLOSEBAL:
+    checks:
+      greater_than_or_equal_to: -422830.0
+      less_than_or_equal_to: 1392890.0
+    coerce: false
+    dtype: int64
+    max: '346015387'
+    min: '-18878195'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBSCLOSEPPD:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '0'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBSCUSTNAME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: ZYNAL SAHIB
+    min: (GULL SERVICE STATION)
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBSDATE:
+    checks:
+      greater_than_or_equal_to: '2009-07-01 00:00:00'
+      less_than_or_equal_to: '2009-12-30 00:00:00'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-04-22 00:00:00'
+    min: '2009-07-01 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBSDOCBHEADER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBSDUE_DATE:
+    checks:
+      greater_than_or_equal_to: '2009-07-21 00:00:00'
+      less_than_or_equal_to: '2010-02-02 00:00:00'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-05-20 00:00:00'
+    min: '2009-07-21 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBSEASYPAYAMT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '21386400'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBSEASYPAYDATE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '2021-05-20 00:00:00'
+    min: '2012-03-30 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBSEASYPAYFREQ:
+    checks: null
+    coerce: false
+    dtype: object
+    max: W2
+    min: W2
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBSEASYPAYTYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: B
+    min: B
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBSEASYPAYTYPE2:
+    checks: null
+    coerce: false
+    dtype: object
+    max: V
+    min: F
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBSLEDGER:
+    checks:
+      greater_than_or_equal_to: 301300104.0
+      less_than_or_equal_to: 401227801.0
+    coerce: false
+    dtype: int64
+    max: '850120106'
+    min: '100000003'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBSOPENBAL:
+    checks:
+      greater_than_or_equal_to: -422830.0
+      less_than_or_equal_to: 1387250.0
+    coerce: false
+    dtype: int64
+    max: '346015387'
+    min: '-18878195'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBSPMESG:
+    checks: null
+    coerce: false
+    dtype: object
+    max: "\uF7FC\uF7FC"
+    min: '"Our office will be closed from Thursday 2nd April 2015 & will reopen on
+      Thursday 9th April 2015 due to construction work within the premises.  We do
+      apologise for any inconvenience this may cause."'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBSPOSTAL1:
+    checks: null
+    coerce: false
+    dtype: object
+    max: ZONE PROPERTY MANAGEMENT
+    min: '"NUKUROA"'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBSPOSTAL2:
+    checks: null
+    coerce: false
+    dtype: object
+    max: ZONE 23
+    min: '#12-45'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBSPOSTAL3:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WURTULLA
+    min: (13-15PORCHESTER)
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBSPOSTAL4:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Whitfield Main Road Bangalore
+    min: '- 1140'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBSPOSTAL5:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WELLINGTON 6440
+    min: .
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBSREPRINT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '2'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBSREV_INFO:
+    checks: null
+    coerce: false
+    dtype: object
+    max: "\uF7FD\uF7FD"
+    min: "0\uF7FD15159\uF7FD15185"
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBSREV_REASON:
+    checks: null
+    coerce: false
+    dtype: object
+    max: OTH
+    min: BD
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBSREV_REASON2:
+    checks: null
+    coerce: false
+    dtype: object
+    max: ZJust had a s/r done on 20/08/13 which is not yet paid
+    min: '"Credit note" 7/06/19 incorrect dates entered (17/03/19-7/12/19?) shd hav
+      been 7/12/2018'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBSREV_SYSTIME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '2021-04-21 11:25:44'
+    min: '2012-03-05 15:55:38'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBSREV_WHO:
+    checks: null
+    coerce: false
+    dtype: object
+    max: VSHADBOLT
+    min: ANDREA.CANNON
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBSSPARE50:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBSSPARE51:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBSSPARE52:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBSSPARE59:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBSSPARE60:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBSSSP1:
+    checks: null
+    coerce: false
+    dtype: object
+    max: OT
+    min: OT
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBSSSP10:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBSSSP2:
+    checks: null
+    coerce: false
+    dtype: object
+    max: C/O THE RENT SHOP LTD,PO BOX 217003,BOTANY JUNCTION,2164
+    min: C/O BRIAN AND LINDA,2/465 GREAT SOUTH ROAD,PAPAKURA,2110
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBSSSP3:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBSSSP4:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBSSSP5:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBSSSP6:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBSSSP7:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBSSSP8:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBSSSP9:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBSSTATEMENT:
+    checks:
+      greater_than_or_equal_to: 7100000001.0
+      less_than_or_equal_to: 7100001018.0
+    coerce: false
+    dtype: int64
+    max: '7110698333'
+    min: '7100000001'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBSSUMMARY_PRINT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBSSUMMARY_REV:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBSSUMMARY_SEQ:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '843100305'
+    min: '100000006'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBSSYSTIME:
+    checks:
+      greater_than_or_equal_to: '2009-07-01 03:21:51'
+      less_than_or_equal_to: '2009-12-30 03:25:13'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-04-22 14:59:13'
+    min: '2009-07-01 03:20:36'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBSSYSUSER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: VSHADBOLT
+    min: ANDREA.CANNON
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBSTAXINCL:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '0'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBSTMESG:
+    checks: null
+    coerce: false
+    dtype: object
+    max: "\uF7FDYour water meter was replaced on 9/05/2019 - old meter, upgraded.\uF7FD\
+      \uF7FD"
+    min: "$0.62 leak allowance (Water Service)\uF7FD$3.24 leak allowance ( Sewer Rec/Treat)\uF7FD\
+      $2.04 leak allowance ( Sewer Service"
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBSTYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: O
+    min: F
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

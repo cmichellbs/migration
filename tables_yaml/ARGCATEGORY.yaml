@@ -1,0 +1,394 @@
+checks: null
+coerce: true
+columns:
+  ARGC_ARRLENGTH:
+    checks: null
+    coerce: false
+    dtype: object
+    max: M012
+    min: M001
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ARGC_BRKAPPRO:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ARGC_BRKCCCYCLE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: CBROK
+    min: CBROK
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ARGC_BRKCCSTAGE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '1'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ARGC_BRKSTATUS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: BROK
+    min: BROK
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ARGC_CCSUPPCODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: CURR
+    min: CURR
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ARGC_CCSUPPREAS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: LTA
+    min: LTA
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ARGC_CCSUPPREV:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '2'
+    min: '2'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ARGC_CREDCODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: DDV
+    min: DDV
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ARGC_DESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Theft arrangement
+    min: Dispute
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ARGC_EQDAYS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '10'
+    min: '10'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ARGC_EQFREQ:
+    checks: null
+    coerce: false
+    dtype: object
+    max: M012
+    min: M001
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ARGC_FLAGDISPUTE:
+    checks:
+      greater_than_or_equal_to: 0.0
+      less_than_or_equal_to: 1.0
+    coerce: false
+    dtype: int64
+    max: '1'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ARGC_FLAGMODIFY:
+    checks:
+      greater_than_or_equal_to: 0.0
+      less_than_or_equal_to: 1.0
+    coerce: false
+    dtype: int64
+    max: '1'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ARGC_ID:
+    checks: null
+    coerce: false
+    dtype: object
+    max: THEFT
+    min: DIS
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ARGC_MONCOMP:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '2'
+    min: '2'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ARGC_MONCOMPSTATUS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: COM
+    min: COM
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ARGC_MONDIFF:
+    checks:
+      greater_than_or_equal_to: 10.0
+      less_than_or_equal_to: 10.0
+    coerce: false
+    dtype: int64
+    max: '10'
+    min: '10'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ARGC_MONDIFFP:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '5'
+    min: '5'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ARGC_MONEVENT:
+    checks:
+      greater_than_or_equal_to: 0.0
+      less_than_or_equal_to: 1.0
+    coerce: false
+    dtype: int64
+    max: '1'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ARGC_MONGRACE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: A3
+    min: A3
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ARGC_NONFSTAT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: ARG001
+    min: ARG001
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ARGC_REVCONFIRM:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '1'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ARGC_REVFUTSTATUS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: FUT
+    min: FUT
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ARGC_REVMEMOTYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '013'
+    min: '013'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ARGC_REVPROCESS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ARGC_SECAUTH:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ARGC_SECCATEG:
+    checks: null
+    coerce: false
+    dtype: object
+    max: KING
+    min: KING
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ARGC_SECPLANA:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '6'
+    min: '6'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ARGC_SECPLANW:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '3'
+    min: '3'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ARGC_SECWEEKS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '10'
+    min: '10'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE20:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE26:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE33:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE38:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE5:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE7:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 3.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

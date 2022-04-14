@@ -1,0 +1,58 @@
+checks: null
+coerce: true
+columns:
+  HOOK$DESCRIPTION:
+    checks: null
+    coerce: false
+    dtype: object
+    max: When there is NO Meter reading history we should be using other means to
+      get average daily usage.
+    min: Ability to modify input from a barcode reader to match consumer entry on
+      screen.
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  HOOK$IN$XML:
+    checks: null
+    coerce: false
+    dtype: object
+    max: QUEST.INPUT
+    min: QUEST.INPUT
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  HOOK$NAME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WEBPDFINVOICE
+    min: ACCOUNT_ACCESS
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  HOOK$OUT$XML:
+    checks: null
+    coerce: false
+    dtype: object
+    max: QUEST.INPUT
+    min: QUEST.INPUT
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 163.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

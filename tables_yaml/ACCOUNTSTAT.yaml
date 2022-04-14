@@ -1,0 +1,98 @@
+checks: null
+coerce: true
+columns:
+  ACSACCTNO:
+    checks:
+      greater_than_or_equal_to: 100000000.0
+      less_than_or_equal_to: 651040532.0
+    coerce: false
+    dtype: int64
+    max: '843100305'
+    min: '100000000'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACSEXPIRY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACSEXPIRYTYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACSINCLUDE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '2'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACSNEXTRUNDATE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '2021-05-02 00:00:00'
+    min: '2021-04-24 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACSSUMFLAG:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '1'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACSSUMFREQ:
+    checks: null
+    coerce: false
+    dtype: object
+    max: FREQUENCY|DAYS.7
+    min: FREQUENCY|DAYS.7
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LASTUPDATESUB:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

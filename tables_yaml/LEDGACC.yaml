@@ -1,0 +1,268 @@
+checks: null
+coerce: true
+columns:
+  GLCODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: ZERO
+    min: ALLOW
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LAAUDBALANCE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LABALANCE:
+    checks:
+      greater_than_or_equal_to: -8525091.0
+      less_than_or_equal_to: 24769.0
+    coerce: false
+    dtype: int64
+    max: '24769'
+    min: '-8525091'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LADESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Zero
+    min: Allowance/Reimbursement
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LAFINANCEGRP:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LALASTYEAR:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '0'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LAREALGLCODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Transfer
+    min: Transfer
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  NOLONGERUSED:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '0'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE10:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '1'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE11:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE12:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE14:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE15:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE16:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE17:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE18:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '1'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE19:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '1'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE20:
+    checks: null
+    coerce: false
+    dtype: object
+    max: ANCODE_TRF
+    min: ANCODE_TRF
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE21:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE22:
+    checks: null
+    coerce: false
+    dtype: object
+    max: GL_DEBTORS_GLOB
+    min: GL_DEBTORS_GLOB
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE23:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE24:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE25:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE8:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE9:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 49.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

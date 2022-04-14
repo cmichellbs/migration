@@ -1,0 +1,520 @@
+checks: null
+coerce: true
+columns:
+  CUS_ALTSEARCH:
+    checks: null
+    coerce: false
+    dtype: object
+    max: ZOE LIN
+    min: '& OADBY TRUSTEE COM.'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CUS_BIRTHDATE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '1997-11-09 00:00:00'
+    min: '1926-12-31 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CUS_CUSTYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '1'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CUS_FIRSTNAME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: ZYPHERONEE
+    min: '*'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CUS_GENDER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: M
+    min: M
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CUS_IDENT_NUMBER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: YB545935
+    min: .
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CUS_IDENT_TYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WD
+    min: CC
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CUS_KCALLERGY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: MH
+    min: MH
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CUS_KCCLASS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: G
+    min: G
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CUS_KCDISLIKE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CUS_KCHOBBY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CUS_KCINTEREST:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CUS_KCJOBTITLE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CUS_KCMARITAL:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '1'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CUS_KCPOSITION:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CUS_LANG2FULLNAME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: xcalsolutions@live.com
+    min: 021 049 0957
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CUS_LANG2LANGUAGE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CUS_LANGUAGE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: ENG
+    min: ENG
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CUS_LASTNAME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: ZUPANCICH
+    min: '- HOMES & COMMUNITIES'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CUS_MARKETING:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CUS_MIDDLENAME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: ZOE HUNT &
+    min: '&'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CUS_NAME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: ZYPHERONEE KOTLOWSKI
+    min: (SUPERETTE CNR BEACH+GT STH RD)
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CUS_NOK_RELATIONSHIP:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CUS_NOK_USER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CUS_PASSWORD:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '1046128'
+    min: '1046128'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CUS_PASSWORD_ANSWER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CUS_PASSWORD_HINT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CUS_PASSWORD_TYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CUS_PASSWORD_USE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CUS_PREFERREDNAME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Vivek Walia
+    min: (D ZHONG-SHEN & ZW SHEN AS TRUSTEES)
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CUS_PVTEMAIL:
+    checks: null
+    coerce: false
+    dtype: object
+    max: zzizzibu@hanmarl.net
+    min: 003shivani@gmail.com
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CUS_PVTFAX:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '+6499784556'
+    min: '+61882657496'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CUS_PVTMOBILE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: C 0272354904
+    min: '+21363388'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CUS_PVTPHONE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '97455914192'
+    min: (09)4898181
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CUS_PVTPOSTAL:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CUS_REGISTRATIONDATE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CUS_REGISTRATIONFLAG:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CUS_REGISTRATIONTYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CUS_SECURE_ANSWER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CUS_SECURE_QUESTION:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CUS_SEQNO:
+    checks:
+      greater_than_or_equal_to: 1100000001.0
+      less_than_or_equal_to: 1100001000.0
+    coerce: false
+    dtype: int64
+    max: '1110008786'
+    min: '1100000001'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CUS_STATUS:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 1.0
+    coerce: false
+    dtype: int64
+    max: '90'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CUS_SUFFIX:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CUS_TITLE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Ms.
+    min: Dr
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CUS_WRKEMAIL:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CUS_WRKEMPLOYER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Mile Lucas Law firm
+    min: Excelsior Poultry Grit Co
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CUS_WRKFAX:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CUS_WRKNATURE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: 'Em: pam@mikelucaslaw.co.nz'
+    min: Church
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CUS_WRKPHONE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: G 0276003878
+    min: '+61354482333'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LASTUPDATESUB:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

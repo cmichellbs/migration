@@ -1,0 +1,110 @@
+checks: null
+coerce: true
+columns:
+  CONV:
+    checks: null
+    coerce: false
+    dtype: object
+    max: UG2CNVGTCURR
+    min: .
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DICTDESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: XX_CONTROL
+    min: ' TYPE'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DICTMV:
+    checks:
+      greater_than_or_equal_to: 0.0
+      less_than_or_equal_to: 1.0
+    coerce: false
+    dtype: int64
+    max: '1'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DICTNAME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: UOM.SERVICE
+    min: .REC
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DICTTYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: V
+    min: D
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FILENAME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: XX_CONTROL
+    min: ACCOUNTS
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FORMAT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: 8R
+    min: ' 10L'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LOC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: TRANS('METERS', QCT.METER, 'QMSTATUS', 'X')
+    min: '"1"'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  VMC:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 41.0
+    coerce: false
+    dtype: int64
+    max: '41'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

@@ -1,0 +1,334 @@
+checks: null
+coerce: true
+columns:
+  DATA99:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '0'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PRORA_BATCHNO:
+    checks:
+      greater_than_or_equal_to: 1100001.0
+      less_than_or_equal_to: 1101000.0
+    coerce: false
+    dtype: int64
+    max: '1451255'
+    min: '1100001'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PRORA_CTRLKEY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: VW-POSTTRANS-DETAILED
+    min: ARG1901MAIN
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PRORA_DATASTART1:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WW01
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PRORA_DATASTART10:
+    checks: null
+    coerce: false
+    dtype: object
+    max: "X\uF7FDX\uF7FDX\uF7FDX\uF7FDX\uF7FDX\uF7FDX\uF7FDX\uF7FDX\uF7FDX\uF7FDX\uF7FD\
+      X\uF7FDX\uF7FDX\uF7FDX\uF7FDX\uF7FDX\uF7FDX\uF7FDX\uF7FDX\uF7FDX\uF7FDX\uF7FD\
+      X\uF7FDX\uF7FDX\uF7FDX\uF7FDX\uF7FDX\uF7FDD\uF7FDX\uF7FDX\uF7FDX\uF7FDX\uF7FD\
+      X\uF7FDN\uF7FDN\uF7FDX\uF7FDX\uF7FDX\uF7FDX\uF7FDX\uF7FDX\uF7FDD\uF7FDD"
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PRORA_DATASTART2:
+    checks: null
+    coerce: false
+    dtype: object
+    max: UNDER100HABITUAL
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PRORA_DATASTART3:
+    checks: null
+    coerce: false
+    dtype: object
+    max: SHANNON.ELLIOT
+    min: "16123\uF7FD16123\uF7FD16123\uF7FD16123\uF7FD16123\uF7FD16123\uF7FD16123\uF7FD\
+      16123\uF7FD16123\uF7FD16123\uF7FD16123\uF7FD16123\uF7FD16123\uF7FD16123\uF7FD\
+      16123\uF7FD16123\uF7FD16123\uF7FD16123\uF7FD16123\uF7FD16123\uF7FD16123\uF7FD\
+      16123\uF7FD16123\uF7FD16123\uF7FD16123\uF7FD16123\uF7FD16123\uF7FD16123\uF7FD\
+      16123\uF7FD16123\uF7FD16123\uF7FD16123\uF7FD16123\uF7FD16123\uF7FD16123"
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PRORA_DATASTART4:
+    checks: null
+    coerce: false
+    dtype: object
+    max: "Sunil Prasad\uF7FDSunil Prasad"
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PRORA_DATASTART5:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Y
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PRORA_DATASTART6:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Y
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PRORA_DATASTART7:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Y
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PRORA_DATASTART8:
+    checks: null
+    coerce: false
+    dtype: object
+    max: "\uF7FD\uF7FD\uF7FD\uF7FD\uF7FD\uF7FD\uF7FD\uF7FD\uF7FD"
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PRORA_DATASTART9:
+    checks: null
+    coerce: false
+    dtype: object
+    max: "User\uF7FDCount"
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PRORA_DRIVER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: VWNZ-PAP-BIL:9996
+    min: VWNZ-PAP-BIL:1000
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PRORA_ENDDTE:
+    checks:
+      greater_than_or_equal_to: '2012-03-03 00:00:00'
+      less_than_or_equal_to: '2012-03-30 00:00:00'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-04-22 00:00:00'
+    min: '2012-03-03 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PRORA_ENDTIM:
+    checks:
+      greater_than_or_equal_to: '9000-01-01 00:10:14'
+      less_than_or_equal_to: '9000-01-01 21:58:30'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '9000-01-01 23:59:59'
+    min: '9000-01-01 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PRORA_FAILED:
+    checks: null
+    coerce: false
+    dtype: object
+    max: USER:STOP:GENTRACK1:Wrong run parameters
+    min: Error logged as 1087
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PRORA_FILENAME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: XX
+    min: EMS.REP.PARAMS
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PRORA_ITEMKEY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: XX
+    min: ANDREA.CANNON
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PRORA_RUNDETAILS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PRORA_SCHEDULEID:
+    checks: null
+    coerce: false
+    dtype: object
+    max: GENERATEBILLINGPRINTFILES
+    min: CASHALLOC
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PRORA_STARTDTE:
+    checks:
+      greater_than_or_equal_to: '2012-03-03 00:00:00'
+      less_than_or_equal_to: '2012-03-30 00:00:00'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-04-22 00:00:00'
+    min: '2012-03-03 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PRORA_STARTTIM:
+    checks:
+      greater_than_or_equal_to: '9000-01-01 00:10:00'
+      less_than_or_equal_to: '9000-01-01 21:58:27'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '9000-01-01 23:59:59'
+    min: '9000-01-01 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PRORA_USER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: YOOSTHUIZEN
+    min: ADRIANA.JANSSEN
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PROR_CONTROL_DETS1:
+    checks: null
+    coerce: false
+    dtype: object
+    max: "WIZ:INSTALLER.INSTALL.RESULTS\uF7FDInstallation Results\uF7FDGPI:INSTALLER\uF7FC\
+      SAVEDLISTS\uF7FDVW_AY\uF7FCGPI1000RUN_VW_AY_GENTRACK1_1330823796"
+    min: "EMS2000.SCR\uF7FD\uF7FDPSH:PROCESS.RUN\uF7FD1100001"
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE25:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE26:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE27:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE28:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE29:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

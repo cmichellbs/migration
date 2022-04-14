@@ -1,0 +1,152 @@
+checks: null
+coerce: true
+columns:
+  FMFH$DATABASE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: FMFILERAW
+    min: FMFILERAW
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FMFH$DATETIME:
+    checks:
+      greater_than_or_equal_to: '2012-03-05 16:37:47'
+      less_than_or_equal_to: '2012-12-21 10:06:01'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-04-22 08:19:18'
+    min: '2012-03-05 16:37:47'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FMFH$FGROUP:
+    checks: null
+    coerce: false
+    dtype: object
+    max: EMS1550
+    min: EMS1550
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FMFH$FILERAW:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '4110009910'
+    min: '4110000001'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FMFH$FNAME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WBCAC02 23rdJul2015
+    min: contractIC01load.csv
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FMFH$FTYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: IFMMETERREAD
+    min: BILLPRINT
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FMFH$NUMERIC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FMFH$PDATE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FMFH$REF1:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FMFH$REF2:
+    checks: null
+    coerce: false
+    dtype: object
+    max: PAM.UPTON
+    min: ASHLEY.CULLEN
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FMFH$ROW:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FMFH$SEQNO:
+    checks:
+      greater_than_or_equal_to: 3110000001.0
+      less_than_or_equal_to: 3110001000.0
+    coerce: false
+    dtype: int64
+    max: '3110013193'
+    min: '3110000001'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FMFH$SYSDATE:
+    checks:
+      greater_than_or_equal_to: '2012-03-05 16:37:47'
+      less_than_or_equal_to: '2012-12-21 10:06:01'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-04-22 08:19:18'
+    min: '2012-03-05 16:37:47'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

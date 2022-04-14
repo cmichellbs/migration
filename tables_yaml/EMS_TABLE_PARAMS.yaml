@@ -1,0 +1,46 @@
+checks: null
+coerce: true
+columns:
+  MAINT$ITEM:
+    checks: null
+    coerce: false
+    dtype: object
+    max: REBATES_EVIC
+    min: CAC1000
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  MAINT$TABLENAME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: GT.CONTROL
+    min: EMS.GEN.PARAMS
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TABLE_NAME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WITHHOLDING_TAX
+    min: ADDRESS_COMMON_TYPE
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 22.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

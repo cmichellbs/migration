@@ -1,0 +1,84 @@
+checks: null
+coerce: true
+columns:
+  AUD_AFTER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: "\uF7FC\uF7FC\uF7FC\uF7FC\uF7FC\uF7FC\uF7FC\uF7FC\uF7FC\uF7FC\uF7FC\uF7FC\
+      \uF7FC\uF7FC\uF7FC\uF7FC\uF7FC\uF7FC\uF7FC\uF7FC\uF7FC\uF7FC\uF7FC\uF7FC\uF7FC\
+      \uF7FC"
+    min: '-'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  AUD_BEFORE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: "\uF7FC\uF7FC\uF7FC\uF7FC\uF7FC\uF7FC\uF7FC\uF7FC\uF7FC\uF7FC\uF7FC\uF7FC\
+      \uF7FC\uF7FC\uF7FC\uF7FC\uF7FC\uF7FC\uF7FC\uF7FC\uF7FC\uF7FC\uF7FC\uF7FC\uF7FC\
+      \uF7FC"
+    min: ' '
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  AUD_DESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: USRSTATUS
+    min: ACABNNO
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  AUD_ID:
+    checks:
+      greater_than_or_equal_to: 111000000001.0
+      less_than_or_equal_to: 111000000745.0
+    coerce: false
+    dtype: int64
+    max: '111000629826'
+    min: '111000000001'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  AUD_MV_NO:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  VMC:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 23.0
+    coerce: false
+    dtype: int64
+    max: '24'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

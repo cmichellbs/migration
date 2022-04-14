@@ -1,0 +1,76 @@
+checks: null
+coerce: true
+columns:
+  BPGW_DESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Validations
+    min: Agency File Process Errors
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPGW_WORKTYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: B1VAL.VALIDATIONS
+    min: B1ACQ|A_ACQUISITION
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE10:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE7:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE8:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '1'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE9:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 16.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

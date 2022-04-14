@@ -1,0 +1,120 @@
+checks: null
+coerce: true
+columns:
+  CRAT$ANCODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WVOL
+    min: IC
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CRAT$CODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WVOL0
+    min: IC
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CRAT$DATE:
+    checks:
+      greater_than_or_equal_to: '1990-01-01 00:00:00'
+      less_than_or_equal_to: '2020-07-01 00:00:00'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2020-07-01 00:00:00'
+    min: '1990-01-01 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CRAT$DESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Water Volumetric Charge
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CRAT$GL:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WVOL
+    min: IC
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CRAT$INTVLRATE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CRAT$RATE:
+    checks:
+      greater_than_or_equal_to: 0.0
+      less_than_or_equal_to: 4520905200.0
+    coerce: false
+    dtype: float64
+    max: '4520905200.000000'
+    min: '0.000000'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CRAT$RULE1:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CRAT$RULE2:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE5:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 276.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

@@ -1,0 +1,110 @@
+checks: null
+coerce: true
+columns:
+  RT$BILLABLE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Y
+    min: N
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  RT$CODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: RM
+    min: AB
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  RT$DESCRIPTION:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Reverse Dials
+    min: As Billed Consumption
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  RT$OTHFLAG:
+    checks:
+      greater_than_or_equal_to: 0.0
+      less_than_or_equal_to: 1.0
+    coerce: false
+    dtype: int64
+    max: '1'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  RT$QUALITY:
+    checks:
+      greater_than_or_equal_to: 40.0
+      less_than_or_equal_to: 100.0
+    coerce: false
+    dtype: int64
+    max: '100'
+    min: '40'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  RT$READFLAG:
+    checks: null
+    coerce: false
+    dtype: object
+    max: U
+    min: A
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  RT$REG$QUALITY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: NT
+    min: CT
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  RT$REG$TYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: N
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  RT$UPDHIST:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Y
+    min: N
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 16.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

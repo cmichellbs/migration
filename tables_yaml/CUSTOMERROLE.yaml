@@ -1,0 +1,124 @@
+checks: null
+coerce: true
+columns:
+  CUSR_ACCTNO:
+    checks:
+      greater_than_or_equal_to: 301300104.0
+      less_than_or_equal_to: 651049609.0
+    coerce: false
+    dtype: int64
+    max: '850120106'
+    min: '100000000'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CUSR_ADDTIME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '2021-04-22 15:50:21'
+    min: '2012-03-03 16:06:25'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CUSR_CONSUMER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CUSR_CUSTOMER:
+    checks:
+      greater_than_or_equal_to: 1100000001.0
+      less_than_or_equal_to: 1100001000.0
+    coerce: false
+    dtype: int64
+    max: '1110008786'
+    min: '1100000001'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CUSR_LIABLE:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 1.0
+    coerce: false
+    dtype: int64
+    max: '1'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CUSR_RMVTIME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '2021-04-21 14:56:23'
+    min: '2012-03-06 09:33:59'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CUSR_ROLE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: RES2
+    min: 1STCONT
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CUSR_SEQNO:
+    checks:
+      greater_than_or_equal_to: 6100000001.0
+      less_than_or_equal_to: 6100001000.0
+    coerce: false
+    dtype: int64
+    max: '6110008792'
+    min: '6100000001'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CUSR_SPARE2:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LASTUPDATESUB:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

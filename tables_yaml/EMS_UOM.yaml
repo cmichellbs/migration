@@ -1,0 +1,108 @@
+checks: null
+coerce: true
+columns:
+  SPARE7:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WAT
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  UOM_CODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: M3W
+    min: ABC
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  UOM_DEMANDUOM:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '0'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  UOM_DESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: test
+    min: '[G]Meters Cubed'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  UOM_DPLACES:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '0'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  UOM_FACTOR:
+    checks:
+      greater_than_or_equal_to: 1000000.0
+      less_than_or_equal_to: 1000000.0
+    coerce: false
+    dtype: int64
+    max: '1000000'
+    min: '1000000'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  UOM_FACTORCALC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '1'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  UOM_REALUOM:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Day(s)
+    min: Day(s)
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  UOM_SERVICE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '4'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 13.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

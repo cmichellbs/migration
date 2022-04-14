@@ -1,0 +1,194 @@
+checks: null
+coerce: true
+columns:
+  GBVC_ACCURACY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBVC_CODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: MONTHLY
+    min: DEFAULT
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBVC_ESTDAYS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBVC_HPERCENT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '8000'
+    min: '8000'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBVC_LOWVAR:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBVC_LPERCENT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBVC_NARROWHWM:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBVC_NARROWLWM:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBVC_NHIGHLOADFACTOR:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBVC_NLOWLOADFACTOR:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBVC_QUALITY:
+    checks:
+      greater_than_or_equal_to: 85.0
+      less_than_or_equal_to: 95.0
+    coerce: false
+    dtype: int64
+    max: '95'
+    min: '85'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBVC_SIGVAR:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBVC_WIDEHPERCENT:
+    checks:
+      greater_than_or_equal_to: 4000.0
+      less_than_or_equal_to: 20000.0
+    coerce: false
+    dtype: int64
+    max: '20000'
+    min: '4000'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBVC_WIDEHWM:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBVC_WIDELPERCENT:
+    checks:
+      greater_than_or_equal_to: -6000.0
+      less_than_or_equal_to: -4000.0
+    coerce: false
+    dtype: int64
+    max: '-4000'
+    min: '-6000'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBVC_WIDELWM:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  VMC:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 2.0
+    coerce: false
+    dtype: int64
+    max: '2'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 3.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

@@ -1,0 +1,76 @@
+checks: null
+coerce: true
+columns:
+  BPMETH_BATCHTYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPMETH_DESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Validate Acquisition
+    min: Cancel ServiceOrder
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPMETH_ID:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WORKO.NEW
+    min: B1ACQ|A$CHKINST
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPMETH_OVERDUE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPMETH_SPARE3:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPMETH_STP:
+    checks: null
+    coerce: false
+    dtype: object
+    max: GCNCOMSERVICEORDER
+    min: BPMACTIONCANCEL
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 13.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

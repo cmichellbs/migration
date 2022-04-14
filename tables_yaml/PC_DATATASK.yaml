@@ -1,0 +1,112 @@
+checks: null
+coerce: true
+columns:
+  DESCRIPTION:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Start background jobs
+    min: Detect and cleanup crashed background processes
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LINESTP:
+    checks: null
+    coerce: false
+    dtype: object
+    max: TICKETCLEANUP.LINE
+    min: BPMESCALATEQUEUE.LINE
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  MAXFAILCOUNT:
+    checks:
+      greater_than_or_equal_to: 5.0
+      less_than_or_equal_to: 5.0
+    coerce: false
+    dtype: int64
+    max: '5'
+    min: '5'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  MINSELECTINTERAL:
+    checks:
+      greater_than_or_equal_to: 10.0
+      less_than_or_equal_to: 3600.0
+    coerce: false
+    dtype: int64
+    max: '3600'
+    min: '10'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  NAME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: TICKETCLEANUP
+    min: BPMESCALATEQUEUE
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  NOTIFYADDRESS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: SYSADMIN
+    min: '9999'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PRIORITY:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 6.0
+    coerce: false
+    dtype: int64
+    max: '6'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SELECTSTP:
+    checks: null
+    coerce: false
+    dtype: object
+    max: TICKETCLEANUP.SELECT
+    min: BPMESCALATEQUEUE.SELECT
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  USERID:
+    checks: null
+    coerce: false
+    dtype: object
+    max: background
+    min: '9999'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 7.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

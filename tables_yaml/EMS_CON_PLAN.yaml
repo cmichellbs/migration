@@ -1,0 +1,452 @@
+checks: null
+coerce: true
+columns:
+  ECPLAN_ACTIVE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ECPLAN_CHARGESTP:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ECPLAN_CODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: VWA01
+    min: DF01
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ECPLAN_DESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Veolia Water Accounts (DO NOT USE)
+    min: Data Fixing, Domestic (No Charge) - 1/7/14 to 30/6/25
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ECPLAN_DESCCODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ECPLAN_EFFDATE:
+    checks:
+      greater_than_or_equal_to: '1990-01-01 00:00:00'
+      less_than_or_equal_to: '2018-07-01 00:00:00'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2018-07-01 00:00:00'
+    min: '1990-01-01 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ECPLAN_ENDACTIVE:
+    checks:
+      greater_than_or_equal_to: '2020-01-01 00:00:00'
+      less_than_or_equal_to: '2050-01-01 00:00:00'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2050-01-01 00:00:00'
+    min: '2020-01-01 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ECPLAN_EXPIRY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ECPLAN_EXPIRYDATA:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ECPLAN_EXPIRYPLAN:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ECPLAN_EXPIRYSTP:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ECPLAN_FCHGCODE2:
+    checks: null
+    coerce: false
+    dtype: object
+    max: MIN
+    min: MIN
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ECPLAN_GXP:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ECPLAN_KEY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: VWA01
+    min: DF01
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ECPLAN_LETCODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ECPLAN_LINECO:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ECPLAN_LOSSCODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ECPLAN_PLANORDER:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 5000.0
+    coerce: false
+    dtype: int64
+    max: '5000'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ECPLAN_REPLACE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ECPLAN_SSCHGCLASS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '301'
+    min: '000'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ECPLAN_SSP1:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ECPLAN_SSP10:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ECPLAN_SSP11:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ECPLAN_SSP12:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ECPLAN_SSP13:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ECPLAN_SSP14:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ECPLAN_SSP15:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ECPLAN_SSP2:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ECPLAN_SSP3:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ECPLAN_SSP4:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ECPLAN_SSP5:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ECPLAN_SSP6:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ECPLAN_SSP7:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ECPLAN_SSP8:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ECPLAN_SSP9:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ECPLAN_SSUTILITY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: W
+    min: W
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ECPLAN_STDPLAN:
+    checks: null
+    coerce: false
+    dtype: object
+    max: S
+    min: N
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ECPLAN_TARSTP:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ECPLAN_TYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: W
+    min: UNM
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ECPLAN_USING:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ECPLAN_VCONTROL:
+    checks: null
+    coerce: false
+    dtype: object
+    max: DEFAULT
+    min: DEFAULT
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ECPLAN_VERBOSE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE35:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 171.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

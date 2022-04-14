@@ -1,0 +1,46 @@
+checks: null
+coerce: true
+columns:
+  TXC_CLASSID:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TXC_DESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Goods & Services Tax
+    min: Goods & Services Tax
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TXC_KEY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: GST
+    min: GST
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 0.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

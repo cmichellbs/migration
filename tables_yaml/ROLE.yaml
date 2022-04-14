@@ -1,0 +1,36 @@
+checks: null
+coerce: true
+columns:
+  ROLE$DESCRIPTION:
+    checks: null
+    coerce: false
+    dtype: object
+    max: View and change Wizards originally opened by another user
+    min: Billing
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ROLE$ID:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WIZED:EDITOTHERUSER
+    min: BILL
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 41.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

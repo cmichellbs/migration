@@ -1,0 +1,82 @@
+checks: null
+coerce: true
+columns:
+  LASTUPDATESUB:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  NHACCTNO:
+    checks:
+      greater_than_or_equal_to: 301300104.0
+      less_than_or_equal_to: 653060588.0
+    coerce: false
+    dtype: int64
+    max: '850120106'
+    min: '100000000'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  NHCUSTOMER:
+    checks:
+      greater_than_or_equal_to: 1100000001.0
+      less_than_or_equal_to: 1100001708.0
+    coerce: false
+    dtype: int64
+    max: '1110008786'
+    min: '1100000001'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  NHNAME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: ZUPANCICH MILAN
+    min: '- HOMES & COMMUNITIES K O'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  NHSEQ:
+    checks:
+      greater_than_or_equal_to: 10000000001.0
+      less_than_or_equal_to: 10000001913.0
+    coerce: false
+    dtype: int64
+    max: '11000044623'
+    min: '10000000001'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  NHSPARE3:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

@@ -1,0 +1,266 @@
+checks: null
+coerce: true
+columns:
+  SPARE10:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE2:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE29:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE30:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE6:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TART$ACCUMFLAG:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TART$ACTIVE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: A
+    min: A
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TART$BILLUOM:
+    checks: null
+    coerce: false
+    dtype: object
+    max: PERIOD
+    min: CNT
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TART$CODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WVOL0
+    min: FIXTSSERV
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TART$DESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Water Volumetric Charge Zero
+    min: Fixed Sewer Discharge Charge
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TART$INV$DET$HIDE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '0'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TART$INV$DISP$DECIMAL:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TART$INV$DISP$ZERO:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '1'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TART$LOSSFLAG:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TART$METHODDATE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TART$METHODRATE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TART$METHODSTEP:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TART$PRORATA:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TART$STPBILL:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TART$TOU$ACCUMPOINT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TART$TOU$HOLIDAYFLAG:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TART$TOU$TIMEZONE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TART$TRN$TYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WVOL
+    min: CHGS
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TART$UOM:
+    checks: null
+    coerce: false
+    dtype: object
+    max: KL
+    min: DAYS
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TART$UTILITYTYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: W
+    min: S
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 19.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

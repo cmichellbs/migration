@@ -1,0 +1,46 @@
+checks: null
+coerce: true
+columns:
+  ITYPE_CODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WCARE
+    min: ACCOM
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ITYPE_DESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Watercare
+    min: Accommodation
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ITYPE_ORDER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 30.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

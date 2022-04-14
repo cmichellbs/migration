@@ -1,0 +1,180 @@
+checks: null
+coerce: true
+columns:
+  ASM$ALTREFERENCE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: (Water 20mm Supply)
+    min: (Water 20mm Supply)
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ASM$ASSET:
+    checks:
+      greater_than_or_equal_to: 910000025.0
+      less_than_or_equal_to: 910001357.0
+    coerce: false
+    dtype: int64
+    max: '911011398'
+    min: '910000025'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ASM$COSTPURCH:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ASM$DATEMANUF:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ASM$DATEPURCH:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ASM$INSTALLBY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ASM$LASTTEST:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ASM$LOC$INSTALL:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '11106031'
+    min: '11000001'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ASM$LOCATION:
+    checks: null
+    coerce: false
+    dtype: object
+    max: REMOVED
+    min: AVAIL
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ASM$NOSERIAL:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ASM$PRODUCT:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 1.0
+    coerce: false
+    dtype: int64
+    max: '1'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ASM$REF2:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ASM$SERIAL:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Z202
+    min: '#32470'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ASM$TESTDUE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ASM$TESTRES:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LASTUPDATESUB:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

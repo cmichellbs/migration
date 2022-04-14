@@ -1,0 +1,304 @@
+checks: null
+coerce: true
+columns:
+  FMFTBINARY:
+    checks:
+      greater_than_or_equal_to: 0.0
+      less_than_or_equal_to: 0.0
+    coerce: false
+    dtype: int64
+    max: '0'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FMFTCH13:
+    checks: null
+    coerce: false
+    dtype: object
+    max: LF
+    min: LF
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FMFTDATABASE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FMFTDELIM:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FMFTDESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Load Meter Reader Notes
+    min: Agency Statement file import
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FMFTDOCO:
+    checks: null
+    coerce: false
+    dtype: object
+    max: "This process is used to import a bank statement for a retailer.\uF7FDIt\
+      \ identifies honored and dishonored transactions and creates  Agency (EMS.AGENCY)\
+      \ record and  Updates bank reference (EMS.BANK.XREF) where appropriate.\uF7FD\
+      \uF7FDThree Reports are created for honored payments, dishonored payments and\
+      \ invalid bank references."
+    min: "This process generates an XML file with the formatted account summaries\
+      \ and statements that need to be printed. The XML file contains information\
+      \ that needs to go on the summaries and statements, such as the name, address,\
+      \ balance and other summary and statement specific information for the customers\
+      \ and the accounts.\uF7FD\uF7FDExample :\uF7FD<?xml version=\"1.0\" encoding=\"\
+      utf-8\"?>\uF7FD<Billing_Summary>\uF7FD<Account_Summary>\uF7FD<Account_Number>2170228</Account_Number>\uF7FD\
+      <Account_Name>SAM I AM</Account_Name>\uF7FD<Postal_Address>\uF7FD</Postal_Address>\uF7FD\
+      <Bill_Date>04/12/2009</Bill_Date>\uF7FD<Bill_Message></Bill_Message>\uF7FD<Due_Date></Due_Date>\uF7FD\
+      <Statements_Total>$0.00</Statements_Total>\uF7FD<Prompt_Discount>$0.00</Prompt_Discount>\uF7FD\
+      <Statement_Summary>\uF7FD<Statement_ID>1007631</Statement_ID>\uF7FD<Statement_Date>04/12/2009</Statement_Date>\uF7FD\
+      <Statement_Consumer></Statement_Consumer>\uF7FD<Statement_Installation></Statement_Installation>\uF7FD\
+      <Statement_Balance>$0.00</Statement_Balance>\uF7FD<Statement_Discount>$0.00</Statement_Discount>\uF7FD\
+      ..."
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FMFTFILETYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: STATEMENT
+    min: B1STMT|BILLPRINT
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FMFTINPBAKDIR:
+    checks: null
+    coerce: false
+    dtype: object
+    max: OUTPUT.FILE
+    min: AGENCY/AGENCY.ARC
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FMFTINPDIR:
+    checks: null
+    coerce: false
+    dtype: object
+    max: STATEMENT.OUT
+    min: AGENCY/AGENCY.IN
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FMFTINPERRDIR:
+    checks: null
+    coerce: false
+    dtype: object
+    max: OUTPUT.FILE
+    min: AGENCY/AGENCY.ERROR
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FMFTNAMEOPTION:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '0'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FMFTNAMEPREFIX:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WBC
+    min: HNZ
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FMFTNAMESUFFIX:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FMFTNOFILERAW:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '0'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FMFTPARAMGROUP:
+    checks: null
+    coerce: false
+    dtype: object
+    max: B1VAL.CONIMPORTERROR
+    min: B1BASE.IFM
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FMFTPARAMS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FMFTPROCESSONLY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '0'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FMFTRUNTYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: OUT
+    min: IN
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FMFTSELECTSTP:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FMFTSPARE24:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FMFTSPARE27:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FMFTTRANTYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: IFMMETERREAD
+    min: BILLPRINT
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FMFTUPDATESTP:
+    checks: null
+    coerce: false
+    dtype: object
+    max: IFMUWIMETERNOTE
+    min: IFMAGENCYSTMT
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FMFTVALIDATESTP:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FTFMNAMEEXTENSION:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE19:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE20:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 5.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

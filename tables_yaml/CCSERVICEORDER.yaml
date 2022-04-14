@@ -1,0 +1,258 @@
+checks: null
+coerce: true
+columns:
+  LASTUPDATESUB:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SOACCOUNT:
+    checks:
+      greater_than_or_equal_to: 100000003.0
+      less_than_or_equal_to: 100001326.0
+    coerce: false
+    dtype: int64
+    max: '834420306'
+    min: '100000003'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SOASSET:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SOCALLER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: ZYNAL SAHIB
+    min: _
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SOCANDATETIME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SOCOMDATETIME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '2021-04-22 15:52:09'
+    min: '2012-03-08 10:35:59'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SOCONPHONE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '+6492984984'
+    min: '+64211084968'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SOCONSUMER:
+    checks:
+      greater_than_or_equal_to: 1100004911.0
+      less_than_or_equal_to: 1110015410.0
+    coerce: false
+    dtype: int64
+    max: '1110603110'
+    min: '1100004911'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SODESCRIPTION:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Send Sampling Request
+    min: Customer acquisition
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SOID:
+    checks:
+      greater_than_or_equal_to: 811000001.0
+      less_than_or_equal_to: 811001000.0
+    coerce: false
+    dtype: int64
+    max: '811007829'
+    min: '811000001'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SOINSTALL:
+    checks:
+      greater_than_or_equal_to: 11000049.0
+      less_than_or_equal_to: 11100154.0
+    coerce: false
+    dtype: int64
+    max: '11106031'
+    min: '11000049'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SOLOGDATETIME:
+    checks:
+      greater_than_or_equal_to: '2012-03-07 16:40:15'
+      less_than_or_equal_to: '2012-11-14 14:26:26'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-04-22 15:51:27'
+    min: '2012-03-07 16:40:15'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SOLOGGEDBY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: STEPHANIE.MCVEY
+    min: ADRIANA.JANSSEN
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SOMASTERSO:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SOMOVDATETIME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SOPARENTACTION:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SOREQUIREDDATE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SOREQUIREDTIME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SOSTAFF:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SOSTATUS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '1'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SOSTATUSTIMEDATE:
+    checks:
+      greater_than_or_equal_to: '2012-03-07 16:40:15'
+      less_than_or_equal_to: '2012-11-14 14:26:26'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-04-22 15:51:27'
+    min: '2012-03-07 16:40:15'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SOTARGETDATE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SOTYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: B1TW|TRADEWASTE
+    min: B1ACQ|A_ACQ
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

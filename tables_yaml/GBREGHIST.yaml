@@ -1,0 +1,406 @@
+checks: null
+coerce: true
+columns:
+  GBR$ACTIVEVALIDATED:
+    checks:
+      greater_than_or_equal_to: '2004-06-29 00:00:00'
+      less_than_or_equal_to: '2010-06-24 00:00:00'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-12-16 23:00:00'
+    min: '2004-06-09 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBR$AUDIT$COUNTER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBR$BAMT:
+    checks:
+      greater_than_or_equal_to: 1000.0
+      less_than_or_equal_to: 474860.0
+    coerce: false
+    dtype: int64
+    max: '93238757'
+    min: '-93238757'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBR$BCONSUMP:
+    checks:
+      greater_than_or_equal_to: 0.0
+      less_than_or_equal_to: 3044.0
+    coerce: false
+    dtype: float64
+    max: '599992.000000'
+    min: '-599992.000000'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBR$BCONTENT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WVOL0
+    min: SSERV
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBR$BDAYS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '3758'
+    min: '-3758'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBR$BFACTOR:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBR$BREGKEY:
+    checks:
+      greater_than_or_equal_to: 6100000025.0
+      less_than_or_equal_to: 6100002228.0
+    coerce: false
+    dtype: int64
+    max: '6110017309'
+    min: '6100000025'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBR$CDATE:
+    checks:
+      greater_than_or_equal_to: '2004-06-29 00:00:00'
+      less_than_or_equal_to: '2010-06-24 00:00:00'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2030-09-02 00:00:00'
+    min: '1970-09-20 12:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBR$CLEAR$COUNTER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBR$CONTROL:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBR$CREAD:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '3117176'
+    min: '0000000'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBR$CREASON:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBR$CREASONDESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBR$CTYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: RM
+    min: BR
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBR$FILEHDR:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '3110013192'
+    min: '3110000006'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBR$HEADER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '811000768970'
+    min: '811000000001'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBR$INVOICENO:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '511000701601'
+    min: '510000003444'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBR$MDM$NOREAD:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBR$MDMFILEHDR:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBR$MREADER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBR$NOTVALIDATED:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '2021-04-21 00:00:00'
+    min: '2011-09-23 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBR$OLDVALIDATED:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '2030-09-02 00:00:00'
+    min: '1970-09-20 12:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBR$PDATE:
+    checks:
+      greater_than_or_equal_to: '2004-03-14 23:00:00'
+      less_than_or_equal_to: '2010-05-31 00:00:00'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-12-16 23:00:00'
+    min: '1970-09-20 12:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBR$PREAD:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '3108876'
+    min: '0000000'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBR$RCONSUMP:
+    checks:
+      greater_than_or_equal_to: 0.0
+      less_than_or_equal_to: 3044.0
+    coerce: false
+    dtype: float64
+    max: '599992.000000'
+    min: '-599992.000000'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBR$REGHIST:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBR$REPLACE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '111006273281'
+    min: '111000000005'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBR$REVERSE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '1'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBR$SCHEDULE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: SR
+    min: F
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBR$SEQNO:
+    checks:
+      greater_than_or_equal_to: 110000000001.0
+      less_than_or_equal_to: 110000001000.0
+    coerce: false
+    dtype: int64
+    max: '111006273424'
+    min: '110000000001'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBR$SO$REFERENCE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBR$SPARE24:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBR$STATUS:
+    checks:
+      greater_than_or_equal_to: 20.0
+      less_than_or_equal_to: 20.0
+    coerce: false
+    dtype: int64
+    max: '20'
+    min: '20'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBR$SYSDATE:
+    checks:
+      greater_than_or_equal_to: '2012-03-02 19:50:43'
+      less_than_or_equal_to: '2012-03-02 19:51:11'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-04-22 14:59:13'
+    min: '2012-03-02 19:50:43'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBR$TEXT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Rev
+    min: Rev
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LASTUPDATESUB:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

@@ -1,0 +1,56 @@
+checks: null
+coerce: true
+columns:
+  ANCODE_GROUP:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BUDGET:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WVOL
+    min: ACASH
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DESCRIPTION:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Water Volumetric Charge Adjustment
+    min: Baycorp Fees
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 46.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

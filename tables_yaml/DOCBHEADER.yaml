@@ -1,0 +1,114 @@
+checks: null
+coerce: true
+columns:
+  DOCBH$DATABASE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: DOCBDATA
+    min: DOCBDATA
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DOCBH$DATAID:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 1000.0
+    coerce: false
+    dtype: int64
+    max: '160360'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DOCBH$FILENAME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Zinzan.pdf
+    min: -%20Veolia%20Water%20Refund%20-%202%20BELLFIELD%20RD%20PAPAKURA%20-%20Acc.%20653066808.pdf
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DOCBH$PURGEDATE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DOCBH$SEQNO:
+    checks:
+      greater_than_or_equal_to: 2.0
+      less_than_or_equal_to: 1001.0
+    coerce: false
+    dtype: int64
+    max: '160328'
+    min: '2'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DOCBH$STATUS:
+    checks:
+      greater_than_or_equal_to: 5.0
+      less_than_or_equal_to: 5.0
+    coerce: false
+    dtype: int64
+    max: '5'
+    min: '5'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DOCBH$SYSDATETIME:
+    checks:
+      greater_than_or_equal_to: '2012-03-11 23:53:25'
+      less_than_or_equal_to: '2012-05-01 04:24:27'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-04-22 03:54:09'
+    min: '2012-03-11 23:53:25'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DOCBH$TYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: DEF
+    min: DEF
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DOCBH$URL:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

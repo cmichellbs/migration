@@ -1,0 +1,784 @@
+checks: null
+coerce: true
+columns:
+  DAH_ACCOUNT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAH_ACK:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAH_ADMIN:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAH_ADVMETER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAH_AGGFLAG:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAH_ALLOCGRP:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAH_ALTITUDE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAH_ANNQTY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAH_AUDIT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAH_CAPACITY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAH_CHGCLASS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '301'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAH_COLUMN:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 12.0
+    coerce: false
+    dtype: int64
+    max: '56'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAH_CONNTYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAH_DEDICATEDNSP:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAH_DETAILS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAH_EFFDATE:
+    checks:
+      greater_than_or_equal_to: '1970-01-01 00:00:00'
+      less_than_or_equal_to: '1970-01-01 00:00:00'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2074-02-20 00:00:00'
+    min: '1970-01-01 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAH_EFFTIME:
+    checks:
+      greater_than_or_equal_to: '9000-01-01 00:00:00'
+      less_than_or_equal_to: '9000-01-01 00:00:00'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '9000-01-01 00:00:00'
+    min: '9000-01-01 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAH_EMBNETCHILD:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAH_EMBNETPARENT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAH_FIL_ITEMID:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAH_FIL_NAME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAH_FIL_VALUE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAH_FMFILEHDR:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAH_FMFILEHDRSEND:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAH_ICPLIST:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAH_INSTALL:
+    checks:
+      greater_than_or_equal_to: 11000001.0
+      less_than_or_equal_to: 11015605.0
+    coerce: false
+    dtype: int64
+    max: '11106031'
+    min: '11000001'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAH_INSTALLTYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAH_INSTCAT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: RESSM
+    min: EDU
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAH_JURISDICTION:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAH_KEY:
+    checks:
+      greater_than_or_equal_to: 10000001.0
+      less_than_or_equal_to: 10001000.0
+    coerce: false
+    dtype: int64
+    max: '11049994'
+    min: '10000001'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAH_LINELOSSFACTOR:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAH_LOADSHED:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAH_LOAD_NETW:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAH_LOAD_RETL:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAH_LOAD_UNM:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAH_LOCADDRESS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: "INSTALL\uF7FD11106031\uF7FD\uF7FD\uF7FD\uF7FD\uF7FD\uF7FD23\uF7FDBUTTERWORTH\
+      \ AVE\uF7FD\uF7FDPAPAKURA\uF7FD\uF7FD2110\uF7FD\uF7FD\uF7FD\uF7FD\uF7FD\uF7FD\
+      \uF7FD\uF7FD\uF7FD\uF7FD\uF7FD\uF7FD\uF7FD(LOT 12)\uF7FD"
+    min: "INSTALL\uF7FD11000004\uF7FD16133\uF7FD\uF7FD\uF7FD\uF7FD\uF7FD93\uF7FDBURNSIDE\
+      \ RD\uF7FD\uF7FDARDMORE\uF7FD\uF7FD2582\uF7FD\uF7FD\uF7FD\uF7FD\uF7FD\uF7FD\uF7FD\
+      \uF7FD\uF7FD\uF7FD\uF7FD\uF7FD\uF7FDW\uF7FD\uF7FD\uF7FD\uF7FD\uF7FD\uF7FD\uF7FD"
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAH_LOSSCODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAH_LR:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAH_MDP:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAH_METERCAT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAH_METERCONTACT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAH_METERPROFILE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAH_METERTIMESWITCH:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAH_MHQ:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAH_MPB:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAH_MPC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAH_MTYPE_HHM:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAH_MTYPE_NHH:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAH_MTYPE_PP:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAH_MTYPE_UNM:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAH_MULTIPLIER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAH_NETWCONN:
+    checks: null
+    coerce: false
+    dtype: object
+    max: TA
+    min: AR
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAH_NETWORK:
+    checks: null
+    coerce: false
+    dtype: object
+    max: VEOW
+    min: VEOW
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAH_POLENO:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAH_PRESSURE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAH_PRICECAT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAH_PROFILETYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAH_REGCOUNT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAH_REGION:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Demo - State
+    min: Demo - State
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAH_RETAILER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: VEOW
+    min: VEOW
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAH_REVKEY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '11033378'
+    min: '11011923'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAH_REVREASON:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Written off, account closed
+    min: .
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAH_ROLR:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAH_RP:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAH_SENTFILE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAH_STARTDATE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAH_STATUS:
+    checks:
+      greater_than_or_equal_to: 0.0
+      less_than_or_equal_to: 0.0
+    coerce: false
+    dtype: int64
+    max: '91'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAH_STATUSCODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: RD
+    min: CO
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAH_SUBDISTANCE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAH_SYSTIME:
+    checks:
+      greater_than_or_equal_to: '2012-03-02 19:39:34'
+      less_than_or_equal_to: '2012-03-02 19:39:46'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-04-22 15:52:09'
+    min: '2012-03-02 19:39:34'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAH_SYSUSER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: VSHADBOLT
+    min: '9999'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAH_UNMPROFILE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAH_UPDADDRESS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DAH_VOLTAGE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LASTUPDATESUB:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

@@ -1,0 +1,304 @@
+checks: null
+coerce: true
+columns:
+  GL_ANCODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WVOL
+    min: ACASH
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GL_BCIFLAG:
+    checks:
+      greater_than_or_equal_to: 0.0
+      less_than_or_equal_to: 0.0
+    coerce: false
+    dtype: int64
+    max: '0'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GL_BCIZEROFLAG:
+    checks: null
+    coerce: false
+    dtype: object
+    max: ROUND
+    min: INV
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GL_BILLCLASSN:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GL_BILLTAXFLAG:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GL_BILLUOM:
+    checks: null
+    coerce: false
+    dtype: object
+    max: PERIOD
+    min: CNT
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GL_CHARGE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Transfer
+    min: Cash Receipts
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GL_CODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WVOL
+    min: ALLOW
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GL_CONSFLAG:
+    checks:
+      greater_than_or_equal_to: 0.0
+      less_than_or_equal_to: 1.0
+    coerce: false
+    dtype: int64
+    max: '1'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GL_DEBTORSCTRL:
+    checks: null
+    coerce: false
+    dtype: object
+    max: DEBTOR
+    min: BANK
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GL_DEFAULTAMT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '145683'
+    min: '150'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GL_DESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Writeoff
+    min: Allowance/Reimbursement
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GL_FINANCEGRP:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GL_GLFACTOR:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '1'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GL_GST:
+    checks: null
+    coerce: false
+    dtype: object
+    max: ZERO
+    min: GST
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GL_ID:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WVOL
+    min: ACSH
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GL_INPUTTYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '0'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GL_PRIORITY:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 1.0
+    coerce: false
+    dtype: int64
+    max: '1'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GL_PRIORITY2:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 1.0
+    coerce: false
+    dtype: int64
+    max: '1'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GL_PROMPT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GL_SERVTYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GL_STMTFLAG:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GL_TIMEDATE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: 16:30:43 21 Mar 2007
+    min: 09:42:58 05 Feb 2008
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GL_UPDPROG:
+    checks: null
+    coerce: false
+    dtype: object
+    max: EMSTRNDCQ
+    min: EMSTRNDCQ
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GL_UPDTRAN:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '1'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GL_USERDEFINE1:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GL_WHO:
+    checks: null
+    coerce: false
+    dtype: object
+    max: BCDEMO01
+    min: BCDEMO01
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  NOLONGERUSED:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 78.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

@@ -1,0 +1,125 @@
+checks: null
+coerce: true
+columns:
+  GBIADJ_INVOICENO:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '511000139631'
+    min: '511000000041'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBIALTITUDE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBIALTUOM:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBIAVGE_DOLLAR:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '3604327.000000'
+    min: '-410613.000000'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBIBCITAXNO:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBIBILLFLAG:
+    checks:
+      greater_than_or_equal_to: 3.0
+      less_than_or_equal_to: 3.0
+    coerce: false
+    dtype: int64
+    max: '3'
+    min: '2'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBICONSUMER:
+    checks:
+      greater_than_or_equal_to: 1100000110.0
+      less_than_or_equal_to: 1100042410.0
+    coerce: false
+    dtype: int64
+    max: '1110580610'
+    min: '1100000110'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBICUR_NO_DAYS:
+    checks:
+      greater_than_or_equal_to: 2.0
+      less_than_or_equal_to: 223.0
+    coerce: false
+    dtype: int64
+    max: '3758'
+    min: '-3537'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBICUSTREFN:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBIDATE:
+    checks:
+      greater_than_or_equal_to: '2009-07-01 00:00:00'
+      less_than_or_equal_to: '2009-12-30 00:00:00'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-04-22 00:00:00'
+    min: '2009-07-01 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBIDISCOUNTALLOC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: "2:ZEROZERO:11105806\uF7FC1:ZEROZERO:11105806\uF7FD0\uF7FC0"
+    min: "1:ZEROZERO:11000010\uF7FD0"
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBIDISCOUNTCODE:
+    checks: null
+    max: ZERO
+    min: ZERO

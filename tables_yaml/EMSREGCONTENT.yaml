@@ -1,0 +1,66 @@
+checks: null
+coerce: true
+columns:
+  REGCONT_CODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WANYSZ
+    min: SANYSZ
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  REGCONT_DESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Sewage
+    min: Anysize
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  REGCONT_REGIST_CODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  REGCONT_REST_AVAIL:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  REGCONT_UTILITY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: W
+    min: W
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 1.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

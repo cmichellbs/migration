@@ -1,0 +1,68 @@
+checks: null
+coerce: true
+columns:
+  FILENAME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: XMLCONTROL
+    min: ACCOUNT_AGREEMENT
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FKEYNAME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: ZONE
+    min: ACCOUNT
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FOREIGNFIELD:
+    checks: null
+    coerce: false
+    dtype: object
+    max: XMLCTRLID
+    min: ACCTNO
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LOCALFIELD:
+    checks: null
+    coerce: false
+    dtype: object
+    max: XMLCTRLTYPE
+    min: AA$ACCOUNT
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  VMC:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 2.0
+    coerce: false
+    dtype: int64
+    max: '2'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

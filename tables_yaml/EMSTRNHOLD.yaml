@@ -1,0 +1,543 @@
+checks: null
+coerce: true
+columns:
+  TRN_ACCLASS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_AMT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '955204'
+    min: '-1045760'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_ANCODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_AREA:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_AUTHOFFICER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: PAM.UPTON
+    min: ANGELA.EARLY
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_BATCHPOST_BRN:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_BATCHPOST_GL:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_BATCHPOST_STAT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_BILLFREQ:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_BILLRUNNO:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_BILLSEQ:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_CHGDATES:
+    checks: null
+    coerce: false
+    dtype: object
+    max: "17846\uF7FD17846\uF7FD"
+    min: "16147\uF7FD16147\uF7FD"
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_CSBAL:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_CTRLGL:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_DATE:
+    checks:
+      greater_than_or_equal_to: '2012-03-16 00:00:00'
+      less_than_or_equal_to: '2016-11-09 00:00:00'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2016-11-09 00:00:00'
+    min: '2012-03-16 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_DEBTID:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_DEMANDCHARGED:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_DEMANDREAD:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_DESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Sewer Volumetric Charge Adjustment
+    min: Bank dishonoured payment (Unauthorised)  - 17.10.14
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_DISC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_DUEDATE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_EASYPAY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_EXTDESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: 'refund chq #116016 17/07/13'
+    min: amend account-This is the total amount of credit payments punched twice in
+      error
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_FCHGCODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_FILEID:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_GL:
+    checks: null
+    coerce: false
+    dtype: object
+    max: SVOL
+    min: BANK
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_GLREF:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_INVOICEREF:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_KEY:
+    checks:
+      greater_than_or_equal_to: 400116607.0
+      less_than_or_equal_to: 659659659.0
+    coerce: false
+    dtype: int64
+    max: '659659659'
+    min: '400116607'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_LOG:
+    checks: null
+    coerce: false
+    dtype: object
+    max: STEPHANIE.MCVEY:16342:64542
+    min: ANGELA.EARLY:17846:59020
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_MTH:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_NZSIC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_OFFICER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_OTHDESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_OTHSYS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_RUNTYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_SEQNO:
+    checks:
+      greater_than_or_equal_to: 2.0
+      less_than_or_equal_to: 15.0
+    coerce: false
+    dtype: int64
+    max: '15'
+    min: '2'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_SPARE46:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_SPLITUNITS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_STATFILE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_STATUS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: R
+    min: H
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_SUBRECALL:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_SYSDATE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_TARIFF:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_TAX:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_TAXGL:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_TAXSET:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_TAXTYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: I
+    min: I
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_TYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: TRF
+    min: ACSH
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_UNITS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_UOM:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_YYMM:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 13.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

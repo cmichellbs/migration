@@ -1,0 +1,68 @@
+checks: null
+coerce: true
+columns:
+  PROGKEY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: UWI2691
+    min: UWI2690
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  RELSOITEMNAME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: NETCONNECT.VIEW.PARENT
+    min: INSTALL.DATA INSTALLER#UNITED
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  RELSOITEMTYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WIZRUN
+    min: GTINSTALLDATA
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  RELSOVERSION:
+    checks: null
+    coerce: false
+    dtype: object
+    max: S1
+    min: M1+S1
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  VMC:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 2.0
+    coerce: false
+    dtype: int64
+    max: '2'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 2.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

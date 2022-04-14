@@ -1,0 +1,148 @@
+checks: null
+coerce: true
+columns:
+  CCO_ACTION:
+    checks: null
+    coerce: false
+    dtype: object
+    max: UWI1307LETF2
+    min: EMS1307BAYC
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CCO_CODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: UNDER100
+    min: CACM
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CCO_DAYS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: D7
+    min: D0
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CCO_LETTER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: RES
+    min: REM
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CCO_MEMO:
+    checks: null
+    coerce: false
+    dtype: object
+    max: 009
+    min: '007'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CCO_MEMTEXT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Skipped Overdue Letter
+    min: Account Managed Payment Overdue - Pending Escalation Review
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CCO_NO_ACTION:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Y
+    min: Y
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CCO_PARAMGROUP:
+    checks: null
+    coerce: false
+    dtype: object
+    max: B1CREDIT.RESTRICT
+    min: B1CREDIT.ACMANAGED
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CCO_RATEPROC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: EMSNOTHING
+    min: EMSBADDIS
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CCO_STATUS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CCO_SWAP_STAGE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '1'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CCO_SWAP_TYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: OVER100HABITUAL
+    min: OVER100HABITUAL
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  VMC:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 6.0
+    coerce: false
+    dtype: int64
+    max: '6'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 22.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

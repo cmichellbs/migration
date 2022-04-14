@@ -1,0 +1,60 @@
+checks: null
+coerce: true
+columns:
+  CMC$ANS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: 'Yes'
+    min: ( 1 SPARTAN RD), 1/72 (Bypass) GREAT SOUTH RD, TAKANINI, 2112
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CMC$ID:
+    checks:
+      greater_than_or_equal_to: 1000001.0
+      less_than_or_equal_to: 1000067.0
+    coerce: false
+    dtype: int64
+    max: '1007825'
+    min: '1000001'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CMC$QUES:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Utility Type
+    min: Address
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  VMC:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 15.0
+    coerce: false
+    dtype: int64
+    max: '23'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

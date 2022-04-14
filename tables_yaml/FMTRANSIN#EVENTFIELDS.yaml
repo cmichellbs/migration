@@ -1,0 +1,92 @@
+checks: null
+coerce: true
+columns:
+  FMTEVENTCODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FMTEVENTCONTXT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FMTEVENTEXP:
+    checks: null
+    coerce: false
+    dtype: object
+    max: IFMMETERREAD.1
+    min: IFMMETERREAD.1
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FMTEVENTKEY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FMTEVENTTYPE:
+    checks:
+      greater_than_or_equal_to: 3.0
+      less_than_or_equal_to: 3.0
+    coerce: false
+    dtype: int64
+    max: '3'
+    min: '3'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FMTSEQNO:
+    checks:
+      greater_than_or_equal_to: 6110002057.0
+      less_than_or_equal_to: 6110087309.0
+    coerce: false
+    dtype: int64
+    max: '6110649929'
+    min: '6110002057'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  VMC:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 33.0
+    coerce: false
+    dtype: int64
+    max: '98'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

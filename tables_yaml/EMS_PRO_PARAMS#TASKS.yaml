@@ -1,0 +1,100 @@
+checks: null
+coerce: true
+columns:
+  PROP_ITEM:
+    checks: null
+    coerce: false
+    dtype: object
+    max: CRYSTAL
+    min: CRYSTAL
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PROP_PROCESS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: CCS3208
+    min: CCS3208
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PROP_TASK_CONV:
+    checks: null
+    coerce: false
+    dtype: object
+    max: "\uF7FC\uF7FC\uF7FC\uF7FC\uF7FC\uF7FC\uF7FC"
+    min: "\uF7FC"
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PROP_TASK_HEAD:
+    checks: null
+    coerce: false
+    dtype: object
+    max: "Summary\uF7FCCount"
+    min: "Service Order\uF7FCTask Type\uF7FCStaff Member\uF7FCCurrent Status\uF7FC\
+      Time Taken\uF7FCTime Allowed\uF7FCFrom Status\uF7FCTo Status"
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PROP_TASK_JUST:
+    checks: null
+    coerce: false
+    dtype: object
+    max: "L\uF7FCR"
+    min: "L\uF7FCL\uF7FCL\uF7FCL\uF7FCL\uF7FCL\uF7FCL\uF7FCL"
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PROP_TASK_LIST:
+    checks: null
+    coerce: false
+    dtype: object
+    max: "SUMMARY\uF7FCCOUNT"
+    min: "SERVICEORDER\uF7FCTASK\uF7FCSTAFF\uF7FCCURRSTATUS\uF7FCTIMETAKEN\uF7FCTIMEALLOWED\uF7FC\
+      FROMSTATUS\uF7FCTOSTATUS"
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PROP_TASK_WIDTH:
+    checks: null
+    coerce: false
+    dtype: object
+    max: "60\uF7FC10"
+    min: "14\uF7FC10\uF7FC16\uF7FC16\uF7FC14\uF7FC14\uF7FC16\uF7FC16"
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  VMC:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 2.0
+    coerce: false
+    dtype: int64
+    max: '2'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 1.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

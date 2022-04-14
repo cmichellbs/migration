@@ -1,0 +1,338 @@
+checks: null
+coerce: true
+columns:
+  COM_BANK_ACCT_NO:
+    checks: null
+    coerce: false
+    dtype: object
+    max: 03-0399-00255426-0000
+    min: 03-0399-00255426-0000
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  COM_BANK_GL:
+    checks: null
+    coerce: false
+    dtype: object
+    max: BANK
+    min: BANK
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  COM_BILL_RND:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Y
+    min: Y
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  COM_CITY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  COM_COY_CODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: VEOW
+    min: VEOW
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  COM_DEBTOR_GL:
+    checks: null
+    coerce: false
+    dtype: object
+    max: DEBTOR
+    min: DEBTOR
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  COM_EST_SCALE:
+    checks:
+      greater_than_or_equal_to: 100.0
+      less_than_or_equal_to: 100.0
+    coerce: false
+    dtype: int64
+    max: '100'
+    min: '100'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  COM_FIN_MTH:
+    checks:
+      greater_than_or_equal_to: 3.0
+      less_than_or_equal_to: 3.0
+    coerce: false
+    dtype: int64
+    max: '3'
+    min: '3'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  COM_FIN_YR:
+    checks:
+      greater_than_or_equal_to: 2021.0
+      less_than_or_equal_to: 2021.0
+    coerce: false
+    dtype: int64
+    max: '2021'
+    min: '2021'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  COM_ID:
+    checks: null
+    coerce: false
+    dtype: object
+    max: ENERGY
+    min: ENERGY
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  COM_LASTEOM:
+    checks: null
+    coerce: false
+    dtype: object
+    max: 15:03:28 23 Feb 2021
+    min: 15:03:28 23 Feb 2021
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  COM_LASTEOM_USER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: SCORNELIUS
+    min: SCORNELIUS
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  COM_LST_BR_STATS_RUN_DTE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  COM_LST_BR_STATS_RUN_TME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  COM_LST_DY_STATS_RUN_DTE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  COM_LST_DY_STATS_RUN_TME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  COM_MCO_CODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: VEOW
+    min: VEOW
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  COM_NAME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Veolia Water
+    min: Veolia Water
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  COM_NEXT_DATE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: DAYS.26
+    min: DAYS.26
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  COM_ROUND_ANCODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  COM_ROUND_GL:
+    checks: null
+    coerce: false
+    dtype: object
+    max: GL_WRITEOFF
+    min: GL_WRITEOFF
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  COM_STMTRND_OPTION:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '0'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  COM_STMTRND_TYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: MIS
+    min: MIS
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  COM_STP_PRINT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  COM_ST_FINMTH:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 1.0
+    coerce: false
+    dtype: int64
+    max: '1'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  COM_TAX_INCL:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 1.0
+    coerce: false
+    dtype: int64
+    max: '1'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  COM_TAX_METHOD:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 1.0
+    coerce: false
+    dtype: int64
+    max: '1'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  COM_TAX_STP:
+    checks: null
+    coerce: false
+    dtype: object
+    max: TAXGETTAXCALC_001
+    min: TAXGETTAXCALC_001
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE15:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE16:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE19:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '1'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 0.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

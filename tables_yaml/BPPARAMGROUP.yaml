@@ -1,0 +1,236 @@
+checks: null
+coerce: true
+columns:
+  BPPG$COMMEMAILTEXT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPPG$COMMEMAILTITLE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPPG$COMMTXTMESSAGE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPPG$SOTYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPPG_ADDRESS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: GENTRACK
+    min: GENTRACK
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPPG_BPMGROUP:
+    checks: null
+    coerce: false
+    dtype: object
+    max: VAL.MSATS
+    min: ACCOUNTS
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPPG_COMMCATEG:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPPG_DESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Work Order
+    min: Acknowledgement Letter
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPPG_DUETMDTCODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPPG_ID:
+    checks: null
+    coerce: false
+    dtype: object
+    max: B1VAL.TOU2
+    min: B1ACQ|A$ERROR
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPPG_LETCODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: B1STMT|STMT
+    min: B1COMP|ACK
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPPG_LETPASSWORD:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPPG_MEMOTYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPPG_NAME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Work Order Creates Queue
+    min: Acknowledgement Letter
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPPG_QUEUETYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: B1VAL.UNAPPROVABLE_VALIDATION
+    min: B1ACQ|A$ERROR
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPPG_REQTMDTCODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPPG_REQUSER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPPG_STPROUTINE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPPG_TASKCODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '1008'
+    min: '1008'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPPG_TIMEFLAG:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '9'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPPG_TRNSGROUP:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPPG_WORKTYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: B1VAL.VALIDATIONS
+    min: B1ACQ|A_ACQUISITION
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 49.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

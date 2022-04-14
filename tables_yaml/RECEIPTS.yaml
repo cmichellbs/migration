@@ -1,0 +1,214 @@
+checks: null
+coerce: true
+columns:
+  RECEIPT_NO:
+    checks:
+      greater_than_or_equal_to: 2.0
+      less_than_or_equal_to: 1001.0
+    coerce: false
+    dtype: int64
+    max: '137121'
+    min: '2'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  REC_ALLOC1:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  REC_ALLOC2:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  REC_BATCH:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  REC_CASHIER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: VSHADBOLT
+    min: ADRIANA.JANSSEN
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  REC_CUSTCODES:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  REC_DOCDATE:
+    checks:
+      greater_than_or_equal_to: '2012-03-03 00:00:00'
+      less_than_or_equal_to: '2012-03-15 00:00:00'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-04-22 00:00:00'
+    min: '2012-03-03 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  REC_ENTDATE:
+    checks:
+      greater_than_or_equal_to: '2012-03-03 00:00:00'
+      less_than_or_equal_to: '2012-03-15 00:00:00'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-04-22 00:00:00'
+    min: '2012-03-03 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  REC_KEY2:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  REC_SITEID:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  REC_SSP1:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  REC_SSP2:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  REC_SSP3:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  REC_SSP4:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  REC_SSP5:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  REC_STATUS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: PP
+    min: C
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  REC_STATUSDESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Wrongly entered as cash
+    min: .
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  REC_TIME:
+    checks:
+      greater_than_or_equal_to: '9000-01-01 08:37:06'
+      less_than_or_equal_to: '9000-01-01 16:54:15'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '9000-01-01 23:30:46'
+    min: '9000-01-01 07:52:25'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  REC_TRANS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: REC
+    min: REC
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

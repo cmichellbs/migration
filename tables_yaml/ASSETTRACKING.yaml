@@ -1,0 +1,124 @@
+checks: null
+coerce: true
+columns:
+  AST$ASSET:
+    checks:
+      greater_than_or_equal_to: 910000025.0
+      less_than_or_equal_to: 910001357.0
+    coerce: false
+    dtype: int64
+    max: '911011398'
+    min: '910000025'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  AST$DATE:
+    checks:
+      greater_than_or_equal_to: '2011-08-30 00:00:00'
+      less_than_or_equal_to: '2011-08-30 00:00:00'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-04-21 00:00:00'
+    min: '1991-03-25 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  AST$LOC$INSTALL:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '11106031'
+    min: '11000001'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  AST$LOCATION:
+    checks: null
+    coerce: false
+    dtype: object
+    max: REMOVED
+    min: AVAIL
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  AST$QUANTITY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  AST$SEQNO:
+    checks:
+      greater_than_or_equal_to: 100000025.0
+      less_than_or_equal_to: 100001357.0
+    coerce: false
+    dtype: int64
+    max: '110028383'
+    min: '100000025'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  AST$SRC$INSTALL:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '11105160'
+    min: '11000004'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  AST$SRC$LOCATION:
+    checks: null
+    coerce: false
+    dtype: object
+    max: REMOVED
+    min: AVAIL
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  AST$STATUS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '0'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  AST$SYSDATE:
+    checks:
+      greater_than_or_equal_to: '2012-03-02 19:39:34'
+      less_than_or_equal_to: '2012-03-02 19:45:42'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-04-22 15:52:52'
+    min: '2012-03-02 19:39:34'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

@@ -1,0 +1,104 @@
+checks: null
+coerce: true
+columns:
+  ARG_ACTDATE:
+    checks:
+      greater_than_or_equal_to: '2012-03-12 00:00:00'
+      less_than_or_equal_to: '2021-04-20 00:00:00'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-04-20 00:00:00'
+    min: '2012-03-12 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ARG_ACTREASON:
+    checks: null
+    coerce: false
+    dtype: object
+    max: RQST
+    min: BROKE
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ARG_ACTREMARKS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WOULD LIKE TO SET UP ANOTHER ARRANGEMENT FOR CURRENT ACCOUNT
+    min: $100.00 weekly until overdue balance is paid
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ARG_ACTSTATUS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: CURD
+    min: BROK
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ARG_ACTTIME:
+    checks:
+      greater_than_or_equal_to: '9000-01-01 07:42:43'
+      less_than_or_equal_to: '9000-01-01 22:05:50'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '9000-01-01 22:05:50'
+    min: '9000-01-01 07:42:43'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ARG_ACTUSER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: STEPHANIE.MCVEY
+    min: ANGELA.EARLY
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ARG_QARGNO:
+    checks:
+      greater_than_or_equal_to: 110000001.0
+      less_than_or_equal_to: 110000502.0
+    coerce: false
+    dtype: int64
+    max: '110000502'
+    min: '110000001'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  VMC:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 2.0
+    coerce: false
+    dtype: int64
+    max: '2'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 960.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

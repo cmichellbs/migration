@@ -1,0 +1,106 @@
+checks: null
+coerce: true
+columns:
+  SCD$DESCRIPTION:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Update Arrangements File
+    min: Archive CASH Customer Debts
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SCD$FREQ$INTERVAL:
+    checks: null
+    coerce: false
+    dtype: object
+    max: DAYS.1
+    min: DAYS.1
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SCD$ID:
+    checks: null
+    coerce: false
+    dtype: object
+    max: MEMO.REMINDERS
+    min: ARG1901MAIN
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SCD$LASTRUN:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '2021-04-22 05:00:15'
+    min: '2021-03-23 04:00:03'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SCD$METRIC$STP:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SCD$METRIC$VALUE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SCD$NEXTRUN:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '2021-04-26 00:10:00'
+    min: '2011-11-07 07:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SCD$PAUSEFLAG:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '-1'
+    min: '-1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SCD$USERNAME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: GENINSTALL
+    min: DEBBIE.TAHAPEHI
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 31.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

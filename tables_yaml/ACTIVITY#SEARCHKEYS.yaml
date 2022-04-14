@@ -1,0 +1,50 @@
+checks: null
+coerce: true
+columns:
+  ACT_ID:
+    checks:
+      greater_than_or_equal_to: 18385.0
+      less_than_or_equal_to: 28949.0
+    coerce: false
+    dtype: int64
+    max: '29028'
+    min: '18382'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACT_SEARCH:
+    checks: null
+    coerce: false
+    dtype: object
+    max: ZOOM TO QUEUE ITEM
+    min: '- INFORMATION MRI TRANSFER'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  VMC:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 60.0
+    coerce: false
+    dtype: int64
+    max: '129'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

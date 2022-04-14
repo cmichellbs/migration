@@ -1,0 +1,58 @@
+checks: null
+coerce: true
+columns:
+  GBVC_CODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: TU14218
+    min: EIEP1.1
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBVC_VAR:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '6'
+    min: '%1c'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBVC_VARDESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Work Type
+    min: Account number
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  VMC:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 9.0
+    coerce: false
+    dtype: int64
+    max: '9'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

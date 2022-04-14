@@ -1,0 +1,250 @@
+checks: null
+coerce: true
+columns:
+  STCNTDAYCOUNT:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 1149.0
+    coerce: false
+    dtype: int64
+    max: '1280'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  STCNTDAYDESCRIP:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  STCNTDAYEXTRA1:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  STCNTDAYEXTRA2:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  STCNTDAYEXTRA3:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  STCNTDAYEXTRA4:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  STCNTDAYEXTRA5:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  STCNTDAYEXTRA6:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  STCNTDAYEXTRA7:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  STCNTDAYKY$BRANCH:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '0'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  STCNTDAYKY$DATE:
+    checks:
+      greater_than_or_equal_to: '2012-03-03 00:00:00'
+      less_than_or_equal_to: '2012-06-29 00:00:00'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-04-22 00:00:00'
+    min: '2012-03-03 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  STCNTDAYKY$HED:
+    checks: null
+    coerce: false
+    dtype: object
+    max: FM023
+    min: CC001
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  STCNTDAYKY$ID:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '850100003'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  STCNTDAYKY$TYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: NEW
+    min: '10'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  STCNTDAYKY$USER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: VSHADBOLT
+    min: ADRIANA.JANSSEN
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  STCNTDAYKY$XX10:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '0'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  STCNTDAYKY$XX11:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '0'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  STCNTDAYKY$XX12:
+    checks: null
+    coerce: false
+    dtype: object
+    max: N
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  STCNTDAYKY$XX6:
+    checks: null
+    coerce: false
+    dtype: object
+    max: UNDER100HABITUAL3
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  STCNTDAYKY$XX7:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '19465'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  STCNTDAYKY$XX9:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '0'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  STCNTDAYUNIT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  STCNTDAYVALUE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '37930690'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

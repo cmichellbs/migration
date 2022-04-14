@@ -1,0 +1,90 @@
+checks: null
+coerce: true
+columns:
+  ID:
+    checks: null
+    coerce: false
+    dtype: object
+    max: UNK
+    min: CO
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ISTAT_BILLABLE:
+    checks:
+      greater_than_or_equal_to: 0.0
+      less_than_or_equal_to: 1.0
+    coerce: false
+    dtype: int64
+    max: '1'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ISTAT_DESCRIPTION:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Unknown Status
+    min: Connected
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ISTAT_DISCONNECTED:
+    checks:
+      greater_than_or_equal_to: 0.0
+      less_than_or_equal_to: 2.0
+    coerce: false
+    dtype: int64
+    max: '2'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ISTAT_EXPORTREGSTATUS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: A
+    min: A
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ISTAT_SPARE8:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ISTAT_VALIDATION:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 7.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

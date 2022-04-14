@@ -1,0 +1,74 @@
+checks: null
+coerce: true
+columns:
+  GBSARG_DATE:
+    checks:
+      greater_than_or_equal_to: '2012-03-15 00:00:00'
+      less_than_or_equal_to: '2013-04-10 00:00:00'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2022-02-18 00:00:00'
+    min: '2012-03-15 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBSARG_DESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: 9 of 54
+    min: 1 of 12
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBSARG_DOLLAR:
+    checks:
+      greater_than_or_equal_to: 1000.0
+      less_than_or_equal_to: 8000.0
+    coerce: false
+    dtype: int64
+    max: '495633'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBSSTATEMENT:
+    checks:
+      greater_than_or_equal_to: 7110000721.0
+      less_than_or_equal_to: 7110023305.0
+    coerce: false
+    dtype: int64
+    max: '7110696990'
+    min: '7110000721'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  VMC:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 53.0
+    coerce: false
+    dtype: int64
+    max: '54'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

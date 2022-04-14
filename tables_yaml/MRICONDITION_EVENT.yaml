@@ -1,0 +1,96 @@
+checks: null
+coerce: true
+columns:
+  MEV$ACT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  MEV$CHARGE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: N
+    min: N
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  MEV$CODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: RDG.TROUBLE2
+    min: M01
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  MEV$DESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Wrong Serial Number
+    min: Bad Dials
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  MEV$GROUP:
+    checks: null
+    coerce: false
+    dtype: object
+    max: P
+    min: M
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  MEV$PARAMGRP:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  MEV$REGREF:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '16'
+    min: '01'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  MEV$RSTATUS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: O
+    min: C
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 35.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

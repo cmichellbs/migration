@@ -1,0 +1,140 @@
+checks: null
+coerce: true
+columns:
+  GSATTR_NUM:
+    checks:
+      greater_than_or_equal_to: 0.0
+      less_than_or_equal_to: 72.0
+    coerce: false
+    dtype: int64
+    max: '152'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GSATTR_PART:
+    checks:
+      greater_than_or_equal_to: 0.0
+      less_than_or_equal_to: 5.0
+    coerce: false
+    dtype: int64
+    max: '12'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GSDATA_SIZE:
+    checks:
+      greater_than_or_equal_to: 0.0
+      less_than_or_equal_to: 2000.0
+    coerce: false
+    dtype: int64
+    max: '4000'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GSDATA_TYPE:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 14.0
+    coerce: false
+    dtype: int64
+    max: '14'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GSFIELDNAME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: XMLTAGPARAMS
+    min: A1
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GSMPKDEL:
+    checks: null
+    coerce: false
+    dtype: object
+    max: ':'
+    min: ''
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GSMV:
+    checks:
+      greater_than_or_equal_to: 0.0
+      less_than_or_equal_to: 1.0
+    coerce: false
+    dtype: int64
+    max: '1'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GSMVTABLE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: XMLTAG#XMLTAGPARAMS
+    min: ''
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GSNOTNULL:
+    checks:
+      greater_than_or_equal_to: 0.0
+      less_than_or_equal_to: 1.0
+    coerce: false
+    dtype: int64
+    max: '1'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GSPRECISION:
+    checks:
+      greater_than_or_equal_to: 0.0
+      less_than_or_equal_to: 6.0
+    coerce: false
+    dtype: int64
+    max: '6'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GSTABLENAME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: XX_CONTROL
+    min: ACCOUNT_AGREEMENT
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

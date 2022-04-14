@@ -1,0 +1,52 @@
+checks: null
+coerce: true
+columns:
+  LC$REMDATE:
+    checks:
+      greater_than_or_equal_to: '2012-05-17 00:00:00'
+      less_than_or_equal_to: '2021-04-16 00:00:00'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-04-16 00:00:00'
+    min: '2012-05-01 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LEDGERID:
+    checks:
+      greater_than_or_equal_to: 100000003.0
+      less_than_or_equal_to: 100000516.0
+    coerce: false
+    dtype: int64
+    max: '1000000030'
+    min: '100000003'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  VMC:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 27.0
+    coerce: false
+    dtype: int64
+    max: '58'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

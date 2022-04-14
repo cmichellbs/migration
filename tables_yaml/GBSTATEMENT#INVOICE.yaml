@@ -1,0 +1,64 @@
+checks: null
+coerce: true
+columns:
+  GBSINVOICENO:
+    checks:
+      greater_than_or_equal_to: 510000000001.0
+      less_than_or_equal_to: 510000001018.0
+    coerce: false
+    dtype: int64
+    max: '511000701601'
+    min: '510000000001'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBSINVOICE_TOTAL:
+    checks:
+      greater_than_or_equal_to: 0.0
+      less_than_or_equal_to: 956410.0
+    coerce: false
+    dtype: int64
+    max: '346015387'
+    min: '-346015387'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBSSTATEMENT:
+    checks:
+      greater_than_or_equal_to: 7100000001.0
+      less_than_or_equal_to: 7100001018.0
+    coerce: false
+    dtype: int64
+    max: '7110698333'
+    min: '7100000001'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  VMC:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 1.0
+    coerce: false
+    dtype: int64
+    max: '11'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

@@ -1,0 +1,60 @@
+checks: null
+coerce: true
+columns:
+  AL$ID:
+    checks:
+      greater_than_or_equal_to: 11000002.0
+      less_than_or_equal_to: 11000649.0
+    coerce: false
+    dtype: int64
+    max: '16474140'
+    min: '11000002'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  AL$INPARAM$NAME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WIZED:WIZARD.RULE.PAGE
+    min: '1556726'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  AL$INPARAM$VALUE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: YTDDETAILEDREPORT
+    min: '*'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  VMC:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 8.0
+    coerce: false
+    dtype: int64
+    max: '9'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

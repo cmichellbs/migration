@@ -1,0 +1,62 @@
+checks: null
+coerce: true
+columns:
+  LEDGERID:
+    checks:
+      greater_than_or_equal_to: 100000001.0
+      less_than_or_equal_to: 100001950.0
+    coerce: false
+    dtype: int64
+    max: '850100003'
+    min: '100000001'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LR$ARRDUEAMT:
+    checks:
+      greater_than_or_equal_to: -124099.0
+      less_than_or_equal_to: 786263.0
+    coerce: false
+    dtype: int64
+    max: '9583712'
+    min: '-2471002'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LR$ARRDUEDATE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '2021-05-20 00:00:00'
+    min: '2004-07-01 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  VMC:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 11.0
+    coerce: false
+    dtype: int64
+    max: '54'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

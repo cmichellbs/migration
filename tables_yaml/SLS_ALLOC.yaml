@@ -1,0 +1,128 @@
+checks: null
+coerce: true
+columns:
+  SLSALLOCAMT:
+    checks:
+      greater_than_or_equal_to: 1000.0
+      less_than_or_equal_to: 16000.0
+    coerce: false
+    dtype: float64
+    max: '16000.00'
+    min: '1000.00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SLSALLOCAMTFLAG:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SLSALLOCDESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Other Fees & Charges
+    min: Acceptance/ Inspection Fees
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SLSALLOCEXTDESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Other Fees & Charges
+    min: Acceptance/ Inspection Fees
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SLSALLOCGLFLAG:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SLSALLOCGLNO:
+    checks: null
+    coerce: false
+    dtype: object
+    max: GL_BANK
+    min: GL_BANK
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SLSALLOCKEY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: OTHFCHRG
+    min: ACCF
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SLSALLOCQTYFLAG:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SLSALLOCSUBALLOC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SLSALLOCTTYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: MIS
+    min: MIS
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SLSGROUP:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '1'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 7.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

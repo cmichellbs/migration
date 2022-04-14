@@ -1,0 +1,298 @@
+checks: null
+coerce: true
+columns:
+  ACSACCT:
+    checks:
+      greater_than_or_equal_to: 100000000.0
+      less_than_or_equal_to: 100000000.0
+    coerce: false
+    dtype: int64
+    max: '100000000'
+    min: '100000000'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACSBILLDATE:
+    checks:
+      greater_than_or_equal_to: '2012-03-16 00:00:00'
+      less_than_or_equal_to: '2021-04-20 00:00:00'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-04-20 00:00:00'
+    min: '2012-03-16 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACSBILLMESG:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Veolia wishes to advise that we are now located at 107 Great South Rd Papakura
+      (cnr of Queen St & Great South Rd).
+    min: Auckland Drought Restrictions are now in place. See our website or visit
+      www.waterforlife.org.nz for the latest details on the restrictions.
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACSDUEDATE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '2021-05-17 00:00:00'
+    min: '2012-04-17 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACSKEY:
+    checks:
+      greater_than_or_equal_to: 1100001.0
+      less_than_or_equal_to: 1100448.0
+    coerce: false
+    dtype: int64
+    max: '1100448'
+    min: '1100001'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACSNAME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Housing New Zealand Master Account
+    min: HOUSING NEW ZEALAND MASTER A/C (2012 - JAN 2017)
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACSPOSTAL1:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACSPOSTAL2:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACSPOSTAL3:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACSPOSTAL4:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACSPOSTAL5:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACSPPD_DOLLAR:
+    checks:
+      greater_than_or_equal_to: 0.0
+      less_than_or_equal_to: 0.0
+    coerce: false
+    dtype: int64
+    max: '0'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACSPULLOUT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACSSSP1:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACSSSP2:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACSSSP3:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACSSSP4:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACSSSP5:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACSSUMAGE1:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACSSUMAGE2:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACSSUMAGE3:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACSSUMAGEDATE1:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACSTOT_DOLLAR:
+    checks:
+      greater_than_or_equal_to: -1238520.0
+      less_than_or_equal_to: 20164999.0
+    coerce: false
+    dtype: int64
+    max: '20164999'
+    min: '-1238520'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE13:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE14:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE15:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE9:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 447.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

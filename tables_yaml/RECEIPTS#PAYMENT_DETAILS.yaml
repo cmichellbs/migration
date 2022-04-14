@@ -1,0 +1,82 @@
+checks: null
+coerce: true
+columns:
+  RECEIPT_NO:
+    checks:
+      greater_than_or_equal_to: 2.0
+      less_than_or_equal_to: 973.0
+    coerce: false
+    dtype: int64
+    max: '137121'
+    min: '2'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  REC_PAYAMTS:
+    checks:
+      greater_than_or_equal_to: -65002855960.0
+      less_than_or_equal_to: 65002857400.0
+    coerce: false
+    dtype: int64
+    max: '65307392800'
+    min: '-65307363380'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  REC_PAYFLD1:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  REC_PAYFLD2:
+    checks: null
+    coerce: false
+    dtype: object
+    max: yuU133637 U030355T 0161516-00 U
+    min: ',U001069 U010170T 0122246-00 U'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  REC_PAYTYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: X
+    min: C
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  VMC:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 3.0
+    coerce: false
+    dtype: int64
+    max: '9'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

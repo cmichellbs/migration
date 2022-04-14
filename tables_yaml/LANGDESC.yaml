@@ -1,0 +1,66 @@
+checks: null
+coerce: true
+columns:
+  LDCODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: XMLDOC.NOTFOUND
+    min: ACCESS.DENIED
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LDDESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Zooming to this screen is not allowed
+    min: '      Unknown Consumer'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LDFIELD:
+    checks: null
+    coerce: false
+    dtype: object
+    max: NAME
+    min: DESC
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LDLANG:
+    checks: null
+    coerce: false
+    dtype: object
+    max: RUS
+    min: CHI
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LDTABLE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: GENMEMO
+    min: GBVALIDATIONCODE
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

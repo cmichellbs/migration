@@ -1,0 +1,216 @@
+checks: null
+coerce: true
+columns:
+  SPARE20:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Y
+    min: Y
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE7:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE8:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  USERID:
+    checks: null
+    coerce: false
+    dtype: object
+    max: YOOSTHUIZEN
+    min: '9999'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  USRCHECK:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  USRCREATED:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '2020-03-30 00:00:00'
+    min: '2011-11-01 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  USRCSHGROUP:
+    checks: null
+    coerce: false
+    dtype: object
+    max: DEFAULT
+    min: DEFAULT
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  USRCSHPRTPROG:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  USRCUBICACCESS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  USRDEPT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: PAP
+    min: ALL
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  USREMAILADDR:
+    checks: null
+    coerce: false
+    dtype: object
+    max: YOOSTHUIZEN
+    min: ADRIANA.JANSSEN
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  USRNAME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Yolanda Oosthuizen
+    min: Adriana Janssen
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  USRPOSITION:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Temp
+    min: Accountant
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  USRPRINTERGRP:
+    checks: null
+    coerce: false
+    dtype: object
+    max: DEF
+    min: DEF
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  USRQUEUEGROUP:
+    checks: null
+    coerce: false
+    dtype: object
+    max: ALL
+    min: ALL
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  USRQUEUEOPEN:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  USRQUEUESEL:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  USRSECURITY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  USRSEN:
+    checks: null
+    coerce: false
+    dtype: object
+    max: KATHRYN.JURY
+    min: KATHRYN.JURY
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  USRSTATUS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: C
+    min: A
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 73.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

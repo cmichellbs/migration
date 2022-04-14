@@ -1,0 +1,398 @@
+checks: null
+coerce: true
+columns:
+  DAMT:
+    checks:
+      greater_than_or_equal_to: -474860.0
+      less_than_or_equal_to: 289176.0
+    coerce: false
+    dtype: int64
+    max: '65307220400'
+    min: '-65307220400'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DBAL:
+    checks:
+      greater_than_or_equal_to: 0.0
+      less_than_or_equal_to: 0.0
+    coerce: false
+    dtype: int64
+    max: '33675264'
+    min: '-33675264'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DCHGCONSUMER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '1110580610'
+    min: '1100000110'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DCHGDATEFROM:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '2021-12-17 00:00:00'
+    min: '2000-02-02 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DCHGDATETO:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '2030-09-02 00:00:00'
+    min: '2010-09-30 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DDATE:
+    checks:
+      greater_than_or_equal_to: '2004-07-01 00:00:00'
+      less_than_or_equal_to: '2010-06-30 00:00:00'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-04-22 00:00:00'
+    min: '2000-02-02 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DDATEDUE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '2021-05-20 00:00:00'
+    min: '2004-07-23 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DDATETIME:
+    checks:
+      greater_than_or_equal_to: '2012-03-02 19:50:43'
+      less_than_or_equal_to: '2012-03-02 19:50:52'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-04-22 15:43:04'
+    min: '2012-03-02 19:50:43'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DDEBTORSGLCODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: DEBTOR
+    min: BANK
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DDISC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DEXTDESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: zzinternatio:8 waka:100007366:Z & Z INTERNATIONAL
+    min: '"min charge" Invoice generated for 1 day (0 kl) so old mtr could be removed
+      & new mtr update'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DFILEID:
+    checks: null
+    coerce: false
+    dtype: object
+    max: REVERSEDEBT:11134345354
+    min: REVERSEBILL:11002116062
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DGST:
+    checks:
+      greater_than_or_equal_to: -7391.0
+      less_than_or_equal_to: 32131.0
+    coerce: false
+    dtype: int64
+    max: '32970865'
+    min: '-32970865'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DGSTP:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DINTDATE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DINVOICEREF:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '511000701601'
+    min: '510000000001'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DKEY:
+    checks:
+      greater_than_or_equal_to: 11000000001.0
+      less_than_or_equal_to: 11000001000.0
+    coerce: false
+    dtype: int64
+    max: '11134388133'
+    min: '11000000001'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DLEDGER:
+    checks:
+      greater_than_or_equal_to: 301300104.0
+      less_than_or_equal_to: 466101023.0
+    coerce: false
+    dtype: int64
+    max: '850120106'
+    min: '100000000'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DLOCKED:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '1'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DNETAMT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DNZSIC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: D281
+    min: '0000'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DORIS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DPAID:
+    checks:
+      greater_than_or_equal_to: -474860.0
+      less_than_or_equal_to: 289176.0
+    coerce: false
+    dtype: int64
+    max: '65307220400'
+    min: '-65307220400'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DPRIORITY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DREF:
+    checks: null
+    coerce: false
+    dtype: object
+    max: ZOE MARY ANDERSON
+    min: '"min charge" Invoice generated for 1 day (0 kl) so old mtr could be removed
+      & new mtr updated'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DSPARE23:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DSPARE25:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DSPARE26:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DSTAMP:
+    checks: null
+    coerce: false
+    dtype: object
+    max: BILLINGRUN:Runno1451253*S:19468
+    min: ':'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DSTATEMENT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '7110698333'
+    min: '7100000001'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DSTATFILE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Z
+    min: W
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DSTATUS:
+    checks:
+      greater_than_or_equal_to: 3.0
+      less_than_or_equal_to: 3.0
+    coerce: false
+    dtype: int64
+    max: '3'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DTYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WVOL
+    min: ACSH
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DWHO:
+    checks: null
+    coerce: false
+    dtype: object
+    max: YAN.SUN:19414:31044
+    min: ADRIANA.JANSSEN:17405:52904
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DYYMM:
+    checks:
+      greater_than_or_equal_to: 201203.0
+      less_than_or_equal_to: 201203.0
+    coerce: false
+    dtype: int64
+    max: '202103'
+    min: '201203'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LASTUPDATESUB:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

@@ -1,0 +1,77 @@
+checks: null
+coerce: true
+columns:
+  DESCRIPTION:
+    checks: null
+    coerce: false
+    dtype: object
+    max: "\uF7FD"
+    min: "[.]The selected  list of Credit Codes will be updated against that Ledger.\uF7FD\
+      [.]An Audit and a Memo will be created."
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ID:
+    checks: null
+    coerce: false
+    dtype: object
+    max: XMLTAG.GET.TREEVIEW
+    min: ACCESS.ACTIVITY.COPY
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  REST:
+    checks: null
+    coerce: false
+    dtype: object
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SUMMARY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Zoom to the screen for the item of the queue
+    min: A sub wizard that searches for a Notice
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TITLE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Zoom to Queue Item Screen
+    min: '#'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  VERSION:
+    checks:
+      greater_than_or_equal_to: 2.0
+      less_than_or_equal_to: 2.0
+    coerce: false
+    dtype: int64
+    max: '2'
+    min: '2'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

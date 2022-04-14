@@ -1,0 +1,128 @@
+checks: null
+coerce: true
+columns:
+  RDD$DATE:
+    checks:
+      greater_than_or_equal_to: '2012-03-01 00:00:00'
+      less_than_or_equal_to: '2014-12-01 00:00:00'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2022-02-01 00:00:00'
+    min: '2012-03-01 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  RDD$READSEQ:
+    checks: null
+    coerce: false
+    dtype: object
+    max: HOLD
+    min: '002001'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  RDD$SCH$PRINT$DATE:
+    checks:
+      greater_than_or_equal_to: '2012-02-15 00:00:00'
+      less_than_or_equal_to: '2014-11-14 00:00:00'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2022-01-17 00:00:00'
+    min: '2012-02-15 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  RDD$SEQNO:
+    checks:
+      greater_than_or_equal_to: 48.0
+      less_than_or_equal_to: 1072.0
+    coerce: false
+    dtype: int64
+    max: '6883'
+    min: '48'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  RDD$SPARE9:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  RDD$STATUS:
+    checks:
+      greater_than_or_equal_to: 90.0
+      less_than_or_equal_to: 99.0
+    coerce: false
+    dtype: int64
+    max: '99'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  RDD$TIMECLOSE:
+    checks:
+      greater_than_or_equal_to: '2012-02-16 22:32:24'
+      less_than_or_equal_to: '2014-12-01 22:04:56'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-04-06 17:01:02'
+    min: '2012-02-16 22:32:24'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  RDD$TIMEOPEN:
+    checks:
+      greater_than_or_equal_to: '2012-02-16 22:12:07'
+      less_than_or_equal_to: '2013-04-15 21:35:33'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-02-19 21:05:50'
+    min: '2012-02-16 22:12:07'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  RDD$TIMEREAD:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  RDD$TIMESENT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

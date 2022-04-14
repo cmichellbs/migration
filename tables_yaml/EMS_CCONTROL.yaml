@@ -1,0 +1,200 @@
+checks: null
+coerce: true
+columns:
+  CCO_ARREARS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '2008-03-11 00:00:00'
+    min: '2008-03-11 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CCO_CODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: UNDER100
+    min: CACM
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CCO_CON_STATUS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Y
+    min: B
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CCO_DESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Final Account
+    min: Account Managed
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CCO_DIS_TRANS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: REST
+    min: REST
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CCO_MAXSEL:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CCO_MERGE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CCO_MINACT:
+    checks:
+      greater_than_or_equal_to: 0.0
+      less_than_or_equal_to: 10000.0
+    coerce: false
+    dtype: int64
+    max: '10000'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CCO_MINAMT:
+    checks:
+      greater_than_or_equal_to: 0.0
+      less_than_or_equal_to: 10000.0
+    coerce: false
+    dtype: int64
+    max: '10000'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CCO_NOACTION:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CCO_RECALC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: EMS1305RECALC
+    min: EMS1305RECALC
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CCO_SCHEDULE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CCO_SELECT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: G2CREDUNDER100
+    min: G2CREDCURR
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CCO_SEL_FREQ:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CCO_SEL_LIST:
+    checks: null
+    coerce: false
+    dtype: object
+    max: EMS1300STD1
+    min: EMS1300STD1
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CCO_SEL_MAX:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CCO_SPARE1:
+    checks: null
+    coerce: false
+    dtype: object
+    max: EMS1302STD1
+    min: EMS1302STD1
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CCO_SPARE2:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 6.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

@@ -1,0 +1,38 @@
+checks: null
+coerce: true
+columns:
+  PDESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Times repeat for all dates until changed
+    min: Always on
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PKEY:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 4.0
+    coerce: false
+    dtype: int64
+    max: '4'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 3.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

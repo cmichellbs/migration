@@ -1,0 +1,58 @@
+checks: null
+coerce: true
+columns:
+  CLKEY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: PRK1
+    min: PRK1
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CLSTP:
+    checks: null
+    coerce: false
+    dtype: object
+    max: PRKLSTYR
+    min: PRKLSTYR
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CLSVDESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: PARKS
+    min: PARKS
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  VMC:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 1.0
+    coerce: false
+    dtype: int64
+    max: '1'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 0.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

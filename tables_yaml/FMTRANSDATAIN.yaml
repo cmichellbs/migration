@@ -1,0 +1,38 @@
+checks: null
+coerce: true
+columns:
+  FMTJD$REC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '0'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FMTJD$SEQNO:
+    checks:
+      greater_than_or_equal_to: 2110002057.0
+      less_than_or_equal_to: 2110254337.0
+    coerce: false
+    dtype: int64
+    max: '2110649929'
+    min: '2110002057'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

@@ -1,0 +1,358 @@
+checks: null
+coerce: true
+columns:
+  GBE$BCONSUMP:
+    checks:
+      greater_than_or_equal_to: 0.0
+      less_than_or_equal_to: 407.0
+    coerce: false
+    dtype: float64
+    max: '66951.000000'
+    min: '-36240.000000'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBE$CALCCOMMENT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: -9998 x 31 days of 93
+    min: 0 consumption
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBE$CALCDATE:
+    checks:
+      greater_than_or_equal_to: '2013-11-22 00:00:00'
+      less_than_or_equal_to: '2013-11-22 00:00:00'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2013-11-22 00:00:00'
+    min: '2013-11-22 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBE$CALCPROFILE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBE$CONNTYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: GN
+    min: GN
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBE$DAYS:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 31.0
+    coerce: false
+    dtype: int64
+    max: '31'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBE$DEDICATED:
+    checks:
+      greater_than_or_equal_to: 0.0
+      less_than_or_equal_to: 0.0
+    coerce: false
+    dtype: int64
+    max: '0'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBE$DISCONFLAG:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '2'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBE$FLAG:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 2.0
+    coerce: false
+    dtype: int64
+    max: '4'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBE$FLOW:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBE$FROM:
+    checks:
+      greater_than_or_equal_to: '2011-11-01 00:00:00'
+      less_than_or_equal_to: '2015-11-01 00:00:00'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2015-11-01 00:00:00'
+    min: '2011-11-01 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBE$GXP:
+    checks: null
+    coerce: false
+    dtype: object
+    max: TA
+    min: AR
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBE$ID:
+    checks:
+      greater_than_or_equal_to: 100001.0
+      less_than_or_equal_to: 101000.0
+    coerce: false
+    dtype: int64
+    max: '1016611'
+    min: '100001'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBE$INSTALL:
+    checks:
+      greater_than_or_equal_to: 11000001.0
+      less_than_or_equal_to: 11000020.0
+    coerce: false
+    dtype: int64
+    max: '11100697'
+    min: '11000001'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBE$INVOICED:
+    checks:
+      greater_than_or_equal_to: 0.0
+      less_than_or_equal_to: 1.0
+    coerce: false
+    dtype: int64
+    max: '1'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBE$INVOICEFLAG:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 1.0
+    coerce: false
+    dtype: int64
+    max: '1'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBE$LOSS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBE$MONTH:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 12.0
+    coerce: false
+    dtype: int64
+    max: '12'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBE$NETWORK:
+    checks: null
+    coerce: false
+    dtype: object
+    max: VEOW
+    min: VEOW
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBE$PROFILE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: RPS
+    min: RPS
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBE$RCONSUMP:
+    checks:
+      greater_than_or_equal_to: 0.0
+      less_than_or_equal_to: 407.0
+    coerce: false
+    dtype: float64
+    max: '66951.000000'
+    min: '-36240.000000'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBE$READTYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: RM
+    min: CR
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBE$REGCONTENT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WANYSZ
+    min: WANYSZ
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBE$REGISTER:
+    checks:
+      greater_than_or_equal_to: 6100000025.0
+      less_than_or_equal_to: 6110001381.0
+    coerce: false
+    dtype: int64
+    max: '6110001680'
+    min: '6100000025'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBE$RETAILER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: VEOW
+    min: VEOW
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBE$SUBMISSION:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBE$SUBMIT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBE$TO:
+    checks:
+      greater_than_or_equal_to: '2011-11-29 00:00:00'
+      less_than_or_equal_to: '2015-11-30 00:00:00'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2015-11-30 00:00:00'
+    min: '2011-11-01 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBE$TYPE:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 2.0
+    coerce: false
+    dtype: int64
+    max: '2'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBE$UOM:
+    checks: null
+    coerce: false
+    dtype: object
+    max: KL
+    min: GALLON
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBE$YEAR:
+    checks:
+      greater_than_or_equal_to: 2011.0
+      less_than_or_equal_to: 2015.0
+    coerce: false
+    dtype: int64
+    max: '2015'
+    min: '2011'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

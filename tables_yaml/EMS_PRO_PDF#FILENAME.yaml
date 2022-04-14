@@ -1,0 +1,60 @@
+checks: null
+coerce: true
+columns:
+  ID:
+    checks:
+      greater_than_or_equal_to: 1100001.0
+      less_than_or_equal_to: 1103176.0
+    coerce: false
+    dtype: int64
+    max: '1451255'
+    min: '1100001'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PDF_DIRECTORY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: STATEMENT.OUT
+    min: _HOLD_
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PDF_FILE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: VW-POSTTRANS-DETAILED20210329.csv
+    min: '20191230140845'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  VMC:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 38.0
+    coerce: false
+    dtype: int64
+    max: '51'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

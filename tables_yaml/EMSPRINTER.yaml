@@ -1,0 +1,136 @@
+checks: null
+coerce: true
+columns:
+  PTRASSIGN:
+    checks: null
+    coerce: false
+    dtype: object
+    max: SETPTR ,,65,,,3,COPIES 1,BANNER NEXT HOLD,BRIEF, NOMESSAGE
+    min: SETPTR ,,,,,,COPIES 1
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PTRCOPY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '1'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PTRDESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Printer Group 1
+    min: Billing Printer
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PTRKEY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: P:RECEIPT
+    min: C:HPLASERJET
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PTRLENGTH:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '65'
+    min: '65'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PTRMODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: "HOLD\uF7FDHOLD"
+    min: '3'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PTROPTION:
+    checks: null
+    coerce: false
+    dtype: object
+    max: "BANNER NEXT HOLD,\uF7FDBRIEF, NOMESSAGE"
+    min: "BANNER NEXT HOLD,\uF7FDBRIEF, NOMESSAGE"
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PTRPATHNAME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: \\10.248.217.65\
+    min: \\10.248.217.65\
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PTRPCPRINTER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Tech
+    min: EPSON_TM
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PTRQUE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: "STANDARD\uF7FDHOLD"
+    min: "STANDARD\uF7FDHOLD"
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PTRREMARK:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PTRWIDTH:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 5.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

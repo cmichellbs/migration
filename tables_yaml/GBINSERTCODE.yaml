@@ -1,0 +1,118 @@
+checks: null
+coerce: true
+columns:
+  GBICACTIVITYCHKFLAG:
+    checks:
+      greater_than_or_equal_to: 0.0
+      less_than_or_equal_to: 0.0
+    coerce: false
+    dtype: int64
+    max: '0'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBICACTIVITYPOINT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: HOOK.STMTPULLOUT
+    min: HOOK.STMTPULLOUT
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBICDESCRIPTION:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Priority Two Message
+    min: Check Statement
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBICINSERTCODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: NOPRINT
+    min: CHECK
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBICVALIDATIONCODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: GBI0057
+    min: GBI0057
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBIMSG:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBIMSGPARAM:
+    checks: null
+    coerce: false
+    dtype: object
+    max: BOLD
+    min: 10point
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBIPRIORITY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '2'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBITYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: VAL
+    min: INS
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE5:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 4.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

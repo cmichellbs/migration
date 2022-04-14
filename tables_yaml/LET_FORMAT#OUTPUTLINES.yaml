@@ -1,0 +1,90 @@
+checks: null
+coerce: true
+columns:
+  ID:
+    checks: null
+    coerce: false
+    dtype: object
+    max: AUTO
+    min: AUTO
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LFORMAT$LETTER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WELCDD
+    min: ACCES1
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LFORMAT$MAX$NO:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 19.0
+    coerce: false
+    dtype: int64
+    max: '19'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LFORMAT$OPT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: POSTNAME
+    min: AMT
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LFORMAT$OPT$DESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: TOTALAMT
+    min: 3WORKINGDAYSFROMTODAY
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LFORMAT$POS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '36'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  VMC:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 24.0
+    coerce: false
+    dtype: int64
+    max: '24'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 239.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

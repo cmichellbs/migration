@@ -1,0 +1,358 @@
+checks: null
+coerce: true
+columns:
+  PROGKEY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: UWI2691
+    min: UWI2690
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  RELANSWER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  RELCHANGESET:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  RELCLIENT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  RELCOMDATE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  RELDATAACCT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  RELDATANOTE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  RELDATE:
+    checks:
+      greater_than_or_equal_to: '2011-09-22 00:00:00'
+      less_than_or_equal_to: '2012-01-18 00:00:00'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2012-01-18 00:00:00'
+    min: '2011-09-22 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  RELESTHOURS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  RELEXTACTION:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  RELEXTAUTO:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  RELHOURS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  RELMASTREF:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Configuration
+    min: BASE FIX
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  RELMODULE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  RELNOTES:
+    checks: null
+    coerce: false
+    dtype: object
+    max: PARAMETERS
+    min: Fixes
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  RELOPEFFECT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  RELPACKAGEVERSION:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  RELPREREQ:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  RELPRIO:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  RELPROGM:
+    checks: null
+    coerce: false
+    dtype: object
+    max: GENTRACK2
+    min: GENTRACK1
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  RELQUESTION:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  RELRELDATE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  RELRELWHO:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  RELREMARKS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Configuration parameter
+    min: BASE FIX
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  RELSCHEMA:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  RELSCRHELP:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  RELSITEEXCL:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  RELSRNO:
+    checks: null
+    coerce: false
+    dtype: object
+    max: FIX
+    min: Configuration parameter
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  RELSRTYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: CONIG
+    min: CONIG
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  RELSTATUS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: CUR
+    min: CAN
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  RELTECHNICAL:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  RELVERS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  RELVERSEFF:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  RELVERSION:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 1.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

@@ -1,0 +1,204 @@
+checks: null
+coerce: true
+columns:
+  UIACCOUNT:
+    checks:
+      greater_than_or_equal_to: 100001641.0
+      less_than_or_equal_to: 652078401.0
+    coerce: false
+    dtype: int64
+    max: '652078401'
+    min: '100001641'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  UIASSPSORT1:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  UICONSUMER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  UICUSTNAME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  UIKEY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '7110698333'
+    min: '7110698243'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  UILEDGER:
+    checks:
+      greater_than_or_equal_to: 100001641.0
+      less_than_or_equal_to: 652078401.0
+    coerce: false
+    dtype: int64
+    max: '652078401'
+    min: '100001641'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  UINSSPSORT1:
+    checks:
+      greater_than_or_equal_to: 19471.0
+      less_than_or_equal_to: 19471.0
+    coerce: false
+    dtype: int64
+    max: '19471'
+    min: '19471'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  UINSSPSORT2:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  UINSSPSORT3:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  UIPARENT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  UIPOSTAL1:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  UIPOSTAL2:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  UIPOSTAL3:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  UIPOSTAL4:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  UIPOSTAL5:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  UIPRINTING:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  UISEQNO:
+    checks:
+      greater_than_or_equal_to: 698921.0
+      less_than_or_equal_to: 699011.0
+    coerce: false
+    dtype: int64
+    max: '699011'
+    min: '698921'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  UITABLENAME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: GBSTATEMENT
+    min: GBSTATEMENT
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 90.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

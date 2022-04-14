@@ -1,0 +1,106 @@
+checks: null
+coerce: true
+columns:
+  GBUICONSUMER:
+    checks:
+      greater_than_or_equal_to: 1100030610.0
+      less_than_or_equal_to: 1110278310.0
+    coerce: false
+    dtype: int64
+    max: '1110278310'
+    min: '1100030610'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBUIDATE:
+    checks:
+      greater_than_or_equal_to: '2013-07-15 00:00:00'
+      less_than_or_equal_to: '2021-04-22 00:00:00'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-04-22 00:00:00'
+    min: '2013-07-15 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBUIDISTRICT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '6'
+    min: '22'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBUIINVOICE:
+    checks:
+      greater_than_or_equal_to: 511000090445.0
+      less_than_or_equal_to: 511000701576.0
+    coerce: false
+    dtype: int64
+    max: '511000701576'
+    min: '511000090445'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBUILEDGER:
+    checks:
+      greater_than_or_equal_to: 100000033.0
+      less_than_or_equal_to: 653099895.0
+    coerce: false
+    dtype: int64
+    max: '653099895'
+    min: '100000033'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBUILINECO:
+    checks: null
+    coerce: false
+    dtype: object
+    max: VEOW
+    min: VEOW
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBUITOT_DOLLAR:
+    checks:
+      greater_than_or_equal_to: -15647.0
+      less_than_or_equal_to: 147384.0
+    coerce: false
+    dtype: int64
+    max: '147384'
+    min: '-15647'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBUIUTILITY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: W
+    min: W
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 318.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

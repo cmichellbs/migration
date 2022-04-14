@@ -1,0 +1,66 @@
+checks: null
+coerce: true
+columns:
+  BPG_CLASS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: PIF:FILEMANAGER.TRANSIN
+    min: CCA:ACCOUNT
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPG_CODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: VAL.MSATSCATS
+    min: ACCOUNTS
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPG_DATABASE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: MSATSCATS
+    min: ACCOUNTS
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPG_DESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Time of Use
+    min: Accounts
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPG_STPGROUP:
+    checks: null
+    coerce: false
+    dtype: object
+    max: BPMGROUPMSATSCATS
+    min: BPMGROUPDEFAULT
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 12.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

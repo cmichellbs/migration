@@ -1,0 +1,76 @@
+checks: null
+coerce: true
+columns:
+  URAMT:
+    checks:
+      greater_than_or_equal_to: 2000.0
+      less_than_or_equal_to: 36650.0
+    coerce: false
+    dtype: int64
+    max: '36650'
+    min: '2000'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  URDATE:
+    checks:
+      greater_than_or_equal_to: '2021-04-22 00:00:00'
+      less_than_or_equal_to: '2021-04-22 00:00:00'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-04-22 00:00:00'
+    min: '2021-04-22 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  URID:
+    checks:
+      greater_than_or_equal_to: 100001467.0
+      less_than_or_equal_to: 653060553.0
+    coerce: false
+    dtype: int64
+    max: '653060553'
+    min: '100001467'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  URRECNO:
+    checks:
+      greater_than_or_equal_to: 137105.0
+      less_than_or_equal_to: 137121.0
+    coerce: false
+    dtype: int64
+    max: '137121'
+    min: '137105'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  VMC:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 1.0
+    coerce: false
+    dtype: int64
+    max: '1'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 15.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

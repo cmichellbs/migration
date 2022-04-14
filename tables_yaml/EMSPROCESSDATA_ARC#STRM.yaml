@@ -1,0 +1,156 @@
+checks: null
+coerce: true
+columns:
+  PRORA_BATCHNO:
+    checks:
+      greater_than_or_equal_to: 1100001.0
+      less_than_or_equal_to: 1100914.0
+    coerce: false
+    dtype: int64
+    max: '1451255'
+    min: '1100001'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PRORA_PHITEM:
+    checks: null
+    coerce: false
+    dtype: object
+    max: EMSPROCESSOUTPUT.ARC 1451255-0
+    min: EMSPROCESSOUTPUT.ARC 1100001-0
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PRORA_STRM_DETS1:
+    checks: null
+    coerce: false
+    dtype: object
+    max: TLA
+    min: ' , , Stage '
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PRORA_STRM_DETS2:
+    checks: null
+    coerce: false
+    dtype: object
+    max: UWI1307LETF2
+    min: EMS1300ARR
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PRORA_STRM_ENDDTE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '2021-04-22 00:00:00'
+    min: '2012-03-03 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PRORA_STRM_ENDTIM:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '9000-01-01 23:59:59'
+    min: '9000-01-01 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PRORA_STRM_HOSTNAME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: VWNZ-PAP-BIL
+    min: VWNZ-PAP-BIL
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PRORA_STRM_PID:
+    checks: null
+    coerce: false
+    dtype: object
+    max: VWNZ-PAP-BIL:9996
+    min: VWNZ-PAP-BIL:1000
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PRORA_STRM_PROGRESS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Started
+    min: Completed  100%
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PRORA_STRM_PROGTIM:
+    checks:
+      greater_than_or_equal_to: '9000-01-01 00:10:03'
+      less_than_or_equal_to: '9000-01-01 21:58:27'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '9000-01-01 23:59:59'
+    min: '9000-01-01 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PRORA_STRM_STARTDTE:
+    checks:
+      greater_than_or_equal_to: '2012-03-03 00:00:00'
+      less_than_or_equal_to: '2012-03-29 00:00:00'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-04-22 00:00:00'
+    min: '2012-03-03 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PRORA_STRM_STARTTIM:
+    checks:
+      greater_than_or_equal_to: '9000-01-01 00:10:03'
+      less_than_or_equal_to: '9000-01-01 21:58:27'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '9000-01-01 23:59:59'
+    min: '9000-01-01 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  VMC:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 7.0
+    coerce: false
+    dtype: int64
+    max: '51'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

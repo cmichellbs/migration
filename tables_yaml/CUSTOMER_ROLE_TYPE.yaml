@@ -1,0 +1,56 @@
+checks: null
+coerce: true
+columns:
+  CRTGROUP:
+    checks: null
+    coerce: false
+    dtype: object
+    max: I
+    min: E
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CRTPRIMARY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '1'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PDESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Technical Consultant
+    min: Accounts Payable
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PKEY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: TECH
+    min: 1STCONT
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 13.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

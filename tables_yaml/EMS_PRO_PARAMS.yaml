@@ -1,0 +1,216 @@
+checks: null
+coerce: true
+columns:
+  PROP_ITEM:
+    checks: null
+    coerce: false
+    dtype: object
+    max: ZZTEST
+    min: AUDITREPORT-2016YR
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PROP_PDF_FILE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '1451255'
+    min: '1000264'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PROP_PROCESS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: VW-POSTTRANS-DET-CREDATE
+    min: ARG1901
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PROP_RUN_ENDTIME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '2021-04-22 15:06:17'
+    min: '2011-04-26 14:22:44'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PROP_RUN_LOGNAME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: VSHADBOLT
+    min: ALANT
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PROP_RUN_STARTTIME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '2021-04-22 15:06:17'
+    min: '2011-04-26 14:22:43'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PROP_RUN_USER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: VSHADBOLT
+    min: ALANT
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE27:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE28:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE29:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE30:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE36:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE37:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE38:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE39:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE40:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE6:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE7:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE8:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE9:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 277.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

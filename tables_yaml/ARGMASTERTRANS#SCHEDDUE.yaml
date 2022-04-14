@@ -1,0 +1,64 @@
+checks: null
+coerce: true
+columns:
+  ARGT_KEY:
+    checks:
+      greater_than_or_equal_to: 1100001.0
+      less_than_or_equal_to: 1100344.0
+    coerce: false
+    dtype: int64
+    max: '1101724'
+    min: '1100001'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ARGT_SCHEDBAL:
+    checks:
+      greater_than_or_equal_to: 0.0
+      less_than_or_equal_to: 93852.0
+    coerce: false
+    dtype: int64
+    max: '428792'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ARGT_SCHEDDUE:
+    checks:
+      greater_than_or_equal_to: '2011-09-13 00:00:00'
+      less_than_or_equal_to: '2013-11-22 00:00:00'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2099-12-31 00:00:00'
+    min: '2011-09-13 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  VMC:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 15.0
+    coerce: false
+    dtype: int64
+    max: '15'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

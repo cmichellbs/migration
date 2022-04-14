@@ -1,0 +1,56 @@
+checks: null
+coerce: true
+columns:
+  MT$CONTTYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: text/plain
+    min: application/msword
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  MT$EXT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: XLSX
+    min: DOC
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  MT$ICON:
+    checks: null
+    coerce: false
+    dtype: object
+    max: MEMO$TEXT
+    min: MEDIA$AUDIO
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  MT$OPTION:
+    checks: null
+    coerce: false
+    dtype: object
+    max: C
+    min: A
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 16.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

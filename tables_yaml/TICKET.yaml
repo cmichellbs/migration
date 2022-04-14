@@ -1,0 +1,72 @@
+checks: null
+coerce: true
+columns:
+  TICKET$EXPIRY:
+    checks:
+      greater_than_or_equal_to: '2021-04-22 15:48:47'
+      less_than_or_equal_to: '2021-04-22 16:54:59'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-04-22 16:54:59'
+    min: '2021-04-22 15:48:47'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TICKET$ID:
+    checks: null
+    coerce: false
+    dtype: object
+    max: 951-835-169-29
+    min: 243-471-169-568
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TICKET$INITIALTIME:
+    checks:
+      greater_than_or_equal_to: '2021-04-22 07:50:44'
+      less_than_or_equal_to: '2021-04-22 14:50:43'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-04-22 14:50:43'
+    min: '2021-04-22 07:50:44'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TICKET$LOGGING:
+    checks:
+      greater_than_or_equal_to: 0.0
+      less_than_or_equal_to: 0.0
+    coerce: false
+    dtype: int64
+    max: '0'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TICKET$USER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: STEPHANIE.BELL
+    min: ANGELA.EARLY
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 7.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

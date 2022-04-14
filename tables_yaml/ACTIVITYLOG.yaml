@@ -1,0 +1,94 @@
+checks: null
+coerce: true
+columns:
+  AL$ACTIVITY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WIZ:WIZARD.OPEN
+    min: CWIZ:ARRANGEMENT.DATES.SUB
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  AL$DESTINATION:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WULOG.SCR
+    min: ACTIVITY.SCR
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  AL$FINISHED:
+    checks:
+      greater_than_or_equal_to: '2012-03-03 06:47:17'
+      less_than_or_equal_to: '2012-03-05 12:25:55'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-04-22 15:54:49'
+    min: '2012-03-03 06:47:17'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  AL$ID:
+    checks:
+      greater_than_or_equal_to: 11000001.0
+      less_than_or_equal_to: 11001000.0
+    coerce: false
+    dtype: int64
+    max: '16474140'
+    min: '11000001'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  AL$STARTED:
+    checks:
+      greater_than_or_equal_to: '2012-03-03 06:47:10'
+      less_than_or_equal_to: '2012-03-05 12:25:31'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-04-22 15:54:21'
+    min: '2012-03-03 06:47:10'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  AL$STATFLAG:
+    checks:
+      greater_than_or_equal_to: 0.0
+      less_than_or_equal_to: 0.0
+    coerce: false
+    dtype: int64
+    max: '0'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  AL$USER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: YOOSTHUIZEN
+    min: ADRIANA.JANSSEN
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

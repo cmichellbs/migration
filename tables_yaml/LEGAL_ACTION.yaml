@@ -1,0 +1,96 @@
+checks: null
+coerce: true
+columns:
+  LTAUTOCAN:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LTCODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: PHONE
+    min: FILE
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LTCOST:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LTCOURT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Y
+    min: N
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LTDAYS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: D20
+    min: D10
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LTDESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: File Suit
+    min: Demand Letter
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LTLETTER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: CURR2
+    min: CURR2
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LTRESUB:
+    checks: null
+    coerce: false
+    dtype: object
+    max: LTR
+    min: FILE
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 2.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

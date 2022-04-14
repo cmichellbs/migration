@@ -1,0 +1,92 @@
+checks: null
+coerce: true
+columns:
+  FMTEVENTCODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FMTEVENTCONTXT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: "1\uF7FC96W009716D\uF7FC11014019\uF7FC653060254"
+    min: "11000552\uF7FCDI\uF7FC17994\uF7FC409301021"
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FMTEVENTEXP:
+    checks: null
+    coerce: false
+    dtype: object
+    max: NEM130014
+    min: IFMMETERLOAD.1
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FMTEVENTKEY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FMTEVENTTYPE:
+    checks:
+      greater_than_or_equal_to: 3.0
+      less_than_or_equal_to: 3.0
+    coerce: false
+    dtype: int64
+    max: '3'
+    min: '3'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FMTSEQNO:
+    checks:
+      greater_than_or_equal_to: 6110000004.0
+      less_than_or_equal_to: 6110614437.0
+    coerce: false
+    dtype: int64
+    max: '6110650029'
+    min: '6110000004'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  VMC:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 64.0
+    coerce: false
+    dtype: int64
+    max: '64'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

@@ -1,0 +1,89 @@
+checks: null
+coerce: true
+columns:
+  BSBADDRESS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: "Working Capital Services, Level 9\uF7FDASB Centre, 135 Albert Street\uF7FD\
+      Auckland"
+    min: "0\uF7FDMilford\uF7FDAuckland"
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BSBBANK:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WBC
+    min: ANZ
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BSBBRANCH:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Wynyard Quarter
+    min: 11Th Ave Centre Tauranga
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BSBDATE:
+    checks:
+      greater_than_or_equal_to: '2009-09-08 00:00:00'
+      less_than_or_equal_to: '2021-04-21 00:00:00'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-04-21 00:00:00'
+    min: '2009-09-08 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BSBID:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '389499'
+    min: 010008
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BSBTYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: BK
+    min: BK
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BSBUSER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: PAM.OTTERSON
+    min: DEBBIE.TAHAPEHI
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

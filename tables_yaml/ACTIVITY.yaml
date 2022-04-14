@@ -1,0 +1,164 @@
+checks: null
+coerce: true
+columns:
+  ACT_CHILDFLAG:
+    checks:
+      greater_than_or_equal_to: 0.0
+      less_than_or_equal_to: 1.0
+    coerce: false
+    dtype: int64
+    max: '1'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACT_CLASS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: VWS:TOTAL.WAT.CONDET
+    min: AXB:LANGUAGE
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACT_CONTAINER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WATER.MENU
+    min: ACCOUNT.AGREEMENT.IMAGE.MENU
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACT_DEFAULT:
+    checks:
+      greater_than_or_equal_to: 0.0
+      less_than_or_equal_to: 1.0
+    coerce: false
+    dtype: int64
+    max: '1'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACT_DESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: "\uF7FD"
+    min: A grouping of one or more specified financial transaction types.
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACT_ENABLE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: PRIVATE_SCHEME
+    min: APPROVABLE_VALIDATION
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACT_ICON:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WIZARD
+    min: ACCOUNT
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACT_ICON_SIZE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '32'
+    min: '16'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACT_ID:
+    checks:
+      greater_than_or_equal_to: 18382.0
+      less_than_or_equal_to: 19382.0
+    coerce: false
+    dtype: int64
+    max: '29028'
+    min: '18382'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACT_ROLE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: SWITCHUK
+    min: BILL
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACT_SCREEN:
+    checks: null
+    coerce: false
+    dtype: object
+    max: VWS:TOTAL.WAT.CONSUM.PROCESS
+    min: ACCOUNT.AGREEMENT.SCR
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACT_SORT:
+    checks:
+      greater_than_or_equal_to: -1.0
+      less_than_or_equal_to: 999.0
+    coerce: false
+    dtype: int64
+    max: '1031'
+    min: '-1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACT_TARGET:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WIZ:XMLTAG.GET.TREEVIEW
+    min: ACCOUNT.AGREEMENT.IMAGE.MENU
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ACT_TITLE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Zoom to Queue Item Screen
+    min: Abolish Supply
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

@@ -1,0 +1,298 @@
+checks: null
+coerce: true
+columns:
+  SPARE19:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE24:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE25:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE5:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE8:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE9:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TARC$ACTIVE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: A
+    min: A
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TARC$AVGE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TARC$CLASS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: VAR
+    min: FIX
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TARC$CODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WVOL0
+    min: FIXTSSERV
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TARC$DESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Water Volumetric Charge - 100%
+    min: Fixed Sewer Discharge Charge 1.
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TARC$DISCOUNT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TARC$FILTYPE:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 2.0
+    coerce: false
+    dtype: int64
+    max: '2'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TARC$FIXTCGROUP:
+    checks: null
+    coerce: false
+    dtype: object
+    max: SSERV
+    min: SSERV
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TARC$GRP:
+    checks: null
+    coerce: false
+    dtype: object
+    max: W
+    min: O
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TARC$INV$HEAD$GRP:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WATER
+    min: OTHER
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TARC$INVDESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Water Volumetric Charge
+    min: Administration Fee
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TARC$MAXAMOUNT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TARC$MINAMOUNT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: MIN
+    min: MIN
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TARC$NETWORKTYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TARC$SSP1:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TARC$SSP2:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TARC$SSP3:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TARC$SSP4:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TARC$SSP5:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TARC$TEMPLATE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WVOL0
+    min: FIXTSSERV
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TARC$UNITS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '0.950000'
+    min: '0.010000'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TARC$UTILITY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: W
+    min: S
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 126.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

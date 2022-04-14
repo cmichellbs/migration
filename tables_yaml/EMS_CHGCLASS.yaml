@@ -1,0 +1,56 @@
+checks: null
+coerce: true
+columns:
+  CHGC_CODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '301'
+    min: '000'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CHGC_DESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: No Sewer Connection
+    min: Commercial/Industrial
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE2:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE3:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 2.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

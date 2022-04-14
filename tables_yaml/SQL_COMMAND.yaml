@@ -1,0 +1,78 @@
+checks: null
+coerce: true
+columns:
+  COMMAND:
+    checks: null
+    coerce: false
+    dtype: object
+    max: UPPER(NAMEHELP.NHNAME) LIKE UPPER(%3v)
+    min: ' CUS_SEQNO IN(SELECT CUSR_CUSTOMER FROM CUSTOMERROLE WHERE CUSR_ACCTNO IN
+      (SELECT CACCT FROM CONSUMER WHERE CINSTALL IN %6l))'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FILENAME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: VOC
+    min: ACCOUNTS
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  IN_TYPES:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '0'
+    min: ' '
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  NAME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: ZZ
+    min: CAC1000IMPORTOK_1
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ORDERBY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: NAMEHELP.NHNAME
+    min: ' '
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  OUT_TYPES:
+    checks: null
+    coerce: false
+    dtype: object
+    max: "5\uF7FD2\uF7FD2\uF7FD2\uF7FD2\uF7FD3\uF7FD2\uF7FD2\uF7FD1\uF7FD3\uF7FD1\uF7FD\
+      1\uF7FD1\uF7FD1\uF7FD2\uF7FD1\uF7FD6\uF7FD1\uF7FD2"
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 428.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

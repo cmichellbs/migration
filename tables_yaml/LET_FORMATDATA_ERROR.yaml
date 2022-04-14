@@ -1,0 +1,252 @@
+checks: null
+coerce: true
+columns:
+  LETCODE_CODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: RES_D
+    min: REM_D
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LETCODE_USER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: AUTO
+    min: AUTO
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LETDATA:
+    checks: null
+    coerce: false
+    dtype: object
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LETDATE:
+    checks:
+      greater_than_or_equal_to: '2013-08-12 00:00:00'
+      less_than_or_equal_to: '2013-08-12 00:00:00'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2013-08-12 00:00:00'
+    min: '2013-08-12 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LETDOCBHEADER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LETEMAIL:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LETFAX:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LETID_ACC:
+    checks:
+      greater_than_or_equal_to: 100000084.0
+      less_than_or_equal_to: 653089217.0
+    coerce: false
+    dtype: int64
+    max: '653089217'
+    min: '100000084'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LETID_CON:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LETID_INST:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LETID_LEDGER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '653088918'
+    min: '653000280'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LETID_SO:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LETID_SPARE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LETPRINTER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LETSEQ:
+    checks:
+      greater_than_or_equal_to: 17551.0
+      less_than_or_equal_to: 17614.0
+    coerce: false
+    dtype: int64
+    max: '17614'
+    min: '17551'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LETSPARE10:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LETSPARE11:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LETSPARE12:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LETSPARE13:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LETSPARE14:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LETSPARE9:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LETTIME:
+    checks:
+      greater_than_or_equal_to: '9000-01-01 20:17:28'
+      less_than_or_equal_to: '9000-01-01 20:17:39'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '9000-01-01 20:17:39'
+    min: '9000-01-01 20:17:28'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LETUSER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: GENINSTALL
+    min: GENINSTALL
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 63.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

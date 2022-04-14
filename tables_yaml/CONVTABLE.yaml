@@ -1,0 +1,102 @@
+checks: null
+coerce: true
+columns:
+  CONVKEY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: SUBZONES
+    min: ACCOUNTS
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LABEL:
+    checks: null
+    coerce: false
+    dtype: object
+    max: TA1
+    min: '301300104'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  NEW$ACCOUNTS:
+    checks:
+      greater_than_or_equal_to: 301300104.0
+      less_than_or_equal_to: 416412509.0
+    coerce: false
+    dtype: int64
+    max: '850120106'
+    min: '301300104'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  NEW$CUSTOMER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '1100020409'
+    min: "1100000001\uF7FD1100000002"
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  NEW$DEVICE:
+    checks:
+      greater_than_or_equal_to: 910000025.0
+      less_than_or_equal_to: 910001357.0
+    coerce: false
+    dtype: int64
+    max: '910020111'
+    min: '910000025'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  NEW$INSTALL:
+    checks:
+      greater_than_or_equal_to: 11000001.0
+      less_than_or_equal_to: 11001000.0
+    coerce: false
+    dtype: int64
+    max: '11015933'
+    min: '11000001'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  NEW$PLAN:
+    checks: null
+    coerce: false
+    dtype: object
+    max: 5100020111:STDST0SS0
+    min: 5100000025:STDST0SS0
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  NEW$REGKEY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '6100020111'
+    min: '6100000025'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

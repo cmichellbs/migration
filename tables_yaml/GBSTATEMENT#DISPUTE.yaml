@@ -1,0 +1,74 @@
+checks: null
+coerce: true
+columns:
+  GBSDISP_DATE:
+    checks:
+      greater_than_or_equal_to: '2015-01-30 00:00:00'
+      less_than_or_equal_to: '2015-01-30 00:00:00'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2015-01-30 00:00:00'
+    min: '2015-01-30 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBSDISP_DOLLAR:
+    checks:
+      greater_than_or_equal_to: 27814.0
+      less_than_or_equal_to: 27814.0
+    coerce: false
+    dtype: int64
+    max: '27814'
+    min: '27814'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBSDISP_GROUP:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '511000190282'
+    min: '511000190282'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBSSTATEMENT:
+    checks:
+      greater_than_or_equal_to: 7110206332.0
+      less_than_or_equal_to: 7110685260.0
+    coerce: false
+    dtype: int64
+    max: '7110685260'
+    min: '7110206332'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  VMC:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 1.0
+    coerce: false
+    dtype: int64
+    max: '1'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 24.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

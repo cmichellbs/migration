@@ -1,0 +1,58 @@
+checks: null
+coerce: true
+columns:
+  BPAT_ACTTYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: B1ACQ|A$VALID
+    min: B1ACQ|A$COMPLETE
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPAT_PREV_ACTION:
+    checks: null
+    coerce: false
+    dtype: object
+    max: B1ACQ|A$VALID
+    min: B1ACQ|A$CHKINST
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPAT_PREV_QUAL:
+    checks: null
+    coerce: false
+    dtype: object
+    max: M
+    min: M
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  VMC:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 1.0
+    coerce: false
+    dtype: int64
+    max: '1'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 3.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

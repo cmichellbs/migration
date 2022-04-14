@@ -1,0 +1,109 @@
+checks: null
+coerce: true
+columns:
+  ID:
+    checks: null
+    coerce: false
+    dtype: object
+    max: VW-POSTTRANS-DET-CREDATE
+    min: ARG1902
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PROC_ATTR_CLASS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: PUS:USER.EMAIL
+    min: AXA:ID.LENGTH2
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PROC_ATTR_DESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Zero tax transaction type that will be put on the ledger's record against
+      this balance write-off
+    min: '!DAHISTORY##DAH_MTYPE_HHM'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PROC_ATTR_DISP:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '1'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PROC_ATTR_GROUP:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '7'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PROC_ATTR_MANDATORY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '1'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PROC_ATTR_NAME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Zero Tax Transaction Type
+    min: Account Manager
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PROC_ATTR_NUM:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '55'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  VMC:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 25.0
+    coerce: false
+    dtype: int64
+    max: '25'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 525.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

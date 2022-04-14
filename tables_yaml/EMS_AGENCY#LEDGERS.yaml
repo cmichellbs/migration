@@ -1,0 +1,52 @@
+checks: null
+coerce: true
+columns:
+  AGLEDGER:
+    checks:
+      greater_than_or_equal_to: 415605916.0
+      less_than_or_equal_to: 840910115.0
+    coerce: false
+    dtype: int64
+    max: '850100003'
+    min: '100000003'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  AGSEQNO:
+    checks:
+      greater_than_or_equal_to: 2.0
+      less_than_or_equal_to: 1001.0
+    coerce: false
+    dtype: int64
+    max: '732704'
+    min: '2'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  VMC:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 1.0
+    coerce: false
+    dtype: int64
+    max: '2'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

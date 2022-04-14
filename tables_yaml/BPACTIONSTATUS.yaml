@@ -1,0 +1,156 @@
+checks: null
+coerce: true
+columns:
+  BPAS_ACTION:
+    checks: null
+    coerce: false
+    dtype: object
+    max: NICE
+    min: B1ACQ|A$TASK
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPAS_BATCH:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Pending
+    min: Batch
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPAS_CAN:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Cancelled
+    min: Cancelled
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPAS_COMFAIL:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Completed - Fail
+    min: Completed - Fail
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPAS_COMOK:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Completed
+    min: Completed
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPAS_HOLD:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Hold
+    min: Hold
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPAS_INFAIL:
+    checks: null
+    coerce: false
+    dtype: object
+    max: In Fail
+    min: In Fail
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPAS_INOK:
+    checks: null
+    coerce: false
+    dtype: object
+    max: In
+    min: Continue
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPAS_NEW:
+    checks: null
+    coerce: false
+    dtype: object
+    max: New
+    min: New
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPAS_OUT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Out
+    min: Open
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPAS_PARK:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Queued
+    min: Park
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE10:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE7:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE8:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 2.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

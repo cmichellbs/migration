@@ -1,0 +1,136 @@
+checks: null
+coerce: true
+columns:
+  ASSOC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CONV:
+    checks: null
+    coerce: false
+    dtype: object
+    max: UG2CNVGTCURR
+    min: ''
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DESCRIPTION:
+    checks: null
+    coerce: false
+    dtype: object
+    max: XX_CONTROL
+    min: ''
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DICTNAME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: UOM.SERVICE
+    min: .REC
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FORMAT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: 9R
+    min: ''
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LOC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: TRANS('METERS', QCT.METER, 'QMSTATUS', 'X')
+    min: '"1"'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  MV_SV:
+    checks: null
+    coerce: false
+    dtype: object
+    max: S
+    min: M
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE10:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE8:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE9:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TABLENAME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: XX_CONTROL
+    min: ACCOUNT_AGREEMENT
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: V
+    min: D
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

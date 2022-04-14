@@ -1,0 +1,86 @@
+checks: null
+coerce: true
+columns:
+  TARFIXTTC$CODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: ALLDAYS
+    min: ALLDAYS
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TARFIXTTC$DESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: All Days
+    min: All Days
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TARFIXTTC$TYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TARFIXTTCSPARE1:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TARFIXTTCSPARE2:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TARFIXTTCSPARE3:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TARFIXTTCSPARE4:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 0.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

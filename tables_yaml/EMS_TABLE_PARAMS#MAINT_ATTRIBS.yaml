@@ -1,0 +1,50 @@
+checks: null
+coerce: true
+columns:
+  MAINT$DETAILS:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 35.0
+    coerce: false
+    dtype: int64
+    max: '35'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TABLE_NAME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WITHHOLDING_TAX
+    min: ADDRESS_COMMON_TYPE
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  VMC:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 7.0
+    coerce: false
+    dtype: int64
+    max: '7'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 49.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

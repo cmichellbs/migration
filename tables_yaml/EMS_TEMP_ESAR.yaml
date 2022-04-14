@@ -1,0 +1,492 @@
+checks: null
+coerce: true
+columns:
+  TRN_ACCLASS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_AREA:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '8'
+    min: '10'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_AUTHOFFICER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_BATCHPOST_BRN:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_BATCHPOST_GL:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_BATCHPOST_STAT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_BILLFREQ:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_BILLRUNNO:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_BILLSEQ:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_CHGCONSUMER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '1110580610'
+    min: '1100000110'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_CHGDATEFROM:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '2021-12-17 00:00:00'
+    min: '2000-02-02 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_CHGDATETO:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '2030-09-02 00:00:00'
+    min: '2010-09-30 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_CSBAL:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '-99999'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_DATE:
+    checks:
+      greater_than_or_equal_to: '2004-07-01 00:00:00'
+      less_than_or_equal_to: '2010-06-30 00:00:00'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-04-22 00:00:00'
+    min: '2000-02-02 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_DEBTID:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '11134388133'
+    min: '11000000001'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_DEMANDCHARGED:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_DEMANDREAD:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_DESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: ZOE MARY ANDERSON
+    min: '"min charge" Invoice generated for 1 day (0 kl) so old mtr could be removed
+      & new mtr updated'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_DISC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_DUEDATE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '2021-05-18 00:00:00'
+    min: '2004-07-23 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_EASYPAY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_EXTDESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: zzinternatio:8 waka:100007366:Z & Z INTERNATIONAL
+    min: '"min charge" Invoice generated for 1 day (0 kl) so old mtr could be removed
+      & new mtr update'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_FCHGCODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_FILEID:
+    checks: null
+    coerce: false
+    dtype: object
+    max: REVERSEDEBT:11134345354
+    min: REVERSEBILL:11002116062
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_GLREF:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_INVOICEREF:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '511000701601'
+    min: '510000064531'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_KEY:
+    checks:
+      greater_than_or_equal_to: 301300104.0
+      less_than_or_equal_to: 466101023.0
+    coerce: false
+    dtype: int64
+    max: '850120106'
+    min: '100000000'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_LOG:
+    checks: null
+    coerce: false
+    dtype: object
+    max: YAN.SUN:19414:31044
+    min: ADRIANA.JANSSEN:17405:52904
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_MTH:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '9'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_NZSIC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: D281
+    min: '0000'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_OFFICER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_OTHDESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Runno1451253*S:19468
+    min: AGENCYRECEIPT
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_OTHSYS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '2'
+    min: '2'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_RUNTYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_SEQNO:
+    checks:
+      greater_than_or_equal_to: 510000001.0
+      less_than_or_equal_to: 510001000.0
+    coerce: false
+    dtype: int64
+    max: '517021007'
+    min: '510000001'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_SPARE46:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_STATFILE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Z
+    min: W
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_STATUS:
+    checks:
+      greater_than_or_equal_to: 0.0
+      less_than_or_equal_to: 1.0
+    coerce: false
+    dtype: int64
+    max: '1'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_SUBRECALL:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_SYSDATE:
+    checks:
+      greater_than_or_equal_to: '2012-03-02 19:50:43'
+      less_than_or_equal_to: '2012-03-02 19:50:52'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-04-22 15:43:04'
+    min: '2012-03-02 19:50:43'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_TAXGL$ANCODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: ANCODE_TAX
+    min: ANCODE_TAX
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_TAXGL$GL:
+    checks: null
+    coerce: false
+    dtype: object
+    max: GL_TAX
+    min: GL_TAX
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_TAXGL$RATE:
+    checks:
+      greater_than_or_equal_to: 0.0
+      less_than_or_equal_to: 1250.0
+    coerce: false
+    dtype: float64
+    max: '1500.000000'
+    min: '0.000000'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_TAXTYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: I
+    min: D
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_TYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WVOL
+    min: ACSH
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TRN_YYMM:
+    checks:
+      greater_than_or_equal_to: 201203.0
+      less_than_or_equal_to: 201203.0
+    coerce: false
+    dtype: int64
+    max: '202103'
+    min: '201203'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

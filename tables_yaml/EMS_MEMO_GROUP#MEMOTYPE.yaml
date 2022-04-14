@@ -1,0 +1,48 @@
+checks: null
+coerce: true
+columns:
+  MEMG_CODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '014'
+    min: '000'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  MEMG_MEMOTYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: 078
+    min: '001'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  VMC:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 13.0
+    coerce: false
+    dtype: int64
+    max: '13'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 62.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

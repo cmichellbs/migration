@@ -1,0 +1,226 @@
+checks: null
+coerce: true
+columns:
+  SOT$ABBREV:
+    checks: null
+    coerce: false
+    dtype: object
+    max: B1ACQ|A_ACQUISITION
+    min: B1ACQ|A_ACQUISITION
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SOT$ACTIVITY$ADD:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SOT$ACTIVITY$CLOSE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SOT$ACTPOINT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SOT$BPGROUP:
+    checks: null
+    coerce: false
+    dtype: object
+    max: CC
+    min: CC
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SOT$CAMPAIGN:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SOT$CAUSES:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SOT$CHANNEL:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SOT$DEPARTMENT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SOT$DESCRIPTION:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Non-contestable Markets Customer Acquisition
+    min: Non-contestable Markets Customer Acquisition
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SOT$DOCUMENTATION:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SOT$END$DATE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SOT$ICON:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SOT$OBJ$DESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SOT$PARAMGROUP:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SOT$PRIORITY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SOT$QUES$WIZ:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SOT$SERVICEORDERTYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: B1ACQ|A_ACQ
+    min: B1ACQ|A_ACQ
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SOT$SPARE10:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SOT$SPARE11:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SOT$START$DATE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 0.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

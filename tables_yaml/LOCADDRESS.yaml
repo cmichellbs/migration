@@ -1,0 +1,362 @@
+checks: null
+coerce: true
+columns:
+  LASTUPDATESUB:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LOCA_BUILDING:
+    checks: null
+    coerce: false
+    dtype: object
+    max: VEN DEN BRINK HOUSE
+    min: (Attn. Procurement Contract Admin NZ for Mobil Oil New Zealand)
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LOCA_COUNTRY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: PO BOX 72153
+    min: AUSTRALIA
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LOCA_COUNTY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LOCA_DATETIME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '2021-04-22 15:52:09'
+    min: '2012-03-08 10:35:58'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LOCA_DIRECTION:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LOCA_ENDDATE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LOCA_FLOOR:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '7'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LOCA_FLOORTYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: L
+    min: L
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LOCA_FREEFORM:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Y HSIEH, Y-Y CHEN
+    min: '  '
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LOCA_HOUSE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '39509'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LOCA_HOUSEPREFIX:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WEST OF#
+    min: (
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LOCA_HOUSESUFFIX:
+    checks: null
+    coerce: false
+    dtype: object
+    max: W
+    min: ( LOT 9 )
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LOCA_HOUSETO:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '97'
+    min: '101'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LOCA_ITEMID:
+    checks:
+      greater_than_or_equal_to: 11000001.0
+      less_than_or_equal_to: 651000681.0
+    coerce: false
+    dtype: int64
+    max: '1110603110'
+    min: '11000001'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LOCA_LABEL:
+    checks: null
+    coerce: false
+    dtype: object
+    max: INSTALLLEG
+    min: ACCOUNT
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LOCA_LOCATIONDESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LOCA_POBOX:
+    checks: null
+    coerce: false
+    dtype: object
+    max: R D 2
+    min: PO  BOX 82024
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LOCA_POSTCODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WEST VIC 8007 AUSTRALIA
+    min: (NXT TO BUNNINGS)
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LOCA_POSTCODE2:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LOCA_STARTDATE:
+    checks:
+      greater_than_or_equal_to: '2012-03-02 00:00:00'
+      less_than_or_equal_to: '2021-04-19 00:00:00'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-04-22 00:00:00'
+    min: '1970-06-17 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LOCA_STATE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WSTERN AUSTRALIA
+    min: .
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LOCA_STATUS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '99'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LOCA_STREET:
+    checks: null
+    coerce: false
+    dtype: object
+    max: ZITA AVE
+    min: .
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LOCA_STRTYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LOCA_SUBDIVISN:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LOCA_SUBURB:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WOOLSTON
+    min: (BACKHOUSE)
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LOCA_TOWNCITY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LOCA_UNIT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: UNIT F
+    min: (UNITS 1-2)
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LOCA_UNITTYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: VLLA
+    min: APT
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LOCA_UNSTRUCT1:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LOCA_UNSTRUCT2:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LOCA_UNSTRUCT3:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SEQNO:
+    checks:
+      greater_than_or_equal_to: 7100000001.0
+      less_than_or_equal_to: 7100001000.0
+    coerce: false
+    dtype: int64
+    max: '7110022622'
+    min: '7100000001'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

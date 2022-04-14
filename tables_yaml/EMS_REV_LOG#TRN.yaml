@@ -1,0 +1,106 @@
+checks: null
+coerce: true
+columns:
+  BR_AMT:
+    checks:
+      greater_than_or_equal_to: -3149194.0
+      less_than_or_equal_to: 955.0
+    coerce: false
+    dtype: int64
+    max: '8725808'
+    min: '-32655183'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BR_DESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Rev:WVOL WVOL0 x 76180
+    min: Rev:IC IC
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BR_KEY:
+    checks:
+      greater_than_or_equal_to: 1100001.0
+      less_than_or_equal_to: 1100192.0
+    coerce: false
+    dtype: int64
+    max: '1117565'
+    min: '1100001'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BR_TARIFF:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WVOL0
+    min: IC
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BR_TAX:
+    checks:
+      greater_than_or_equal_to: -410764.0
+      less_than_or_equal_to: 125.0
+    coerce: false
+    dtype: int64
+    max: '1138149'
+    min: '-4259372'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BR_TYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WVOL
+    min: IC
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BR_UNITS:
+    checks:
+      greater_than_or_equal_to: -28629.0
+      less_than_or_equal_to: 6.0
+    coerce: false
+    dtype: float64
+    max: '39922.000000'
+    min: '-108372.000000'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  VMC:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 6.0
+    coerce: false
+    dtype: int64
+    max: '30'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

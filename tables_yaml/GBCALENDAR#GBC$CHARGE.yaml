@@ -1,0 +1,82 @@
+checks: null
+coerce: true
+columns:
+  GBC$CHARGE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: SFIXWW
+    min: IC
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBC$CHG$FDATE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '2021-02-25 00:00:00'
+    min: '2011-08-14 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBC$CHG$LDATE:
+    checks:
+      greater_than_or_equal_to: '2011-12-09 00:00:00'
+      less_than_or_equal_to: '2021-04-20 00:00:00'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-12-17 00:00:00'
+    min: '2010-12-09 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBC$CHG$PDATE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBC$INSTALL:
+    checks:
+      greater_than_or_equal_to: 11000001.0
+      less_than_or_equal_to: 11000430.0
+    coerce: false
+    dtype: int64
+    max: '11105806'
+    min: '11000001'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  VMC:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 10.0
+    coerce: false
+    dtype: int64
+    max: '10'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

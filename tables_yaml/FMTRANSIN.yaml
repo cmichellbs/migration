@@ -1,0 +1,206 @@
+checks: null
+coerce: true
+columns:
+  FMTACKDUPL:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FMTACKRCPT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FMTACKSTATUS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FMTFILEHDR:
+    checks:
+      greater_than_or_equal_to: 3110000022.0
+      less_than_or_equal_to: 3110005127.0
+    coerce: false
+    dtype: int64
+    max: '3110013192'
+    min: '3110000022'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FMTHDR:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FMTIN:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FMTMSGID:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FMTREF1:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FMTREF2:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FMTREF3:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FMTREF4:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '411227087'
+    min: '411001304'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FMTSEQNO:
+    checks:
+      greater_than_or_equal_to: 6110002057.0
+      less_than_or_equal_to: 6110254337.0
+    coerce: false
+    dtype: int64
+    max: '6110649929'
+    min: '6110002057'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FMTSTATUS:
+    checks:
+      greater_than_or_equal_to: 12.0
+      less_than_or_equal_to: 12.0
+    coerce: false
+    dtype: int64
+    max: '12'
+    min: '12'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FMTTDATAID:
+    checks:
+      greater_than_or_equal_to: 2110002057.0
+      less_than_or_equal_to: 2110254337.0
+    coerce: false
+    dtype: int64
+    max: '2110649929'
+    min: '2110002057'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FMTTIMEDATE:
+    checks:
+      greater_than_or_equal_to: '2012-03-12 14:36:42'
+      less_than_or_equal_to: '2015-10-28 08:05:53'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-04-22 07:48:00'
+    min: '2012-03-12 14:36:42'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FMTTRANSID:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '1619034480'
+    min: '1331516202'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FMTTRANTYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: IFMMETERREAD
+    min: IFMAGENCYSTMT
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FMTTYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

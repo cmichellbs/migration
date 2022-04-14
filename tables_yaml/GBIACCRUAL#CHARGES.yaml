@@ -1,0 +1,390 @@
+checks: null
+coerce: true
+columns:
+  GBICALTUNITS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBICBCI:
+    checks:
+      greater_than_or_equal_to: 0.0
+      less_than_or_equal_to: 0.0
+    coerce: false
+    dtype: int64
+    max: '0'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBICCHARGE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WVOL0
+    min: IC2014/15
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBICDATASET:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '1'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBICDESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Water Volumetric Charge
+    min: Administration Fee
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBICDET_HIDDEN:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '0'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBICDISP_ZERO:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '1'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBICDOLLAR:
+    checks:
+      greater_than_or_equal_to: -13283.0
+      less_than_or_equal_to: 1003278.0
+    coerce: false
+    dtype: int64
+    max: '14908692'
+    min: '-30038'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBICENDDATE:
+    checks:
+      greater_than_or_equal_to: '2021-03-28 00:00:00'
+      less_than_or_equal_to: '2021-03-28 00:00:00'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-03-28 00:00:00'
+    min: '2014-06-30 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBICFULLDESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: 'Water Volumetric Charge $1.593000 x 992 '
+    min: Administration Fee $0.000000
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBICFULLMULTP:
+    checks: null
+    coerce: false
+    dtype: object
+    max: 992:|:|:|:|:|
+    min: :|:|:|:|:|
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBICINFO_AMOUNT:
+    checks:
+      greater_than_or_equal_to: 0.0
+      less_than_or_equal_to: 0.0
+    coerce: false
+    dtype: int64
+    max: '0'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBICINFO_FLAG:
+    checks:
+      greater_than_or_equal_to: 0.0
+      less_than_or_equal_to: 0.0
+    coerce: false
+    dtype: int64
+    max: '0'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBICINV_HEAD_GRP:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WATER
+    min: OTHER
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBICMULT_HIDDEN:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '1'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBICPLANID:
+    checks: null
+    coerce: false
+    dtype: object
+    max: VWA01
+    min: DF02
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBICPPD:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBICRATE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '9930000'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBICSTARTDATE:
+    checks:
+      greater_than_or_equal_to: '2020-08-03 00:00:00'
+      less_than_or_equal_to: '2021-03-26 00:00:00'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-12-17 00:00:00'
+    min: '2013-09-17 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBICSTEP:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBICTARIFF_AMOUNT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: "9974\uF7FC1496"
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBICTARIFF_ANCODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: "WVOL\uF7FCANCODE_TAX"
+    min: "IC\uF7FCANCODE_TAX"
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBICTARIFF_BUOM:
+    checks: null
+    coerce: false
+    dtype: object
+    max: PERIOD
+    min: DAYS
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBICTARIFF_GL:
+    checks: null
+    coerce: false
+    dtype: object
+    max: "WVOL\uF7FCGL_TAX"
+    min: "IC\uF7FCGL_TAX"
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBICTARIFF_UNITS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '992'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBICTAX:
+    checks:
+      greater_than_or_equal_to: -1993.0
+      less_than_or_equal_to: 150492.0
+    coerce: false
+    dtype: int64
+    max: '2236304'
+    min: '-4506'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBICTAXP:
+    checks:
+      greater_than_or_equal_to: 1500.0
+      less_than_or_equal_to: 1500.0
+    coerce: false
+    dtype: int64
+    max: '1500'
+    min: '1500'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBICTRN_TYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WVOL
+    min: IC
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBICTYPE:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 2.0
+    coerce: false
+    dtype: int64
+    max: '2'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBICUNITS:
+    checks:
+      greater_than_or_equal_to: -31.0
+      less_than_or_equal_to: 3340.0
+    coerce: false
+    dtype: float64
+    max: '61968.000000'
+    min: '-171.000000'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBICUNITSLOSS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBICUOM:
+    checks: null
+    coerce: false
+    dtype: object
+    max: PERIOD
+    min: DAYS
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBICUTILITY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: W
+    min: W
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBIINVOICE:
+    checks:
+      greater_than_or_equal_to: 115350555.0
+      less_than_or_equal_to: 115350900.0
+    coerce: false
+    dtype: int64
+    max: '115372172'
+    min: '115350555'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  VMC:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 3.0
+    coerce: false
+    dtype: int64
+    max: '21'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

@@ -1,0 +1,104 @@
+checks: null
+coerce: true
+columns:
+  LT$DEF$DESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Zoom to the screen for the item of the queue
+    min: A customer record may be set to either active or inactive.
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LT$DEF$SEARCH:
+    checks: null
+    coerce: false
+    dtype: object
+    max: "Zoom to Queue Item Screen\uF7FDQueue Item\uF7FDView Queue\uF7FDQueue"
+    min: "Abolish Supply\uF7FDMeter Abolish"
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LT$DEF$TITLE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Zoom to Queue Item Screen
+    min: Abolish Supply
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LT$DOCUMENTATION:
+    checks: null
+    coerce: false
+    dtype: object
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LT$ID:
+    checks: null
+    coerce: false
+    dtype: object
+    max: XML1000.SCR
+    min: ACCOUNT.AGREEMENT.IMAGE.MENU
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LT$SCR$DESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Zoom to the screen for the item of the queue
+    min: A list of the install types each test should be performed against.
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LT$SCR$TITLE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Zoom to Queue Item Screen
+    min: Abolish Supply
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LT$TARGET$CLASS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: PSH:PROCESS.SCHEDULE
+    min: AXB:SQL.COMMAND
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LT$TARGET$REQUEST:
+    checks: null
+    coerce: false
+    dtype: object
+    max: TRANSFERREQUEST
+    min: ADD.ACTION
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

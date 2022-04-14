@@ -1,0 +1,116 @@
+checks: null
+coerce: true
+columns:
+  AP$APNAME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WIZ:SOR.SPECIALRD
+    min: BPMACTIONACKQUEUE
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  AP$APPARAM:
+    checks: null
+    coerce: false
+    dtype: object
+    max: CONSUMER
+    min: CONSUMER
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  AP$APTYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WIZARD
+    min: GENBASIC
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  AP$CODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WATOWNERTENANT
+    min: ACCOUNT_GOLD
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  AP$DESCRIPTION:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Withdraw MSATS CATS Request
+    min: ' Combine and send all available MVRS Reading Schedules'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  AP$ICON:
+    checks: null
+    coerce: false
+    dtype: object
+    max: ICON$MEMO
+    min: '      '
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  AP$PARAMGROUP:
+    checks: null
+    coerce: false
+    dtype: object
+    max: B1MSATS|MSATS.PARK
+    min: B1MSATS|MSATS.PARK
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  AP$POINT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WEBPDFINVOICE
+    min: ACCOUNT_ACCESS
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  AP$QUESTIONTYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: TRN.SENDTN
+    min: COMQ.CANCEL
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  AP$ZOOM:
+    checks: null
+    coerce: false
+    dtype: object
+    max: BPM2106M
+    min: BPM2106M
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 563.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

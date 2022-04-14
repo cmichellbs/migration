@@ -1,0 +1,136 @@
+checks: null
+coerce: true
+columns:
+  CC$CLASSIFICATION:
+    checks: null
+    coerce: false
+    dtype: object
+    max: VWS
+    min: ' '
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CC$DESCRIPTION:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Yes or No - Text
+    min: 5-Digit identifier for the register time pattern regime.
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CC$DOCUMENTATION:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Yes or No options list, where the class value is Boolean '1' or '0'.
+    min: (C)ompleted or (P)rinted
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CC$EXTEND$CLASS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: LAM:METER.USAGE
+    min: AXB:SQL.COMMAND
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CC$GROUP:
+    checks: null
+    coerce: false
+    dtype: object
+    max: STANDARD
+    min: CRITICAL_1
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CC$ID:
+    checks: null
+    coerce: false
+    dtype: object
+    max: VWS:TOTAL.WAT.CONSUM
+    min: AXA:FIELD.LENGTH
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CC$PARAM$ACTIVITY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: XML Control
+    min: Access Type
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CC$PARAM$FLAG:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '2'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CC$PARAM$TABLE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: XMLTAGTYPE
+    min: ACTION_QUALIFIER
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CC$PROCESS$CONTROL:
+    checks: null
+    coerce: false
+    dtype: object
+    max: VW-POSTTRANS-DET-CREDATE
+    min: ARG1901MAIN
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CC$PROCESS$FLAG:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '1'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CC$TITLE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: YESNO
+    min: 50ESS ERT Solid State Demand Flag
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

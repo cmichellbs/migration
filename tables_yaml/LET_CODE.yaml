@@ -1,0 +1,174 @@
+checks: null
+coerce: true
+columns:
+  LCACTIONPOINT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: LETBILLPRINTERXML
+    min: LETBILLPRINTERXML
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LCBODY:
+    checks: null
+    coerce: false
+    dtype: object
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LCCODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WELCDD
+    min: ACCES1
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LCDATATYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: XML
+    min: XML
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LCDESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Welcome Letter Direct Debit
+    min: Arrangement - Broken
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LCDOCNAME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: XMLLETTER1.rpt
+    min: ARGCOM.doc
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LCENTITY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LCEXEMPT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '1'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LCIMAGEFLAG:
+    checks: null
+    coerce: false
+    dtype: object
+    max: G
+    min: G
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LCIMAGEID:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LCMANUAL:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LCPATH:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LCPATHITEM:
+    checks: null
+    coerce: false
+    dtype: object
+    max: REM.xml
+    min: REM.xml
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LCPRINTER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LCSCHEMA:
+    checks: null
+    coerce: false
+    dtype: object
+    max: XMLLETTER1.xsd
+    min: BARCODE.xsd
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LCTYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '4'
+    min: '2'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 36.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

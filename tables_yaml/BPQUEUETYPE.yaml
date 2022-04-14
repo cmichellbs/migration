@@ -1,0 +1,140 @@
+checks: null
+coerce: true
+columns:
+  BPQT_ALLOWCLOSE:
+    checks:
+      greater_than_or_equal_to: 0.0
+      less_than_or_equal_to: 1.0
+    coerce: false
+    dtype: int64
+    max: '1'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPQT_COPYCREATEDT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '1'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPQT_DESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Work Order
+    min: Agency File Process Errors
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPQT_HELP:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Write on the written off ledger
+    min: Approve the validations
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPQT_ICON:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPQT_MAINTPROG:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPQT_PARAMGROUP:
+    checks: null
+    coerce: false
+    dtype: object
+    max: B1VAL.RGSTFILES
+    min: B1VAL.RGSTFILES
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPQT_QUESTIONTYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPQT_SPARE11:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPQT_STATCHGTSP:
+    checks: null
+    coerce: false
+    dtype: object
+    max: BPMQUEUEONASSIGN
+    min: BPMQUEUEONASSIGN
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPQT_TRANSFERCTRL:
+    checks:
+      greater_than_or_equal_to: 3.0
+      less_than_or_equal_to: 3.0
+    coerce: false
+    dtype: int64
+    max: '3'
+    min: '3'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPQT_TYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: B1VAL.UNAPPROVABLE_VALIDATION
+    min: B1ACQ|A$ERROR
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 30.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

@@ -1,0 +1,86 @@
+checks: null
+coerce: true
+columns:
+  BANKNO:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '38'
+    min: '01'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BSBBBANKID:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BSBBFDESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: "Bank No\uF7FCBranch\uF7FCAccount\uF7FCSuffix"
+    min: "Bank No\uF7FCBranch\uF7FCAccount\uF7FCSuffix"
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BSBBFORMAT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: "2\uF7FC4\uF7FC7\uF7FC3"
+    min: "2\uF7FC4\uF7FC7\uF7FC3"
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BSBBLONG:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Westpac Banking Corporation
+    min: ANZ Banking Group NZ Limited
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BSBBSHORT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WBC
+    min: ANZ
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BSBBTFR:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 24.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

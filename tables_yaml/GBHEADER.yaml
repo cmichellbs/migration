@@ -1,0 +1,331 @@
+checks: null
+coerce: true
+columns:
+  GBHBILLFLAG:
+    checks:
+      greater_than_or_equal_to: 3.0
+      less_than_or_equal_to: 3.0
+    coerce: false
+    dtype: int64
+    max: '5'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBHBPGROUP:
+    checks: null
+    coerce: false
+    dtype: object
+    max: GBHEADER
+    min: GBHEADER
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBHCLOTIMEDATE:
+    checks:
+      greater_than_or_equal_to: '2012-03-05 15:44:36'
+      less_than_or_equal_to: '2012-09-20 22:21:16'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-04-22 14:59:13'
+    min: '2012-03-05 15:44:36'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBHCRETIMEDATE:
+    checks:
+      greater_than_or_equal_to: '2012-03-03 17:02:30'
+      less_than_or_equal_to: '2012-03-07 11:02:57'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-04-22 14:56:54'
+    min: '2012-03-03 17:02:30'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBHCREUSER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: VSHADBOLT
+    min: ADRIANA.JANSSEN
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBHDEPENDENT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBHINSTALL:
+    checks:
+      greater_than_or_equal_to: 11000049.0
+      less_than_or_equal_to: 11015536.0
+    coerce: false
+    dtype: int64
+    max: '11105992'
+    min: '11000001'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBHLASTREADDATE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBHLOCKED:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBHLOCKEDCOUNT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBHMDMSTATUS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '53'
+    min: '50'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBHNEXTBDATE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '2022-02-01 00:00:00'
+    min: '2012-03-01 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBHNEXTBTYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: S
+    min: S
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBHNEXTRDATE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '2022-02-01 00:00:00'
+    min: '2012-04-01 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBHORIDEEND:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBHORIDESTART:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBHREQDATE:
+    checks:
+      greater_than_or_equal_to: '2012-03-01 00:00:00'
+      less_than_or_equal_to: '2012-03-30 00:00:00'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2030-01-29 00:00:00'
+    min: '1970-09-21 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBHREQMETER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBHREQNOTES:
+    checks: null
+    coerce: false
+    dtype: object
+    max: "\uF7FD"
+    min: "(Area 26) SPECIAL READING INVOICE FOR PROPERTY SETTLEMENT - 31/01/2020\uF7FD\
+      Cancel_07 Feb 2020 11:22:26_ANGELA.EARLY_"
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBHREQTIMEDATE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '2014-02-28 00:00:00'
+    min: '2014-02-28 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBHREQTYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: SR
+    min: C
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBHRUNNO:
+    checks: null
+    coerce: false
+    dtype: object
+    max: SR:19472
+    min: '002001'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBHSEQNO:
+    checks:
+      greater_than_or_equal_to: 811000000001.0
+      less_than_or_equal_to: 811000001000.0
+    coerce: false
+    dtype: int64
+    max: '811000768970'
+    min: '811000000001'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBHSTATUS:
+    checks:
+      greater_than_or_equal_to: 90.0
+      less_than_or_equal_to: 91.0
+    coerce: false
+    dtype: int64
+    max: '91'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBHVAL1TIMEDATE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GBHVAL2TIMEDATE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE22:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SSP1:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SSP2:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SSP3:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

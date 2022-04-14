@@ -1,0 +1,116 @@
+checks: null
+coerce: true
+columns:
+  ARGT_ARGMASTER:
+    checks:
+      greater_than_or_equal_to: 110000001.0
+      less_than_or_equal_to: 110000203.0
+    coerce: false
+    dtype: int64
+    max: '110000502'
+    min: '110000001'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ARGT_COMPLETED:
+    checks:
+      greater_than_or_equal_to: 0.0
+      less_than_or_equal_to: 177666.0
+    coerce: false
+    dtype: int64
+    max: '215119'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ARGT_DEBTID:
+    checks:
+      greater_than_or_equal_to: 11002330990.0
+      less_than_or_equal_to: 11111017505.0
+    coerce: false
+    dtype: int64
+    max: '11134331514'
+    min: '11002330990'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ARGT_DISPFWD:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ARGT_DISPUTE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '18928'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ARGT_INVOICENO:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '511000190282'
+    min: '511000190282'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ARGT_KEY:
+    checks:
+      greater_than_or_equal_to: 1100001.0
+      less_than_or_equal_to: 1101000.0
+    coerce: false
+    dtype: int64
+    max: '1101724'
+    min: '1100001'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ARGT_ORIG:
+    checks:
+      greater_than_or_equal_to: 10.0
+      less_than_or_equal_to: 177666.0
+    coerce: false
+    dtype: int64
+    max: '428792'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE1:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '1101724'
+    min: '1100001'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

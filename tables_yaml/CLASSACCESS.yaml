@@ -1,0 +1,36 @@
+checks: null
+coerce: true
+columns:
+  CA$CLASSNAME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: VWS:TOTAL.WAT.CONSUM
+    min: AXA:FIELD.LENGTH
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CA$FULLACCESS$ROLE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: GEN
+    min: CA
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

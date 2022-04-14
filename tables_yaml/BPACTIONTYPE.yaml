@@ -1,0 +1,136 @@
+checks: null
+coerce: true
+columns:
+  BPAT_ACTTYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: B1ACQ|A$VALID
+    min: B1ACQ|A$CHKINST
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPAT_DESCRIPTION:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Update Consumer
+    min: Check Installation is correct
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPAT_INMETHOD:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPAT_INMETHOD_ODUE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPAT_ODUE_ACTION:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPAT_OUTMETHOD:
+    checks: null
+    coerce: false
+    dtype: object
+    max: B1ACQ|A$VALID
+    min: B1ACQ|A$CHKINST
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPAT_PARAMGROUP:
+    checks: null
+    coerce: false
+    dtype: object
+    max: B1ACQ|A$NULL
+    min: B1ACQ|A$NULL
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPAT_PARKPARAMGRP:
+    checks: null
+    coerce: false
+    dtype: object
+    max: B1ACQ|A$ERROR
+    min: B1ACQ|A$ERROR
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPAT_SHORTNAME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Validation
+    min: Check Inst
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPAT_SPARE1:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPAT_SPARE21:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  BPAT_STATUS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: B1ACQ|A$TASK
+    min: B1ACQ|A$TASK
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 4.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

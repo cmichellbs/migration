@@ -1,0 +1,68 @@
+checks: null
+coerce: true
+columns:
+  DISC_CODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: ZERO
+    min: 10PP
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DISC_DESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Prompt Payment Discount (10%)
+    min: No Discount
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DISC_DTYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DISC_RATE:
+    checks:
+      greater_than_or_equal_to: 0.0
+      less_than_or_equal_to: 1000.0
+    coerce: false
+    dtype: int64
+    max: '1000'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE3:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 1.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

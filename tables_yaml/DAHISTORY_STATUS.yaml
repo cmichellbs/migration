@@ -1,0 +1,38 @@
+checks: null
+coerce: true
+columns:
+  PDESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Reversed
+    min: Cancelled
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  PKEY:
+    checks:
+      greater_than_or_equal_to: 0.0
+      less_than_or_equal_to: 96.0
+    coerce: false
+    dtype: int64
+    max: '96'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 13.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

@@ -1,0 +1,82 @@
+checks: null
+coerce: true
+columns:
+  ECPLAN_KEY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: VWA01
+    min: DF01
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ECPLAN_TARCODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WVOL0
+    min: SSERV
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ECPLAN_TARCONTENT:
+    checks: null
+    coerce: false
+    dtype: object
+    max: WANYSZ
+    min: WANYSZ
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ECPLAN_TARCONTMAN:
+    checks:
+      greater_than_or_equal_to: 0.0
+      less_than_or_equal_to: 1.0
+    coerce: false
+    dtype: int64
+    max: '1'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ECPLAN_TARHIDDEN:
+    checks:
+      greater_than_or_equal_to: 0.0
+      less_than_or_equal_to: 0.0
+    coerce: false
+    dtype: int64
+    max: '0'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  VMC:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 4.0
+    coerce: false
+    dtype: int64
+    max: '4'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 455.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

@@ -1,0 +1,160 @@
+checks: null
+coerce: true
+columns:
+  CRE_AMT:
+    checks:
+      greater_than_or_equal_to: -485110.0
+      less_than_or_equal_to: -70.0
+    coerce: false
+    dtype: int64
+    max: '-1'
+    min: '-140263200'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CRE_BATCH:
+    checks: null
+    coerce: false
+    dtype: object
+    max: STMT:19470
+    min: STMT:13382
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CRE_BATCHDATE:
+    checks:
+      greater_than_or_equal_to: '2012-03-01 00:00:00'
+      less_than_or_equal_to: '2012-03-08 00:00:00'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-04-21 00:00:00'
+    min: '2004-08-20 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CRE_COMMENTS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Zussen FT:Acc651018191:8 Olympic:ZUSSEN FAMILY TRUST
+    min: '# 651000867:Artillery/Pa:# 651000867:MRS K M BROOKS'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CRE_DEBTID:
+    checks:
+      greater_than_or_equal_to: 11100000158.0
+      less_than_or_equal_to: 11100181638.0
+    coerce: false
+    dtype: int64
+    max: '11134387015'
+    min: '11100000158'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CRE_KEY:
+    checks:
+      greater_than_or_equal_to: 2.0
+      less_than_or_equal_to: 1001.0
+    coerce: false
+    dtype: int64
+    max: '70799'
+    min: '2'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CRE_LEDGER:
+    checks:
+      greater_than_or_equal_to: 659000088.0
+      less_than_or_equal_to: 659000088.0
+    coerce: false
+    dtype: int64
+    max: '659000088'
+    min: '659000088'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CRE_NUMBER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '1000000072'
+    min: '1000000062'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CRE_PST_DATE:
+    checks:
+      greater_than_or_equal_to: '2012-03-05 00:00:00'
+      less_than_or_equal_to: '2012-03-09 00:00:00'
+    coerce: false
+    dtype: datetime64[ns]
+    max: '2021-04-22 00:00:00'
+    min: '2012-03-05 00:00:00'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CRE_PST_LEDGER:
+    checks:
+      greater_than_or_equal_to: 400122023.0
+      less_than_or_equal_to: 843080000.0
+    coerce: false
+    dtype: int64
+    max: '1000000062'
+    min: '100000000'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CRE_PST_USER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: VSHADBOLT
+    min: ADRIANA.JANSSEN
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CRE_REF:
+    checks: null
+    coerce: false
+    dtype: object
+    max: STMT
+    min: STMT
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE9:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

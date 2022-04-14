@@ -1,0 +1,66 @@
+checks: null
+coerce: true
+columns:
+  CREDIT_CODE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: VUL
+    min: ARG
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CREDIT_DESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Vulnerable
+    min: Arrangement
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CREDIT_FLAG:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  CREDIT_ZOOM:
+    checks: null
+    coerce: false
+    dtype: object
+    max: EPC
+    min: EPC
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE3:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 11.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

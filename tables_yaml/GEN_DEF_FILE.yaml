@@ -1,0 +1,116 @@
+checks: null
+coerce: true
+columns:
+  DESCRIPTION:
+    checks: null
+    coerce: false
+    dtype: object
+    max: xx control
+    min: A definition of the type of relationships held between two licences
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FILENAME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: XX_CONTROL
+    min: ACCOUNT_AGREEMENT
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  GENVIEW:
+    checks: null
+    coerce: false
+    dtype: object
+    max: TEMPORARYTABLE
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  MODULE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: PSH
+    min: ASSET
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  REVKEY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '1'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SEQKEY:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '110000000'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SPARE34:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  TYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: TRANSACTION
+    min: AUDIT
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  VIEWNAME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: UOB_CODES
+    min: ACCOUNT.AGREEMENT
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  VIRTUAL$FLAG:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '2'
+    min: '2'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 701.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

@@ -1,0 +1,225 @@
+checks: null
+coerce: true
+columns:
+  ATTRNUM:
+    checks:
+      greater_than_or_equal_to: 0.0
+      less_than_or_equal_to: 63.0
+    coerce: false
+    dtype: int64
+    max: '152'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ATTRPART:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '12'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  DECIMALS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '6'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FIELDCLASS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: PUS:USER.STATUS
+    min: AXA:ID.LENGTH1
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FIELDDESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: YY:MM, financial year and month
+    min: '"*" for all users, or a valid User Id'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FIELDDISPLAYDESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FIELDGENVIEW:
+    checks: null
+    coerce: false
+    dtype: object
+    max: "\uF7FC"
+    min: (NOT USED)
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FIELDLABEL:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Zoom Program
+    min: 50ESS Flag
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FIELDNAME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: XMLTAGPARAMS
+    min: A1
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FIELDTYPE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '14'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FIELDVIEWNAME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: ZOOM_PROGRAM
+    min: 2ND_LANGUAGE_CODE
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FIELDWIZDESC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Yes/No if this action is associated with court action
+    min: "\"This field is for reference only. It does not control any other Gentrack\
+      \ processes nor is it referred to by any payment processing routines.\uF7FC\
+      Some examples of payment methods are: \uF7FC\"\"AP\"\" for Automatic Payment,\
+      \ \"\"C\"\" for Cash, \"\"Q\"\" for Cheque, etc\""
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  FILENAME:
+    checks: null
+    coerce: false
+    dtype: object
+    max: XX_CONTROL
+    min: ACCOUNT_AGREEMENT
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  LENGTH:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '4000'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  MAINTFLAG:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '35'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  MANDATORY:
+    checks:
+      greater_than_or_equal_to: 0.0
+      less_than_or_equal_to: 1.0
+    coerce: false
+    dtype: int64
+    max: '1'
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SAMEASFIELD:
+    checks: null
+    coerce: false
+    dtype: object
+    max: XMLCTRLID
+    min: ACCTNO
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SAMEASFILE:
+    checks: null
+    coerce: false
+    dtype: object
+    max: XMLTAGTYPE
+    min: ACCOUNTS
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  SEARCHFLAG:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '3'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  VMC:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 70.0
+    coerce: false
+    dtype: int64
+    max: '153'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

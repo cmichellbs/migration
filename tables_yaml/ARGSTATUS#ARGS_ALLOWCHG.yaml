@@ -1,0 +1,48 @@
+checks: null
+coerce: true
+columns:
+  ARGS_ALLOWCHG:
+    checks: null
+    coerce: false
+    dtype: object
+    max: COMD
+    min: BROK
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  ARGS_ID:
+    checks: null
+    coerce: false
+    dtype: object
+    max: RNL
+    min: CUR
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  VMC:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 3.0
+    coerce: false
+    dtype: int64
+    max: '3'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 8.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1

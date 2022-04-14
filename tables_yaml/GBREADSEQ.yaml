@@ -1,0 +1,171 @@
+checks: null
+coerce: true
+columns:
+  RSD$BWDLINK:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  RSD$FWDLINK:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  RSD$HAZARDS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  RSD$IN$POS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  RSD$INSTALL:
+    checks:
+      greater_than_or_equal_to: 11000001.0
+      less_than_or_equal_to: 11001000.0
+    coerce: false
+    dtype: int64
+    max: '11106031'
+    min: '11000001'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  RSD$KEYLOC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: XXXXO
+    min: '- 1 OUTSIDE CENTRE'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  RSD$KEYNUM:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '50003'
+    min: '00000'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  RSD$LOC:
+    checks: null
+    coerce: false
+    dtype: object
+    max: RPOUT
+    min: '0'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  RSD$MRNOTES:
+    checks: null
+    coerce: false
+    dtype: object
+    max: Small gate unlocked
+    min: '@ 10/03/21 AGGRESSIVE CUSTOMER + DOG (in the process of trying to get the
+      meter relocated outside property)'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  RSD$NO$POSN:
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 1.0
+    coerce: false
+    dtype: int64
+    max: '1'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  RSD$NUMBER:
+    checks: null
+    coerce: false
+    dtype: object
+    max: '1'
+    min: '1'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  RSD$OUT$POS:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  RSD$READINST1:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  RSD$READINST2:
+    checks: null
+    coerce: false
+    dtype: object
+    max: None
+    min: None
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+  RSD$READSEQ:
+    checks: null
+    coerce: false
+    dtype: object
+    max: HOLD
+    min: '000000'
+    nullable: false
+    regex: false
+    required: true
+    unique: false
+index:
+- checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 999.0
+  coerce: false
+  dtype: int64
+  name: null
+  nullable: false
+  unique: false
+schema_type: dataframe
+strict: false
+unique: null
+version: 0.10.1
