@@ -25,3 +25,10 @@ def migrate(migrate):
         print(f'inserting data from {table} table to destination database')
         migrate.destination_db.engine.execute(Insert(table, migrate.source_columns[migrate.source_columns["TABLE_NAME"] == table]["COLUMN_NAME"]).insert(), migrate.source_db.engine.execute(Select(table, migrate.source_columns[migrate.source_columns["TABLE_NAME"] == table]["COLUMN_NAME"]).select()).fetchall())
     print('migration completed')
+
+
+
+
+
+
+"""initialize an AI to process natural language queries and return a response"""
